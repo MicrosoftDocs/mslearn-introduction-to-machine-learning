@@ -131,3 +131,4 @@ dmypy.json
 .pyre/
 .vscode/settings.json
 height_shoes_model.pkl
+Data/Cleaned_Titanic.csv
