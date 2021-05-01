@@ -40,9 +40,7 @@ class PolynomialLinearRegression:
 
     def cost(self, X, y, weights):
         """Cost Function"""
-        m = y.shape[0]  # number of training examples
-
-        # You need to return the following variable correctly
+        m = y.shape[0]
         J = 0
 
         difference = np.dot(X, weights) - y
@@ -72,7 +70,7 @@ class PolynomialLinearRegression:
             h_vec = np.dot(X, weights)
             weights = weights - (learning_rate / m) * np.dot(h_vec - y, X)
 
-            # save the cost J in every iteration
+            # Append current cost to history
             J_history.append(self.cost(X, y, weights))
 
         self.weights = weights
@@ -80,6 +78,10 @@ class PolynomialLinearRegression:
         return weights, J_history
 
     def predict(self, X):
+        """ 
+        Generates predictions for a 'X' after we have trained the model and gathered weights 
+        X is normalized and polynomial features are added here too.
+        """
         weights = self.weights
         # Normalize features
         X_norm, mu, sigma = self.normalize(X)
