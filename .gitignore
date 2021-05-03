@@ -131,3 +131,5 @@ dmypy.json
 .pyre/
 .vscode/settings.json
 height_shoes_model.pkl
+cars_mpg_weight_displacement_model.pkl
+cars_mpg_weight_model.pkl
