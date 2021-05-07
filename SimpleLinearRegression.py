@@ -25,8 +25,6 @@ class SimpleLinearRegression:
     def fit(self, X, y, learning_rate, num_iters):
         """Performs Gradient Descent"""
         # X = np.concatenate([np.ones((X.shape[0], 1)), X], axis=1)
-        print("X in class")
-        print(X)
 
         # Initialize weights
         weights = np.zeros(X.shape[1])
@@ -39,6 +37,11 @@ class SimpleLinearRegression:
 
         for i in range(num_iters):
             h_vec = np.dot(X, weights)
+            # print(f"lr {learning_rate}")
+            # print(f"m {m}")
+            # print(f"h_vec {h_vec}")
+            # np.nan_to_num(h_vec, copy=True, nan=0.00001, posinf=None, neginf=None)
+            # print(h_vec)
             weights = weights - (learning_rate / m) * np.dot(h_vec - y, X)
 
             # Append current cost to history
