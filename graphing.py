@@ -56,6 +56,7 @@ def _prepare_labels(df:pandas.DataFrame, labels:List[Optional[str]]):
     
     return labels, human_readable
 
+
 def scatter_2D(df:pandas.DataFrame, 
                 label_x:Optional[str]=None, 
                 label_y:Optional[str]=None, 
@@ -68,12 +69,20 @@ def scatter_2D(df:pandas.DataFrame,
 
     Note that if calling this from jupyter notebooks and not capturing the output
     it will appear on screen as though `.show()` has been called
+
+    df: The data
+    label_x: The label to extract from df to plot on the x axis. Defaults to df.columns[0]
+    label_y: The label to extract from df to plot on the y axis. Defaults to df.columns[1]
+    label_colour: The label to extract from df to colour points by
+    title: Plot title
+    show:   appears on screen. NB that this is not needed if this is called from a
+            notebook and the output is not captured 
+    trendline:  A function that accepts X and returns Y
+
     '''
 
     # Automatically pick columns if not specified
     selected_columns, axis_labels = _prepare_labels(df, [label_x, label_y])
-
-    print(axis_labels)
 
     # Create the figure and plot
     fig = px.scatter(df, 
@@ -86,9 +95,22 @@ def scatter_2D(df:pandas.DataFrame,
 
     # User a marker size inversely proportional to the number of points
     size = int(round(22.0 - 20/(1+exp(-(df.shape[0]/100-2)))))
-    print(size)
     fig.update_traces(marker={'size': size})
 
+    # Create trendlines
+    if isinstance(trendline, Callable):
+        trendline = [trendline]
+    x_min = min(df[selected_columns[0]])
+    x_max = max(df[selected_columns[0]])
+    for t in trendline:
+        y_min = t(x_min)
+        y_max = t(x_max)
+        fig.add_shape(
+            type='line',
+            x0=x_min,
+            y0=y_min,
+            x1=x_max,
+            y1=y_max)
 
     # Show the plot, if requested
     if show:
@@ -96,7 +118,6 @@ def scatter_2D(df:pandas.DataFrame,
     
     # return the plot
     return fig
-
 
 
 def scatter_3D(df:pandas.DataFrame, 
@@ -111,6 +132,15 @@ def scatter_3D(df:pandas.DataFrame,
 
     Note that if calling this from jupyter notebooks and not capturing the output
     it will appear on screen as though `.show()` has been called
+
+    df: The data
+    label_x: The label to extract from df to plot on the x axis. Defaults to df.columns[0]
+    label_y: The label to extract from df to plot on the y axis. Defaults to df.columns[1]
+    label_z: The label to extract from df to plot on the z axis. Defaults to df.columns[2]
+    label_colour: The label to extract from df to colour points by. Defaults to label_x
+    title: Plot title
+    show:   appears on screen. NB that this is not needed if this is called from a
+            notebook and the output is not captured 
     '''
 
     # Automatically pick columns if not specified
