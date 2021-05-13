@@ -3,6 +3,7 @@ Several no-fuss methods for creating plots
 '''
 from typing import Optional, Callable, Union, List
 from numpy import exp
+import numpy
 from numpy.core.fromnumeric import repeat, shape
 import pandas
 import plotly.express as px
@@ -136,7 +137,7 @@ def scatter_2D(df:pandas.DataFrame,
     title: Plot title
     show:   appears on screen. NB that this is not needed if this is called from a
             notebook and the output is not captured 
-    trendline:  A function that accepts X and returns Y
+    trendline:  A function that accepts X (a numpy array) and returns Y (an iterable)
 
     '''
 
@@ -153,23 +154,28 @@ def scatter_2D(df:pandas.DataFrame,
                 )
 
     # User a marker size inversely proportional to the number of points
-    size = int(round(22.0 - 20/(1+exp(-(df.shape[0]/100-2)))))
+    size = int(round(22.0 - 19/(1+exp(-(df.shape[0]/100-2)))))
     fig.update_traces(marker={'size': size})
 
     # Create trendlines
-    if isinstance(trendline, Callable):
-        trendline = [trendline]
-    x_min = min(df[selected_columns[0]])
-    x_max = max(df[selected_columns[0]])
-    for t in trendline:
-        y_min = t(x_min)
-        y_max = t(x_max)
-        fig.add_shape(
-            type='line',
-            x0=x_min,
-            y0=y_min,
-            x1=x_max,
-            y1=y_max)
+    if trendline is not None:
+        if isinstance(trendline, Callable):
+            trendline = [trendline]
+        x_min = min(df[selected_columns[0]])
+        x_max = max(df[selected_columns[0]])
+        evaluate_for = numpy.linspace(x_min, x_max, num=200)
+        shapes = []
+        for t in trendline:
+            y_vals = t(evaluate_for)
+            path = "M" + " L ".join([str(c[0]) + " " + str(c[1]) for c in zip(evaluate_for,y_vals)])
+            shapes.append(dict(
+                                type="path",
+                                path=path,
+                                line_color="Crimson",
+                            )
+                        )
+        
+        fig.update_layout(shapes=shapes)
 
     # Show the plot, if requested
     if show:
