@@ -12,8 +12,9 @@ import plotly.graph_objects as graph_objects
 # Set the default theme 
 template =  graph_objects.layout.Template() 
 template.layout = graph_objects.Layout(
+                                    title_x=0.5,
                                     # border width
-                                    margin=dict(l=2, r=2, b=2, t=2),
+                                    margin=dict(l=2, r=2, b=2, t=30),
                                     # Interaction
                                     hovermode="closest",
                                     # axes
@@ -29,15 +30,21 @@ template.layout = graph_objects.Layout(
                                     
 template.data.scatter = [graph_objects.Scatter(marker=dict(opacity=0.8))]
 template.data.scatter3d = [graph_objects.Scatter3d(marker=dict(opacity=0.8))]
+template.data.histogram = [graph_objects.Histogram()]
 
 
 pio.templates["custom_template"] = template
 pio.templates.default = "plotly_white+custom_template"
 
+
 def _to_human_readable(text:str):
+    '''
+    Converts a label into a human readable form
+    '''
     return text.replace("_", " ")
 
-def _prepare_labels(df:pandas.DataFrame, labels:List[Optional[str]]):
+
+def _prepare_labels(df:pandas.DataFrame, labels:List[Optional[str]], replace_nones:bool=True):
     '''
     Ensures labels are human readable. 
     Automatically picks data if labels not provided explicitly
@@ -47,14 +54,66 @@ def _prepare_labels(df:pandas.DataFrame, labels:List[Optional[str]]):
 
     for i in range(len(labels)):
         lab = labels[i]
-        if lab is None:
+        if replace_nones and (lab is None):
             lab = df.columns[i]
-        labels[i] = lab
+            labels[i] = lab
 
         # make human-readable
-        human_readable[lab] = _to_human_readable(lab)
+        if lab is not None:
+            human_readable[lab] = _to_human_readable(lab)
     
     return labels, human_readable
+
+
+def histogram(df:pandas.DataFrame, 
+                label_x:Optional[str]=None, 
+                label_y:Optional[str]=None, 
+                label_colour:Optional[str]=None,
+                nbins:Optional[int]=None,
+                title=None, 
+                show:bool=False):
+    '''
+    Creates a 2D histogram and optionally shows it. Returns the figure for that histogram.
+
+    Note that if calling this from jupyter notebooks and not capturing the output
+    it will appear on screen as though `.show()` has been called
+
+    df: The data
+    label_x: What to bin by. Defaults to df.columns[0]
+    label_y: If provided, the sum of these numbers becomes the y axis. Defaults to count of label_x
+    label_colour: If provided, creates a stacked histogram, splitting each bar by this column
+    title: Plot title
+    nbins: the number of bins to show. None for automatic
+    show:   appears on screen. NB that this is not needed if this is called from a
+            notebook and the output is not captured 
+
+    '''
+
+    # Automatically pick columns if not specified
+    if label_x is None:
+        label_x = df.columns[0]
+    selected_columns, axis_labels = _prepare_labels(df, [label_x, label_y, label_colour], replace_nones=False)
+
+    print(selected_columns)
+
+    fig = px.histogram(df,
+                        x=selected_columns[0],
+                        y=selected_columns[1],
+                        nbins=nbins,
+                        color=label_colour,
+                        labels=axis_labels,
+                        title=title
+                        )
+    
+    fig.update_traces(marker=dict(line=dict(width=1)))
+
+
+    # Show the plot, if requested
+    if show:
+        fig.show()
+    
+    # return the figure
+    return fig
 
 
 def scatter_2D(df:pandas.DataFrame, 
@@ -65,7 +124,7 @@ def scatter_2D(df:pandas.DataFrame,
                 show:bool=False,
                 trendline:Union[Callable,List[Callable],None]=None):
     '''
-    Creates a 3D scatter plot and shows it. Returns the figure for that scatter.
+    Creates a 3D scatter plot and optionally shows it. Returns the figure for that scatter.
 
     Note that if calling this from jupyter notebooks and not capturing the output
     it will appear on screen as though `.show()` has been called
@@ -116,7 +175,7 @@ def scatter_2D(df:pandas.DataFrame,
     if show:
         fig.show()
     
-    # return the plot
+    # return the figure
     return fig
 
 
@@ -128,7 +187,7 @@ def scatter_3D(df:pandas.DataFrame,
                 title=None, 
                 show:bool=False):
     '''
-    Creates a 3D scatter plot and shows it. Returns the figure for that scatter.
+    Creates a 3D scatter plot and optionally shows it. Returns the figure for that scatter.
 
     Note that if calling this from jupyter notebooks and not capturing the output
     it will appear on screen as though `.show()` has been called
@@ -166,5 +225,5 @@ def scatter_3D(df:pandas.DataFrame,
     if show:
         fig.show()
     
-    # return the plot
+    # return the figure
     return fig
