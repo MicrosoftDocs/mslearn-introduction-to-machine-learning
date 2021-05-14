@@ -32,7 +32,7 @@ template.layout = graph_objects.Layout(
                                     
 template.data.scatter = [graph_objects.Scatter(marker=dict(opacity=0.8))]
 template.data.scatter3d = [graph_objects.Scatter3d(marker=dict(opacity=0.8))]
-template.data.histogram = [graph_objects.Histogram()]
+template.data.histogram = [graph_objects.Histogram(marker=dict(line=dict(width=1)))]
 template.data.box = [graph_objects.Box(boxpoints='outliers', notched=False)]
 
 
@@ -76,7 +76,6 @@ def box_and_whisker(df:pandas.DataFrame,
                 label_y:Optional[str]=None, 
                 label_x2:Optional[str]=None,
                 title=None, 
-                include_boxplot=False,
                 show:bool=False):
     '''
     Creates a box and whisker plot and optionally shows it. Returns the figure for that plot.
@@ -103,9 +102,6 @@ def box_and_whisker(df:pandas.DataFrame,
                     color=label_x2,
                     labels=axis_labels,
                     title=title)
-    
-    # fig.update_traces(marker=dict(line=dict(width=1)))
-
 
     # Show the plot, if requested
     if show:
@@ -153,9 +149,6 @@ def histogram(df:pandas.DataFrame,
                         title=title,
                         marginal="box" if include_boxplot else None
                         )
-    
-    fig.update_traces(marker=dict(line=dict(width=1)))
-
 
     # Show the plot, if requested
     if show:

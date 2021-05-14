@@ -21,7 +21,6 @@ data = {
 # Convert it into a table using pandas
 dataset = pandas.DataFrame(data)
 
-
 # Make example graphs. These will open in your browser
 for n in [10,50,200,1000]:
     graphing.scatter_2D(dataset[:n], title=f"A 2D scatter with {n} points", show=True, trendline=shoe_to_height)
