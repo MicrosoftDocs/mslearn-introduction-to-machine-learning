@@ -72,6 +72,7 @@ def histogram(df:pandas.DataFrame,
                 label_colour:Optional[str]=None,
                 nbins:Optional[int]=None,
                 title=None, 
+                include_boxplot=False,
                 show:bool=False):
     '''
     Creates a 2D histogram and optionally shows it. Returns the figure for that histogram.
@@ -103,7 +104,8 @@ def histogram(df:pandas.DataFrame,
                         nbins=nbins,
                         color=label_colour,
                         labels=axis_labels,
-                        title=title
+                        title=title,
+                        marginal="box" if include_boxplot else None
                         )
     
     fig.update_traces(marker=dict(line=dict(width=1)))

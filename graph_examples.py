@@ -28,3 +28,6 @@ graphing.scatter_3D(dataset, title="A 3D scatter", show=True)
 graphing.histogram(dataset, title="A histogram (one variable)", show=True)
 graphing.histogram(dataset, label_x="hat_size", label_y="shoe_size", title="A histogram (two variables)", show=True)
 graphing.histogram(dataset, label_colour="hat_size", title="A stacked histogram", show=True)
+
+graphing.histogram(dataset, title="A histogram (one variable + boxplot)", include_boxplot=True, show=True)
+graphing.histogram(dataset, label_colour="hat_size", title="A stacked histogram (+ boxplot)", show=True)
