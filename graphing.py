@@ -14,8 +14,9 @@ import plotly.graph_objects as graph_objects
 template =  graph_objects.layout.Template() 
 template.layout = graph_objects.Layout(
                                     title_x=0.5,
-                                    # border width
+                                    # border width and size
                                     margin=dict(l=2, r=2, b=2, t=30),
+                                    height=400,
                                     # Interaction
                                     hovermode="closest",
                                     # axes
@@ -32,6 +33,7 @@ template.layout = graph_objects.Layout(
 template.data.scatter = [graph_objects.Scatter(marker=dict(opacity=0.8))]
 template.data.scatter3d = [graph_objects.Scatter3d(marker=dict(opacity=0.8))]
 template.data.histogram = [graph_objects.Histogram()]
+template.data.box = [graph_objects.Box(boxpoints='outliers', notched=False)]
 
 
 pio.templates["custom_template"] = template
@@ -53,9 +55,12 @@ def _prepare_labels(df:pandas.DataFrame, labels:List[Optional[str]], replace_non
 
     human_readable = {}
 
+    if isinstance(replace_nones, bool):
+        replace_nones = [replace_nones] * len(labels) 
+
     for i in range(len(labels)):
         lab = labels[i]
-        if replace_nones and (lab is None):
+        if replace_nones[i] and (lab is None):
             lab = df.columns[i]
             labels[i] = lab
 
@@ -64,6 +69,50 @@ def _prepare_labels(df:pandas.DataFrame, labels:List[Optional[str]], replace_non
             human_readable[lab] = _to_human_readable(lab)
     
     return labels, human_readable
+
+
+def box_and_whisker(df:pandas.DataFrame, 
+                label_x:Optional[str]=None, 
+                label_y:Optional[str]=None, 
+                label_x2:Optional[str]=None,
+                title=None, 
+                include_boxplot=False,
+                show:bool=False):
+    '''
+    Creates a box and whisker plot and optionally shows it. Returns the figure for that plot.
+
+    Note that if calling this from jupyter notebooks and not capturing the output
+    it will appear on screen as though `.show()` has been called
+
+    df: The data
+    label_x: What to group by. Defaults to None
+    label_y: What to plot on the y axis. Defaults to count of df.columns[0]
+    label_x2: If provided, splits boxplots into 2+ per x value, each with its own colour
+    title: Plot title
+    show:   appears on screen. NB that this is not needed if this is called from a
+            notebook and the output is not captured 
+
+    '''
+
+    # Automatically pick columns if not specified
+    selected_columns, axis_labels = _prepare_labels(df, [label_x, label_y, label_x2], replace_nones=[False, True, False])
+
+    fig = px.box(df,
+                    x=selected_columns[0],
+                    y=selected_columns[1],
+                    color=label_x2,
+                    labels=axis_labels,
+                    title=title)
+    
+    # fig.update_traces(marker=dict(line=dict(width=1)))
+
+
+    # Show the plot, if requested
+    if show:
+        fig.show()
+    
+    # return the figure
+    return fig
 
 
 def histogram(df:pandas.DataFrame, 
@@ -92,11 +141,8 @@ def histogram(df:pandas.DataFrame,
     '''
 
     # Automatically pick columns if not specified
-    if label_x is None:
-        label_x = df.columns[0]
-    selected_columns, axis_labels = _prepare_labels(df, [label_x, label_y, label_colour], replace_nones=False)
+    selected_columns, axis_labels = _prepare_labels(df, [label_x, label_y, label_colour], replace_nones=[True, False, False])
 
-    print(selected_columns)
 
     fig = px.histogram(df,
                         x=selected_columns[0],
