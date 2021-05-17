@@ -32,6 +32,7 @@ template.layout = graph_objects.Layout(
                                     
 template.data.scatter = [graph_objects.Scatter(marker=dict(opacity=0.8))]
 template.data.scatter3d = [graph_objects.Scatter3d(marker=dict(opacity=0.8))]
+template.data.surface = [graph_objects.Surface()]
 template.data.histogram = [graph_objects.Histogram(marker=dict(line=dict(width=1)))]
 template.data.box = [graph_objects.Box(boxpoints='outliers', notched=False)]
 
@@ -274,3 +275,56 @@ def scatter_3D(df:pandas.DataFrame,
     
     # return the figure
     return fig
+
+def surface(x_values, 
+            y_values, 
+            calc_z:Callable,
+            title=None, 
+            axis_title_x:Optional[str]=None,
+            axis_title_y:Optional[str]=None,
+            axis_title_z:Optional[str]=None,
+            show:bool=False):
+    '''
+    Creates a surface plot using a function. Returns the figure for that plot.
+
+    Note that if calling this from jupyter notebooks and not capturing the output
+    it will appear on screen as though `.show()` has been called
+
+    x_value: A numpy array of x values
+    y_value: A numpy array of y values
+    calc_z: A function to calculate z, given an x and a y value
+    title: Plot title
+    axis_title_x: Title for the x axis
+    axis_title_y: Title for the y axis
+    axis_title_z: Title for the z axis
+    show:   appears on screen. NB that this is not needed if this is called from a
+            notebook and the output is not captured 
+    '''
+
+    # Check arguments
+    assert len(x_values.shape) == 1, "Provide x_values as 1D"
+    assert len(y_values.shape) == 1, "Provide y_values as 1D"
+
+
+    # Calculate cost for a range of intercepts and slopes
+    # intercepts = np.linspace(-100,-70,10)
+    # slopes = np.linspace([0.060],[0.07],10, axis=1)
+    z = numpy.zeros((x_values.shape[0], y_values.shape[0]))
+    for i_x in range(x_values.shape[0]):
+        for i_y in range(y_values.shape[0]):
+            z[i_x, i_y] = calc_z(x_values[i_x], y_values[i_y])
+            
+    # Create a graph of cost
+    fig = graph_objects.Figure(data=[graph_objects.Surface(x=x_values, y=y_values, z=z)])
+    fig.update_layout(title=title, 
+                      scene_xaxis_title=axis_title_x, 
+                      scene_yaxis_title=axis_title_y, 
+                      scene_zaxis_title=axis_title_z)
+
+    # Show the plot, if requested
+    if show:
+        fig.show()
+    
+    # return the figure
+    return fig
+
