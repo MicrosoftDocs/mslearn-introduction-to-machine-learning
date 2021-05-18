@@ -159,6 +159,77 @@ def histogram(df:pandas.DataFrame,
     return fig
 
 
+def multiple_histogram(df:pandas.DataFrame, 
+                label_x:str, 
+                label_group:str,
+                label_y:Optional[str]=None,
+                histfunc:str='count',
+                nbins:Optional[int]=None,
+                title=None,
+                show:bool=False):
+    '''
+    Creates a 2D histogram and optionally shows it. Returns the figure for that histogram.
+
+    Note that if calling this from jupyter notebooks and not capturing the output
+    it will appear on screen as though `.show()` has been called
+
+    df: The data
+    label_x: What to bin by. Defaults to df.columns[0]
+    label_y: If provided, the sum of these numbers becomes the y axis. Defaults to count of label_x
+    title: Plot title
+    nbins: the number of bins to show. None for automatic
+    show:   appears on screen. NB that this is not needed if this is called from a
+            notebook and the output is not captured 
+
+    '''
+
+    assert (histfunc != 'count') or (label_y == None), "Set histfunc to a value such as sum or avg if using label_y"
+
+    # Automatically pick columns if not specified
+    selected_columns, axis_labels = _prepare_labels(df,  [label_x, label_y, label_group], replace_nones=[True, False, False])
+
+    fig = graph_objects.Figure(layout=dict(
+                                    title=title, 
+                                    xaxis_title_text=axis_labels[label_x],
+                                    yaxis_title_text=histfunc if label_y is None else (histfunc + " of " + axis_labels[label_y]))
+                                )
+    
+    group_values = sorted(set(df[label_group]))
+
+    for group_value in group_values:
+        dat = df[df[label_group] == group_value]
+        x = dat[selected_columns[0]]
+
+        if label_y is None:
+            y = None
+        else:
+            y = dat[selected_columns[1]]
+            
+        fig.add_trace(graph_objects.Histogram(
+            x=x,
+            y=y,
+            histfunc=histfunc,
+            name=group_value, # name used in legend and hover labels
+            nbinsx=nbins))
+
+    # fig = px.histogram(df,
+    #                     x=selected_columns[2],
+    #                     y=selected_columns[0],
+    #                     nbins=nbins,
+    #                     color=selected_columns[1],
+    #                     labels=axis_labels,
+    #                     # title=title,
+    #                     # marginal="box" if include_boxplot else None
+    #                     )
+
+    # Show the plot, if requested
+    if show:
+        fig.show()
+    
+    # return the figure
+    return fig
+
+
 def scatter_2D(df:pandas.DataFrame, 
                 label_x:Optional[str]=None, 
                 label_y:Optional[str]=None, 
