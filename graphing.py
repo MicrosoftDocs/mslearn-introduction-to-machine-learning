@@ -119,6 +119,7 @@ def histogram(df:pandas.DataFrame,
                 nbins:Optional[int]=None,
                 title=None, 
                 include_boxplot=False,
+                histfunc:Optional[str]=None,
                 show:bool=False):
     '''
     Creates a 2D histogram and optionally shows it. Returns the figure for that histogram.
@@ -132,6 +133,7 @@ def histogram(df:pandas.DataFrame,
     label_colour: If provided, creates a stacked histogram, splitting each bar by this column
     title: Plot title
     nbins: the number of bins to show. None for automatic
+    histfunc: How to calculate y. See plotly for options
     show:   appears on screen. NB that this is not needed if this is called from a
             notebook and the output is not captured 
 
@@ -148,7 +150,8 @@ def histogram(df:pandas.DataFrame,
                         color=label_colour,
                         labels=axis_labels,
                         title=title,
-                        marginal="box" if include_boxplot else None
+                        marginal="box" if include_boxplot else None,
+                        histfunc=histfunc
                         )
 
     # Show the plot, if requested
@@ -234,6 +237,8 @@ def scatter_2D(df:pandas.DataFrame,
                 label_x:Optional[str]=None, 
                 label_y:Optional[str]=None, 
                 label_colour:Optional[str]=None,
+                label_size:Optional[str]=None,
+                size_multiplier:float=1,
                 title=None, 
                 show:bool=False,
                 trendline:Union[Callable,List[Callable],None]=None):
@@ -255,19 +260,26 @@ def scatter_2D(df:pandas.DataFrame,
     '''
 
     # Automatically pick columns if not specified
-    selected_columns, axis_labels = _prepare_labels(df, [label_x, label_y])
+    selected_columns, axis_labels = _prepare_labels(df, [label_x, label_y, label_colour], [True, True, False])
+
 
     # Create the figure and plot
     fig = px.scatter(df, 
                 x=selected_columns[0], 
                 y=selected_columns[1], 
-                color=label_colour, 
+                color=selected_columns[2],
                 labels=axis_labels,
+                hover_data=[label_size],
                 title=title
                 )
 
-    # User a marker size inversely proportional to the number of points
-    size = int(round(22.0 - 19/(1+exp(-(df.shape[0]/100-2)))))
+    if label_size is None:
+        # User a marker size inversely proportional to the number of points
+        size = int(round(22.0 - 19/(1+exp(-(df.shape[0]/100-2))) * size_multiplier))
+    else:
+        # Set the size based on a label
+        size = df[label_size]*size_multiplier
+
     fig.update_traces(marker={'size': size})
 
     # Create trendlines
