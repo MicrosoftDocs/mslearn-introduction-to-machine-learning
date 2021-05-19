@@ -133,3 +133,4 @@ dmypy.json
 # Development 
 .vscode/settings.json
 *.pkl
+0c - *.svg
