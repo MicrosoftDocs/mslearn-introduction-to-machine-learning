@@ -22,22 +22,6 @@ data = {
 # Convert it into a table using pandas
 dataset = pandas.DataFrame(data)
 
-graphing.multiple_histogram(dataset, label_x="hat_size", label_y="is_male", histfunc='avg', label_group="hair_colour", title="A histogram (two variables)", show=True)
-graphing.multiple_histogram(dataset, label_x="hat_size", label_group="hair_colour", title="A histogram (two variables)", show=True)
-
-# graphing.multiple_histogram(dataset, label_x=["hair_colour"], label_y="shoe_size", title="A histogram (two variables)", show=True)
-
-exit()
-
-graphing.histogram(dataset, title="A histogram (one variable)", show=True)
-graphing.histogram(dataset, label_x="hat_size", label_y="shoe_size", title="A histogram (two variables)", show=True)
-graphing.histogram(dataset, label_colour="hat_size", title="A stacked histogram", show=True)
-
-graphing.histogram(dataset, title="A histogram (one variable + boxplot)", include_boxplot=True, show=True)
-graphing.histogram(dataset, label_colour="hat_size", title="A stacked histogram (+ boxplot)", include_boxplot=True, show=True)
-
-exit()
-
 # Make example graphs. These will open in your browser
 for n in [10,50,200,1000]:
     graphing.scatter_2D(dataset[:n], title=f"A 2D scatter with {n} points", show=True, trendline=shoe_to_height)
@@ -54,3 +38,6 @@ graphing.histogram(dataset, label_colour="hat_size", title="A stacked histogram"
 
 graphing.histogram(dataset, title="A histogram (one variable + boxplot)", include_boxplot=True, show=True)
 graphing.histogram(dataset, label_colour="hat_size", title="A stacked histogram (+ boxplot)", include_boxplot=True, show=True)
+
+graphing.multiple_histogram(dataset, label_x="hat_size", label_y="is_male", histfunc='avg', label_group="hair_colour", title="A histogram (two variables)", show=True)
+graphing.multiple_histogram(dataset, label_x="hat_size", label_group="hair_colour", title="A histogram (two variables)", show=True)
