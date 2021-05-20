@@ -2,15 +2,15 @@ The following are dependencies required to run python scripts contained in this 
 
 Each of these contains dependencies, which are not necessarily listed here.
 
-
 Package Name	Version	Notes
 pandas	        1.2.4	This version is a dependency of stats models
 matplotlib	    3.3.4	
 statsmodels	    0.10.1	Later versions may be ok
-scipy	        1.6.2	This version is a dependency of other things
+scipy	        1.6.2	This version is a dependency of other packages
 scikit-learn	0.24.1	
-numpy	        1.20.1	This version is a dependency of other things
+numpy	        1.20.1	This version is a dependency of other packages
 ipykernel	    7.22.0	Required for notebook integration
 missingno	    0.4.2	https://pypi.org/project/missingno/
 ipywidgets	    7.6.3	Required for plotly notebook integration
 plotly	        4.14.3	
+python-kaleido  0.2.1   Only required for generating figures for content, not for exercises in notebooks. If in Anaconda, see https://anaconda.org/conda-forge/python-kaleido
