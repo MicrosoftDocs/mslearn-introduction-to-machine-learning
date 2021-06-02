@@ -10,13 +10,11 @@ class MyOptimizer:
     def calculate_gradient(self, model_input, diff):
         """
         This calculates gradient for a linear regession 
-        using the MSE cost function:
-        cost = mean((predicted - actual)^2)
+        using the SSD cost function:
+        cost = sum((predicted - actual)^2)
         """
 
-        n = model_input.shape[0]
-
-        # The partial derivatives of MSE are as follows
+        # The partial derivatives of SSD are as follows
         # You don't need to be able to do this just yet but
         # it is important to note these give you the two gradients
         # that we need to train our model
