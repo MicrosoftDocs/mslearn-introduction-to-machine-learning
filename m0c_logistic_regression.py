@@ -22,9 +22,6 @@ def train_logistic_regression(all_data:pd.DataFrame, features:List[str]):
     # train the model
     model = LogisticRegression(random_state=0, max_iter=2000).fit(X, y)
 
-    # score is the mean accuracy on the given test data and labels
-    score = model.score(X, y)
-
     # calculate loss
     probabilities = model.predict_proba(test[features])
     loss = metrics.log_loss(test.Survived, probabilities)
