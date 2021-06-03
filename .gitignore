@@ -1,3 +1,5 @@
+/scratchpad
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +129,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Development 
+.vscode/settings.json
+*.pkl
+0c - *.svg
