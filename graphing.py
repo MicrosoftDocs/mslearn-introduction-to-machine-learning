@@ -1,5 +1,5 @@
 '''
-Several no-fuss methods for creating plots 
+Several no-fuss methods for creating plots
 '''
 from typing import Optional, Callable, Union, List
 from numpy import exp
@@ -10,8 +10,8 @@ import plotly.express as px
 import plotly.io as pio
 import plotly.graph_objects as graph_objects
 
-# Set the default theme 
-template =  graph_objects.layout.Template() 
+# Set the default theme
+template =  graph_objects.layout.Template()
 template.layout = graph_objects.Layout(
                                     title_x=0.5,
                                     # border width and size
@@ -28,8 +28,8 @@ template.layout = graph_objects.Layout(
                                     # this avoids the extremities of the y and x axes
                                     # being cropped off
                                     scene_camera=dict(eye=dict(x=1.5, y=1.5, z=0.1))
-                                    )    
-                                    
+                                    )
+
 template.data.scatter = [graph_objects.Scatter(marker=dict(opacity=0.8))]
 template.data.scatter3d = [graph_objects.Scatter3d(marker=dict(opacity=0.8))]
 template.data.surface = [graph_objects.Surface()]
@@ -50,14 +50,14 @@ def _to_human_readable(text:str):
 
 def _prepare_labels(df:pandas.DataFrame, labels:List[Optional[str]], replace_nones:bool=True):
     '''
-    Ensures labels are human readable. 
+    Ensures labels are human readable.
     Automatically picks data if labels not provided explicitly
     '''
 
     human_readable = {}
 
     if isinstance(replace_nones, bool):
-        replace_nones = [replace_nones] * len(labels) 
+        replace_nones = [replace_nones] * len(labels)
 
     for i in range(len(labels)):
         lab = labels[i]
@@ -68,15 +68,15 @@ def _prepare_labels(df:pandas.DataFrame, labels:List[Optional[str]], replace_non
         # make human-readable
         if lab is not None:
             human_readable[lab] = _to_human_readable(lab)
-    
+
     return labels, human_readable
 
 
-def box_and_whisker(df:pandas.DataFrame, 
-                label_x:Optional[str]=None, 
-                label_y:Optional[str]=None, 
+def box_and_whisker(df:pandas.DataFrame,
+                label_x:Optional[str]=None,
+                label_y:Optional[str]=None,
                 label_x2:Optional[str]=None,
-                title=None, 
+                title=None,
                 show:bool=False):
     '''
     Creates a box and whisker plot and optionally shows it. Returns the figure for that plot.
@@ -90,7 +90,7 @@ def box_and_whisker(df:pandas.DataFrame,
     label_x2: If provided, splits boxplots into 2+ per x value, each with its own colour
     title: Plot title
     show:   appears on screen. NB that this is not needed if this is called from a
-            notebook and the output is not captured 
+            notebook and the output is not captured
 
     '''
 
@@ -107,17 +107,17 @@ def box_and_whisker(df:pandas.DataFrame,
     # Show the plot, if requested
     if show:
         fig.show()
-    
+
     # return the figure
     return fig
 
 
-def histogram(df:pandas.DataFrame, 
-                label_x:Optional[str]=None, 
-                label_y:Optional[str]=None, 
+def histogram(df:pandas.DataFrame,
+                label_x:Optional[str]=None,
+                label_y:Optional[str]=None,
                 label_colour:Optional[str]=None,
                 nbins:Optional[int]=None,
-                title=None, 
+                title=None,
                 include_boxplot=False,
                 histfunc:Optional[str]=None,
                 show:bool=False):
@@ -135,7 +135,7 @@ def histogram(df:pandas.DataFrame,
     nbins: the number of bins to show. None for automatic
     histfunc: How to calculate y. See plotly for options
     show:   appears on screen. NB that this is not needed if this is called from a
-            notebook and the output is not captured 
+            notebook and the output is not captured
 
     '''
 
@@ -154,16 +154,19 @@ def histogram(df:pandas.DataFrame,
                         histfunc=histfunc
                         )
 
+    # Set the boxplot notches to True by default to deal with plotting bug
+    fig.data[1].notched = False
+
     # Show the plot, if requested
     if show:
         fig.show()
-    
+
     # return the figure
     return fig
 
 
-def multiple_histogram(df:pandas.DataFrame, 
-                label_x:str, 
+def multiple_histogram(df:pandas.DataFrame,
+                label_x:str,
                 label_group:str,
                 label_y:Optional[str]=None,
                 histfunc:str='count',
@@ -182,7 +185,7 @@ def multiple_histogram(df:pandas.DataFrame,
     title: Plot title
     nbins: the number of bins to show. None for automatic
     show:   appears on screen. NB that this is not needed if this is called from a
-            notebook and the output is not captured 
+            notebook and the output is not captured
 
     '''
 
@@ -192,11 +195,11 @@ def multiple_histogram(df:pandas.DataFrame,
     selected_columns, axis_labels = _prepare_labels(df,  [label_x, label_y, label_group], replace_nones=[True, False, False])
 
     fig = graph_objects.Figure(layout=dict(
-                                    title=title, 
+                                    title=title,
                                     xaxis_title_text=axis_labels[label_x],
                                     yaxis_title_text=histfunc if label_y is None else (histfunc + " of " + axis_labels[label_y]))
                                 )
-    
+
     group_values = sorted(set(df[label_group]))
 
     for group_value in group_values:
@@ -207,7 +210,7 @@ def multiple_histogram(df:pandas.DataFrame,
             y = None
         else:
             y = dat[selected_columns[1]]
-            
+
         fig.add_trace(graph_objects.Histogram(
             x=x,
             y=y,
@@ -228,18 +231,18 @@ def multiple_histogram(df:pandas.DataFrame,
     # Show the plot, if requested
     if show:
         fig.show()
-    
+
     # return the figure
     return fig
 
 
-def scatter_2D(df:pandas.DataFrame, 
-                label_x:Optional[str]=None, 
-                label_y:Optional[str]=None, 
+def scatter_2D(df:pandas.DataFrame,
+                label_x:Optional[str]=None,
+                label_y:Optional[str]=None,
                 label_colour:Optional[str]=None,
                 label_size:Optional[str]=None,
                 size_multiplier:float=1,
-                title=None, 
+                title=None,
                 show:bool=False,
                 trendline:Union[Callable,List[Callable],None]=None):
     '''
@@ -254,7 +257,7 @@ def scatter_2D(df:pandas.DataFrame,
     label_colour: The label to extract from df to colour points by
     title: Plot title
     show:   appears on screen. NB that this is not needed if this is called from a
-            notebook and the output is not captured 
+            notebook and the output is not captured
     trendline:  A function that accepts X (a numpy array) and returns Y (an iterable)
 
     '''
@@ -264,9 +267,9 @@ def scatter_2D(df:pandas.DataFrame,
 
 
     # Create the figure and plot
-    fig = px.scatter(df, 
-                x=selected_columns[0], 
-                y=selected_columns[1], 
+    fig = px.scatter(df,
+                x=selected_columns[0],
+                y=selected_columns[1],
                 color=selected_columns[2],
                 labels=axis_labels,
                 hover_data=[label_size],
@@ -299,23 +302,23 @@ def scatter_2D(df:pandas.DataFrame,
                                 line_color="Crimson",
                             )
                         )
-        
+
         fig.update_layout(shapes=shapes)
 
     # Show the plot, if requested
     if show:
         fig.show()
-    
+
     # return the figure
     return fig
 
 
-def scatter_3D(df:pandas.DataFrame, 
-                label_x:Optional[str]=None, 
-                label_y:Optional[str]=None, 
-                label_z:Optional[str]=None, 
+def scatter_3D(df:pandas.DataFrame,
+                label_x:Optional[str]=None,
+                label_y:Optional[str]=None,
+                label_z:Optional[str]=None,
                 label_colour:Optional[str]=None,
-                title=None, 
+                title=None,
                 show:bool=False):
     '''
     Creates a 3D scatter plot and optionally shows it. Returns the figure for that scatter.
@@ -330,7 +333,7 @@ def scatter_3D(df:pandas.DataFrame,
     label_colour: The label to extract from df to colour points by. Defaults to label_x
     title: Plot title
     show:   appears on screen. NB that this is not needed if this is called from a
-            notebook and the output is not captured 
+            notebook and the output is not captured
     '''
 
     # Automatically pick columns if not specified
@@ -343,9 +346,9 @@ def scatter_3D(df:pandas.DataFrame,
         axis_labels[label_colour] = _to_human_readable(label_colour)
 
     # Create the figure and plot
-    fig = px.scatter_3d(df, 
-                x=selected_columns[0], 
-                y=selected_columns[1], 
+    fig = px.scatter_3d(df,
+                x=selected_columns[0],
+                y=selected_columns[1],
                 z=selected_columns[2],
                 color=label_colour,
                 labels=axis_labels,
@@ -355,14 +358,14 @@ def scatter_3D(df:pandas.DataFrame,
     # Show the plot, if requested
     if show:
         fig.show()
-    
+
     # return the figure
     return fig
 
-def surface(x_values, 
-            y_values, 
+def surface(x_values,
+            y_values,
             calc_z:Callable,
-            title=None, 
+            title=None,
             axis_title_x:Optional[str]=None,
             axis_title_y:Optional[str]=None,
             axis_title_z:Optional[str]=None,
@@ -381,7 +384,7 @@ def surface(x_values,
     axis_title_y: Title for the y axis
     axis_title_z: Title for the z axis
     show:   appears on screen. NB that this is not needed if this is called from a
-            notebook and the output is not captured 
+            notebook and the output is not captured
     '''
 
     # Check arguments
@@ -396,18 +399,17 @@ def surface(x_values,
     for i_x in range(x_values.shape[0]):
         for i_y in range(y_values.shape[0]):
             z[i_x, i_y] = calc_z(x_values[i_x], y_values[i_y])
-            
+
     # Create a graph of cost
     fig = graph_objects.Figure(data=[graph_objects.Surface(x=x_values, y=y_values, z=z)])
-    fig.update_layout(title=title, 
-                      scene_xaxis_title=axis_title_x, 
-                      scene_yaxis_title=axis_title_y, 
+    fig.update_layout(title=title,
+                      scene_xaxis_title=axis_title_x,
+                      scene_yaxis_title=axis_title_y,
                       scene_zaxis_title=axis_title_z)
 
     # Show the plot, if requested
     if show:
         fig.show()
-    
+
     # return the figure
     return fig
-
