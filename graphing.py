@@ -379,13 +379,14 @@ def surface(x_values,
     assert len(y_values.shape) == 1, "Provide y_values as 1D"
 
 
-    # Calculate cost for a range of intercepts and slopes
-    # intercepts = np.linspace(-100,-70,10)
-    # slopes = np.linspace([0.060],[0.07],10, axis=1)
-    z = numpy.zeros((x_values.shape[0], y_values.shape[0]))
+    # Calculate z for a range of x and y inputs
+    # Note that z seems to be expected to be indexed [y,x] not [x,y] though this appears to
+    # be counter to the documentation. If z is indexed [x, y] the result is flipped.
+    # Potentially there is a bug here somewhere causing this issue or in plotly itself
+    z = numpy.zeros((y_values.shape[0], x_values.shape[0]))
     for i_x in range(x_values.shape[0]):
         for i_y in range(y_values.shape[0]):
-            z[i_x, i_y] = calc_z(x_values[i_x], y_values[i_y])
+            z[i_y, i_x] = calc_z(x_values[i_x], y_values[i_y])
             
     # Create a graph of cost
     fig = graph_objects.Figure(data=[graph_objects.Surface(x=x_values, y=y_values, z=z)])

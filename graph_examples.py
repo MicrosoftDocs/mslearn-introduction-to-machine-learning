@@ -23,6 +23,10 @@ data = {
 dataset = pandas.DataFrame(data)
 
 # Make example graphs. These will open in your browser
+def surf_eq(x, y):
+    return x * 8 + y ** 2
+graphing.surface(np.array([0,1]), np.linspace(-2,2), surf_eq, axis_title_x="X values", axis_title_y="Y Values", axis_title_z="Z values", show=True)
+
 for n in [10,50,200,1000]:
     graphing.scatter_2D(dataset[:n], title=f"A 2D scatter with {n} points", show=True, trendline=shoe_to_height)
 
