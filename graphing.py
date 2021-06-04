@@ -215,16 +215,6 @@ def multiple_histogram(df:pandas.DataFrame,
             name=group_value, # name used in legend and hover labels
             nbinsx=nbins))
 
-    # fig = px.histogram(df,
-    #                     x=selected_columns[2],
-    #                     y=selected_columns[0],
-    #                     nbins=nbins,
-    #                     color=selected_columns[1],
-    #                     labels=axis_labels,
-    #                     # title=title,
-    #                     # marginal="box" if include_boxplot else None
-    #                     )
-
     # Show the plot, if requested
     if show:
         fig.show()
