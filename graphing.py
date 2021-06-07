@@ -1,7 +1,7 @@
 '''
 Several no-fuss methods for creating plots 
 '''
-from typing import Optional, Callable, Union, List
+from typing import Optional, Callable, Tuple, Union, List
 from numpy import exp
 import numpy
 from numpy.core.fromnumeric import repeat, shape
@@ -40,6 +40,11 @@ template.data.box = [graph_objects.Box(boxpoints='outliers', notched=False)]
 pio.templates["custom_template"] = template
 pio.templates.default = "plotly_white+custom_template"
 
+# Trendline colors
+# Take note that the text for this course often refers to colours explicitly
+# such as "looking at the red line". Changing the variable below may result 
+# in this text being inconsistent
+colours_trendline = px.colors.qualitative.Set1  
 
 def _to_human_readable(text:str):
     '''
@@ -231,6 +236,7 @@ def scatter_2D(df:pandas.DataFrame,
                 size_multiplier:float=1,
                 title=None, 
                 show:bool=False,
+                x_range:Optional[List[float]]=None,
                 trendline:Union[Callable,List[Callable],None]=None):
     '''
     Creates a 3D scatter plot and optionally shows it. Returns the figure for that scatter.
@@ -245,6 +251,7 @@ def scatter_2D(df:pandas.DataFrame,
     title: Plot title
     show:   appears on screen. NB that this is not needed if this is called from a
             notebook and the output is not captured 
+    x_range:    Overrides the x-axis range
     trendline:  A function that accepts X (a numpy array) and returns Y (an iterable)
 
     '''
@@ -265,28 +272,31 @@ def scatter_2D(df:pandas.DataFrame,
 
     if label_size is None:
         # User a marker size inversely proportional to the number of points
-        size = int(round(22.0 - 19/(1+exp(-(df.shape[0]/100-2))) * size_multiplier))
+        size = int((round(22.0 - 19/(1+exp(-(df.shape[0]/100-2)))) * size_multiplier))
     else:
         # Set the size based on a label
         size = df[label_size]*size_multiplier
 
     fig.update_traces(marker={'size': size})
 
+    if x_range is not None:
+        fig.update_xaxes(range=[x_range[0], x_range[1]])
+
     # Create trendlines
     if trendline is not None:
         if isinstance(trendline, Callable):
             trendline = [trendline]
-        x_min = min(df[selected_columns[0]])
-        x_max = max(df[selected_columns[0]])
+        x_min = min(df[selected_columns[0]]) if x_range is None else x_range[0]
+        x_max = max(df[selected_columns[0]]) if x_range is None else x_range[1]
         evaluate_for = numpy.linspace(x_min, x_max, num=200)
         shapes = []
-        for t in trendline:
+        for t,colour in zip(trendline,colours_trendline):
             y_vals = t(evaluate_for)
             path = "M" + " L ".join([str(c[0]) + " " + str(c[1]) for c in zip(evaluate_for,y_vals)])
             shapes.append(dict(
                                 type="path",
                                 path=path,
-                                line_color="Crimson",
+                                line_color=colour,
                             )
                         )
         
