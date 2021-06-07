@@ -218,6 +218,9 @@ def multiple_histogram(df:pandas.DataFrame,
             name=group_value, # name used in legend and hover labels
             nbinsx=nbins))
 
+    #Place legend title
+    fig.update_layout(legend_title_text=label_group)
+
     # fig = px.histogram(df,
     #                     x=selected_columns[2],
     #                     y=selected_columns[0],
@@ -406,6 +409,9 @@ def surface(x_values,
                       scene_xaxis_title=axis_title_x,
                       scene_yaxis_title=axis_title_y,
                       scene_zaxis_title=axis_title_z)
+    
+    #Add z-axis as colourbar title
+    fig.update_traces(colorbar_title_text= axis_title_z, selector=dict(type='surface'))
 
     # Show the plot, if requested
     if show:
