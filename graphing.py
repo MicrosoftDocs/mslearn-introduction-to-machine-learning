@@ -1,7 +1,7 @@
 '''
 Several no-fuss methods for creating plots
 '''
-from typing import Optional, Callable, Union, List
+from typing import Optional, Callable, Tuple, Union, List
 from numpy import exp
 import numpy
 from numpy.core.fromnumeric import repeat, shape
@@ -40,6 +40,11 @@ template.data.box = [graph_objects.Box(boxpoints='outliers', notched=False)]
 pio.templates["custom_template"] = template
 pio.templates.default = "plotly_white+custom_template"
 
+# Trendline colors
+# Take note that the text for this course often refers to colours explicitly
+# such as "looking at the red line". Changing the variable below may result
+# in this text being inconsistent
+colours_trendline = px.colors.qualitative.Set1
 
 def _to_human_readable(text:str):
     '''
@@ -154,8 +159,10 @@ def histogram(df:pandas.DataFrame,
                         histfunc=histfunc
                         )
 
-    # Set the boxplot notches to True by default to deal with plotting bug
-    fig.data[1].notched = False
+    # Set the boxplot notches to False by default to deal with plotting bug
+    # But only call this line if the user wants to include a boxplot
+    if include_boxplot:
+        fig.data[1].notched = False
 
     # Show the plot, if requested
     if show:
@@ -221,16 +228,6 @@ def multiple_histogram(df:pandas.DataFrame,
     #Place legend title
     fig.update_layout(legend_title_text=label_group)
 
-    # fig = px.histogram(df,
-    #                     x=selected_columns[2],
-    #                     y=selected_columns[0],
-    #                     nbins=nbins,
-    #                     color=selected_columns[1],
-    #                     labels=axis_labels,
-    #                     # title=title,
-    #                     # marginal="box" if include_boxplot else None
-    #                     )
-
     # Show the plot, if requested
     if show:
         fig.show()
@@ -247,6 +244,7 @@ def scatter_2D(df:pandas.DataFrame,
                 size_multiplier:float=1,
                 title=None,
                 show:bool=False,
+                x_range:Optional[List[float]]=None,
                 trendline:Union[Callable,List[Callable],None]=None):
     '''
     Creates a 3D scatter plot and optionally shows it. Returns the figure for that scatter.
@@ -261,6 +259,7 @@ def scatter_2D(df:pandas.DataFrame,
     title: Plot title
     show:   appears on screen. NB that this is not needed if this is called from a
             notebook and the output is not captured
+    x_range:    Overrides the x-axis range
     trendline:  A function that accepts X (a numpy array) and returns Y (an iterable)
 
     '''
@@ -281,28 +280,31 @@ def scatter_2D(df:pandas.DataFrame,
 
     if label_size is None:
         # User a marker size inversely proportional to the number of points
-        size = int(round(22.0 - 19/(1+exp(-(df.shape[0]/100-2))) * size_multiplier))
+        size = int((round(22.0 - 19/(1+exp(-(df.shape[0]/100-2)))) * size_multiplier))
     else:
         # Set the size based on a label
         size = df[label_size]*size_multiplier
 
     fig.update_traces(marker={'size': size})
 
+    if x_range is not None:
+        fig.update_xaxes(range=[x_range[0], x_range[1]])
+
     # Create trendlines
     if trendline is not None:
         if isinstance(trendline, Callable):
             trendline = [trendline]
-        x_min = min(df[selected_columns[0]])
-        x_max = max(df[selected_columns[0]])
+        x_min = min(df[selected_columns[0]]) if x_range is None else x_range[0]
+        x_max = max(df[selected_columns[0]]) if x_range is None else x_range[1]
         evaluate_for = numpy.linspace(x_min, x_max, num=200)
         shapes = []
-        for t in trendline:
+        for t,colour in zip(trendline,colours_trendline):
             y_vals = t(evaluate_for)
             path = "M" + " L ".join([str(c[0]) + " " + str(c[1]) for c in zip(evaluate_for,y_vals)])
             shapes.append(dict(
                                 type="path",
                                 path=path,
-                                line_color="Crimson",
+                                line_color=colour,
                             )
                         )
 
@@ -395,13 +397,14 @@ def surface(x_values,
     assert len(y_values.shape) == 1, "Provide y_values as 1D"
 
 
-    # Calculate cost for a range of intercepts and slopes
-    # intercepts = np.linspace(-100,-70,10)
-    # slopes = np.linspace([0.060],[0.07],10, axis=1)
-    z = numpy.zeros((x_values.shape[0], y_values.shape[0]))
+    # Calculate z for a range of x and y inputs
+    # Note that z seems to be expected to be indexed [y,x] not [x,y] though this appears to
+    # be counter to the documentation. If z is indexed [x, y] the result is flipped.
+    # Potentially there is a bug here somewhere causing this issue or in plotly itself
+    z = numpy.zeros((y_values.shape[0], x_values.shape[0]))
     for i_x in range(x_values.shape[0]):
         for i_y in range(y_values.shape[0]):
-            z[i_x, i_y] = calc_z(x_values[i_x], y_values[i_y])
+            z[i_y, i_x] = calc_z(x_values[i_x], y_values[i_y])
 
     # Create a graph of cost
     fig = graph_objects.Figure(data=[graph_objects.Surface(x=x_values, y=y_values, z=z)])
@@ -409,7 +412,7 @@ def surface(x_values,
                       scene_xaxis_title=axis_title_x,
                       scene_yaxis_title=axis_title_y,
                       scene_zaxis_title=axis_title_z)
-    
+
     #Add z-axis as colourbar title
     fig.update_traces(colorbar_title_text= axis_title_z, selector=dict(type='surface'))
 
