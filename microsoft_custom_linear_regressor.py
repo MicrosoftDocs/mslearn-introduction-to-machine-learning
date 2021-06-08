@@ -20,21 +20,19 @@ class MicrosoftCustomLinearRegressor(BaseEstimator):
         self.slope = 0
         self.intercept = 0
 
-    def fit(self, X, y, calculate_error):
+    def fit(self, X, y, cost_function):
         '''
         Fits the model
 
         X: data to feed the mode
         y: expected predictions
-        calculate_error: A function that calculates
+        cost_function: A function that calculates error
         '''
 
-        # Create a cost function. We use this in a minute.
-        # Read the comments to understand what this does 
-        def cost_function(coefficients):
+        def estimate_and_calc_error(coefficients):
             '''
             This makes a prediction about y, using coefficients 
-            (slope and intercept). It then uses the calculate_error 
+            (slope and intercept). It then uses the cost_function 
             function (provided) to calculate the error term.
             '''
             # Get our line's slope and intercept
@@ -46,7 +44,7 @@ class MicrosoftCustomLinearRegressor(BaseEstimator):
             y_predicted = X * slope + intercept
 
             # Calculate the error versus the expected value
-            return calculate_error(y, y_predicted)
+            return cost_function(y, y_predicted)
 
         # we want to fit two coefficients. One for slope, and 
         # one for intercept. First, make an initial guess 
@@ -55,8 +53,8 @@ class MicrosoftCustomLinearRegressor(BaseEstimator):
 
         # Call scipy's minimize function. This will try to
         # find the best parameters that minimise the cost
-        # function.  (calculate_error)
-        final_coefficients = minimize(cost_function, coefs_to_fit)
+        # function.  (cost_function)
+        final_coefficients = minimize(estimate_and_calc_error, coefs_to_fit)
 
         # Save the coefficients so we can use them
         # in the predict method
