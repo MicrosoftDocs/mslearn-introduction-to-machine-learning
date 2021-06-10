@@ -159,8 +159,10 @@ def histogram(df:pandas.DataFrame,
                         histfunc=histfunc
                         )
 
-    # Set the boxplot notches to True by default to deal with plotting bug
-    fig.data[1].notched = False
+    # Set the boxplot notches to False by default to deal with plotting bug
+    # But only call this line if the user wants to include a boxplot
+    if include_boxplot:
+        fig.data[1].notched = False
 
     # Show the plot, if requested
     if show:
@@ -410,7 +412,7 @@ def surface(x_values,
                       scene_xaxis_title=axis_title_x,
                       scene_yaxis_title=axis_title_y,
                       scene_zaxis_title=axis_title_z)
-    
+
     #Add z-axis as colourbar title
     fig.update_traces(colorbar_title_text= axis_title_z, selector=dict(type='surface'))
 
