@@ -23,6 +23,35 @@ data = {
 dataset = pandas.DataFrame(data)
 
 # Make example graphs. These will open in your browser
+
+def line_1_eq(x):
+    return 0.02 * x ** 2 + 0.1 * x + 1
+
+def line_2_eq(x):
+    return -0.02 * (x - 2) ** 2 + 0.1 * x + 2
+
+def line_3_eq(x):
+    return -0.04 * (x + 2) ** 2 + 0.2 * x - 2
+
+# Plot single function
+graphing.line_2D(("line number one", line_1_eq), 
+                x_range=[-10,10], 
+                label_x="x-axis", 
+                label_y="Goodness (cm)",
+                show=True)
+
+
+# Plot multiple functions
+graphing.line_2D([  ("line number one", line_1_eq), 
+                    ("line number two", line_2_eq), 
+                    ("line number three", line_3_eq)], 
+                x_range=[-10,10], 
+                label_x="x-axis", 
+                label_y="Goodness (cm)",
+                legend_title="Line number",
+                title="Line plot", show=True)
+
+
 def surf_eq(x, y):
     return x * 8 + y ** 2
 graphing.surface(np.array([0,1]), np.linspace(-2,2), surf_eq, axis_title_x="X values", axis_title_y="Y Values", axis_title_z="Z values", show=True)
