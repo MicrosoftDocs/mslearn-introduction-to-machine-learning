@@ -35,9 +35,10 @@ class SnowCondition:
         bias = 0.5 # fudge factor to get a fairly even split of avalanche and non-avalanche days
         wind_safety = 1 - bias/(1+np.exp(-(self.wind-80)*0.05))
         top_safety = 1 - bias * max(min((self.surface_hoar * self.fresh_thickness - 30),1),0)
-        weak_layer_safety = 1 - bias / (1+np.exp(-(self.weak_layers - 5 ))) # * ( 0.5 if (self.tracked_out==1) else 1)) 
+        weak_layer_safety = 1 - bias / (1+np.exp(-(self.weak_layers - 5 ))) #* ( 0.5 if (self.tracked_out==1) else 1) 
 
-        visitor_safety = 1 - bias / (1+np.exp(-(visitors-5)/2))
+        visitor_safety = 1 - bias / (1+np.exp(-(visitors -5)/2))
+        
 
         threshold = wind_safety * top_safety * weak_layer_safety * visitor_safety
         weak_layer_safeties.append(threshold)
@@ -45,7 +46,7 @@ class SnowCondition:
         return rng.uniform() > threshold
 
 
-n_samples = 1000
+n_samples = int(365.25*3)
 
 
 rng.seed(1)
@@ -69,15 +70,10 @@ for i in range(n_samples):
     no_visitors.append(visitors)
     avalanche.append(int(condition.get_avalanche(visitors)))
 
-
-# print(np.average(avalanche))
-# print(np.std(avalanche))
-# exit()
-
 df = pandas.DataFrame(dict(
     avalanche = avalanche,
     no_visitors = no_visitors,
-    surf = [c.surface_hoar for c in snow_cond],
+    surface_hoar = [c.surface_hoar for c in snow_cond],
     fresh_thickness = [c.fresh_thickness for c in snow_cond],
     wind = [c.wind for c in snow_cond],
     weak_layers = [c.weak_layers for c in snow_cond],
@@ -95,7 +91,7 @@ df.to_csv("Data/avalanche.csv", sep="\t")
 # graph
 if False:
     graphing.multiple_histogram(df, 'no_visitors', 'avalanche', show=True)
-    graphing.multiple_histogram(df, 'surf', 'avalanche', show=True)
+    graphing.multiple_histogram(df, 'surface_hoar', 'avalanche', show=True)
     graphing.multiple_histogram(df, 'fresh_thickness', 'avalanche', show=True)
     graphing.multiple_histogram(df, 'wind', 'avalanche', show=True)
     graphing.multiple_histogram(df, 'weak_layers', 'avalanche', show=True)
@@ -105,7 +101,7 @@ if False:
 train, test = sklearn.model_selection.train_test_split(df, test_size=0.2, random_state=4398, shuffle=True)
 
 scaler = StandardScaler()
-features = ["no_visitors", "surf", "fresh_thickness", "wind", "weak_layers", "tracked_out"]
+features = ["no_visitors", "surface_hoar", "fresh_thickness", "wind", "weak_layers", "tracked_out"]
 train[features] = scaler.fit_transform(train[features])
 test[features] = scaler.transform(test[features])
 
@@ -125,14 +121,20 @@ def truth_table(predictions):
     print("fn", fn)
 
 # Example logistic model
-# NB this can be improved by including interation effects
-model = smf.logit("avalanche ~ no_visitors + surf + fresh_thickness + wind + weak_layers + tracked_out", train).fit()
+model = smf.logit("avalanche ~ no_visitors + surface_hoar + fresh_thickness + wind + weak_layers + tracked_out", train).fit()
 print(model.summary())
 predictions = model.predict(test) > 0.5
 truth_table(predictions)
 
+# Complex logistic model
+model = smf.logit("avalanche ~ no_visitors + surface_hoar + no_visitors * surface_hoar + fresh_thickness + no_visitors * fresh_thickness + surface_hoar + fresh_thickness * surface_hoar+ wind + weak_layers + tracked_out", train).fit()
+print(model.summary())
+predictions = model.predict(test) > 0.5
+truth_table(predictions)
+
+
 # Simpler model (marginally better TP rate)
-model = smf.logit("avalanche ~ no_visitors + surf + fresh_thickness + weak_layers", train).fit()
+model = smf.logit("avalanche ~ no_visitors + surface_hoar + fresh_thickness + weak_layers", train).fit()
 predictions = model.predict(test) > 0.5
 truth_table(predictions)
 
