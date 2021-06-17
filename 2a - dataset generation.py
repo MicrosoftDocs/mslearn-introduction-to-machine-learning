@@ -13,6 +13,7 @@ import graphing
 import sklearn.model_selection
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import accuracy_score
 
 
 weak_layer_safeties = []
@@ -31,19 +32,23 @@ class SnowCondition:
         Determine if an avalanche takes place
         '''
 
-        # convert wind from km/h to a risk
         bias = 0.5 # fudge factor to get a fairly even split of avalanche and non-avalanche days
-        wind_safety = 1 - bias/(1+np.exp(-(self.wind-80)*0.05))
-        top_safety = 1 - bias * max(min((self.surface_hoar * self.fresh_thickness - 30),1),0)
-        weak_layer_safety = 1 - bias / (1+np.exp(-(self.weak_layers - 5 ))) #* ( 0.5 if (self.tracked_out==1) else 1) 
+        def logit(val):
+            return 1- bias/(1+np.exp(-val)) 
 
-        visitor_safety = 1 - bias / (1+np.exp(-(visitors -5)/2))
-        
+        # convert wind from km/h to a risk
+        wind_safety = logit((self.wind-20)*0.5)
+        top_safety = logit(self.surface_hoar - 5)
+        weak_layer_safety = logit(self.weak_layers - 5)
 
-        threshold = wind_safety * top_safety * weak_layer_safety * visitor_safety
+        visitor_safety = logit((visitors - 5) * (self.fresh_thickness - 5)/2)
+        # thickness_safety = 1 - bias / (1+np.exp(-(self.fresh_thickness - 5)/2))
+        # visitor_safety = (visitor_safety + thickness_safety)/2
+
+        threshold = wind_safety * top_safety * weak_layer_safety * visitor_safety + rng.standard_normal() * 0.1
         weak_layer_safeties.append(threshold)
 
-        return rng.uniform() > threshold
+        return threshold < 0.5
 
 
 n_samples = int(365.25*3)
@@ -58,11 +63,11 @@ avalanche = []
 
 for i in range(n_samples):
     condition = SnowCondition(
-        surface_hoar=max(rng.standard_normal() + 5, 0), 
-        fresh_thickness = max(rng.standard_normal() + 5, 0), 
-    wind = np.max(rng.standard_normal() * 40 + 10,0), 
-    weak_layers = rng.randint(0,11), 
-    tracked_out = rng.randint(0,2))
+        surface_hoar = rng.randint(0,8) + rng.standard_normal() * 2,  
+        fresh_thickness = rng.randint(0,8) + rng.standard_normal() * 2, 
+        wind = rng.randint(0,41), #restrict(rng.standard_normal() * 10 + 20,0,80),
+        weak_layers = rng.randint(0,11), 
+        tracked_out = rng.randint(0,2))
 
     visitors = rng.randint(10)
 
@@ -84,6 +89,7 @@ df = pandas.DataFrame(dict(
 
 # preview
 print(df.head(20))
+print(np.average(weak_layer_safeties))
 
 # Save
 df.to_csv("Data/avalanche.csv", sep="\t")
@@ -98,12 +104,7 @@ if False:
     graphing.multiple_histogram(df, 'tracked_out', 'avalanche', show=True)
 
 
-train, test = sklearn.model_selection.train_test_split(df, test_size=0.2, random_state=4398, shuffle=True)
-
-scaler = StandardScaler()
-features = ["no_visitors", "surface_hoar", "fresh_thickness", "wind", "weak_layers", "tracked_out"]
-train[features] = scaler.fit_transform(train[features])
-test[features] = scaler.transform(test[features])
+train, test = sklearn.model_selection.train_test_split(df, test_size=0.2, random_state=10, shuffle=True)
 
 def truth_table(predictions):
     correct = test.avalanche == predictions
@@ -115,34 +116,37 @@ def truth_table(predictions):
 
     # print(predictions)
     print("---")
+    print(accuracy_score(test.avalanche, predictions))
     print("tp", tp)
     print("tn", tn)
     print("fp", fp)
     print("fn", fn)
 
 # Example logistic model
+print("All features")
 model = smf.logit("avalanche ~ no_visitors + surface_hoar + fresh_thickness + wind + weak_layers + tracked_out", train).fit()
+predictions = model.predict(test) > 0.5
+truth_table(predictions)
+
+# Example logistic model
+print("Ideal")
+model = smf.logit("avalanche ~ no_visitors + fresh_thickness + no_visitors * fresh_thickness + surface_hoar + wind + weak_layers", train).fit()
+predictions = model.predict(test) > 0.5
+truth_table(predictions)
 print(model.summary())
+
+# Simple model 
+print("Simple")
+model = smf.logit("avalanche ~ weak_layers", train).fit()
 predictions = model.predict(test) > 0.5
 truth_table(predictions)
-
-# Complex logistic model
-model = smf.logit("avalanche ~ no_visitors + surface_hoar + no_visitors * surface_hoar + fresh_thickness + no_visitors * fresh_thickness + surface_hoar + fresh_thickness * surface_hoar+ wind + weak_layers + tracked_out", train).fit()
-print(model.summary())
-predictions = model.predict(test) > 0.5
-truth_table(predictions)
-
-
-# Simpler model (marginally better TP rate)
-model = smf.logit("avalanche ~ no_visitors + surface_hoar + fresh_thickness + weak_layers", train).fit()
-predictions = model.predict(test) > 0.5
-truth_table(predictions)
-
-
 
 # Example random forest
-# NB this is unlikely to shine here relative to logistic regression as the 
-# true data underneath are logistic curves
+scaler = StandardScaler()
+features = ["no_visitors", "surface_hoar", "fresh_thickness", "wind", "weak_layers", "tracked_out"]
+train[features] = scaler.fit_transform(train[features])
+test[features] = scaler.transform(test[features])
+
 clf = RandomForestClassifier(n_estimators=500, random_state=1, verbose=False)
 
 X_train = train[features]
@@ -151,5 +155,6 @@ clf.fit(X_train,y_train)
 
 X_test = test[features]
 y_pred = clf.predict(X_test)
+print("Random Forest")
 
 truth_table(y_pred)
