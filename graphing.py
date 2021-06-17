@@ -236,6 +236,71 @@ def multiple_histogram(df:pandas.DataFrame,
     return fig
 
 
+def line_2D(
+                trendline:Union[Tuple[str,Callable],List[Tuple[str,Callable]]],
+                x_range:List[float]=[0,1],
+                label_x:str='x',
+                label_y:str='y',
+                legend_title:str="Line",
+                title=None,
+                show:bool=False):
+    '''
+    Creates a 2D line plot *using functions* and optionally shows it. Returns the figure for that plot.
+    If you simply want a line plot using data, call scatter_2D then write fig.update_traces(mode='lines')
+
+    Note that if calling this from jupyter notebooks and not capturing the output
+    it will appear on screen as though `.show()` has been called
+
+    trendline:  (name, function) tuples. The functions accept X (a numpy array) and return Y (an iterable)
+    x_range:    Sets the x-axis range
+    label_x:    The title for the x-axis
+    label_y:    The title for the y-axis
+    legend_title: The title for the legend
+    title:      The plot title. If None and a single function is provided, the title is automatically set. Use "" to avoid
+    show:   appears on screen. NB that this is not needed if this is called from a
+            notebook and the output is not captured 
+
+    '''
+
+    if isinstance(trendline, tuple):
+        trendline = [trendline]
+
+    x = numpy.array([])
+    y = numpy.array([])
+
+    x_vals = numpy.linspace(x_range[0], x_range[1], num=200)
+    names = []
+    for cur in trendline:
+        name = cur[0]
+        x = numpy.concatenate([x, x_vals])
+        names = names + ([name] * len(x_vals))
+        y = numpy.concatenate([y, cur[1](x=x_vals)])
+    
+    data = dict()
+    data[label_x] = x
+    data[label_y] = y
+    data[legend_title] = names
+
+    df = pandas.DataFrame(data)
+
+    # Pick a title if none provided and we only have one function
+    if (title is None) and (len(trendline) == 1):
+        title = trendline[0][0]
+
+    # Create as a 2d scatter but with lines
+    fig = scatter_2D(df, label_colour=legend_title, title=title, show=False, x_range=x_range)
+    fig.update_traces(mode='lines')
+
+    # Don't show a legend if we only have one function plotted
+    if len(trendline) == 1:
+        fig.update_layout(showlegend=False)
+
+    if show:
+        fig.show()
+
+    return fig
+
+
 def scatter_2D(df:pandas.DataFrame,
                 label_x:Optional[str]=None,
                 label_y:Optional[str]=None,
@@ -247,7 +312,7 @@ def scatter_2D(df:pandas.DataFrame,
                 x_range:Optional[List[float]]=None,
                 trendline:Union[Callable,List[Callable],None]=None):
     '''
-    Creates a 3D scatter plot and optionally shows it. Returns the figure for that scatter.
+    Creates a 2D scatter plot and optionally shows it. Returns the figure for that scatter.
 
     Note that if calling this from jupyter notebooks and not capturing the output
     it will appear on screen as though `.show()` has been called
