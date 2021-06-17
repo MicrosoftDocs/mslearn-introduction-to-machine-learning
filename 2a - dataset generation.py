@@ -32,7 +32,7 @@ class SnowCondition:
         Determine if an avalanche takes place
         '''
 
-        bias = 0.5 # fudge factor to get a fairly even split of avalanche and non-avalanche days
+        bias = 0.35 # fudge factor to get a fairly even split of avalanche and non-avalanche days
         def logit(val):
             return 1- bias/(1+np.exp(-val)) 
 
@@ -46,7 +46,7 @@ class SnowCondition:
         # visitor_safety = (visitor_safety + thickness_safety)/2
 
         threshold = wind_safety * top_safety * weak_layer_safety * visitor_safety + rng.standard_normal() * 0.1
-        weak_layer_safeties.append(threshold)
+        weak_layer_safeties.append(threshold < 0.5)
 
         return threshold < 0.5
 
