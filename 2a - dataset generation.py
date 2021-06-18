@@ -85,6 +85,8 @@ df = pandas.DataFrame(dict(
     tracked_out = [c.tracked_out for c in snow_cond])
     )
 
+# Patch to avoid negative snow
+df.fresh_thickness = df.fresh_thickness - df.fresh_thickness.min()
 
 
 # preview
