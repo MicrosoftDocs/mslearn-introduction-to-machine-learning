@@ -487,3 +487,48 @@ def surface(x_values,
 
     # return the figure
     return fig
+
+
+def model_to_surface_plot(model, plot_features:List[str], data:pandas.DataFrame):
+    '''Plots two features of a model as a surface. Other values are set at their means
+    
+    model:          A model that accepts a dataframe for prediction
+    plot_features:  Two features to plot
+    data:           A dataframe the model was trained or tested on
+    '''
+
+    # Give status as this can take several seconds to run
+    print("Creating plot...")
+
+    
+    other_features = [f for f in data.columns if f not in plot_features]
+
+    means = numpy.average(data[other_features], axis=0)
+    mins = numpy.min(data[plot_features], axis=0)
+    maxes = numpy.max(data[plot_features], axis=0)
+
+    df = pandas.DataFrame()
+
+    for f,m in zip(other_features, means):
+        df[f] = [m]
+
+    def predict(x, y):
+        '''
+        Makes a prediction using the model
+        '''
+        df[plot_features[0]] = [x]
+        df[plot_features[1]] = [y]
+
+        return model.predict(df)
+
+    # Create a 3d plot of predictions
+    x_vals = numpy.array(numpy.linspace(mins[plot_features[0]], maxes[plot_features[0]],20))
+    y_vals = numpy.array(numpy.linspace(mins[plot_features[1]], maxes[plot_features[1]],20))
+
+    return surface(x_vals, 
+                    y_vals, 
+                    predict, 
+                    title="Model Prediction", 
+                    axis_title_x=plot_features[0], 
+                    axis_title_y=plot_features[1], 
+                    axis_title_z="Probability")
