@@ -120,7 +120,7 @@ fig = graphing.multiple_histogram(dataset, label_x="hat_size", label_group="hair
 save_chart(fig)
 
 
-# saves figule as a static file 
+# saves plot as a static file 
 # Use defaults
 graphing.save_plot_as_image(fig, "./test_plot.jpg")
 
