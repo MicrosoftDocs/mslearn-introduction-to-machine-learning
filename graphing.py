@@ -252,7 +252,7 @@ def line_2D(
     it will appear on screen as though `.show()` has been called
 
     trendline:  (name, function) tuples. The functions accept X (a numpy array) and return Y (an iterable)
-    x_range:    Sets the x-axis range
+    x_range:    Sets the x-axis range. If this has more than three values, it is interpeted as each x-value to be graphed
     label_x:    The title for the x-axis
     label_y:    The title for the y-axis
     legend_title: The title for the legend
@@ -268,7 +268,16 @@ def line_2D(
     x = numpy.array([])
     y = numpy.array([])
 
-    x_vals = numpy.linspace(x_range[0], x_range[1], num=200)
+    if len(x_range) == 2:
+        x_vals = numpy.linspace(x_range[0], x_range[1], num=200)
+    else:
+        # X-range is interpreted as x_vals
+        x_vals = numpy.array(x_range)
+        x_vals.sort()
+
+        # Rewrite x_range to actually be an x-axis range
+        x_range = [x_vals[0], x_vals[-1]]
+
     names = []
     for cur in trendline:
         name = cur[0]

@@ -10,8 +10,8 @@ import graphing
 import os
 import plotly.io
 
-save_charts = True
-show_charts = False
+save_charts = False
+show_charts = True
 dir_save = "charts/"
 chart_count = 0
 
@@ -66,18 +66,18 @@ fig = graphing.line_2D(("line number one", line_1_eq),
 save_chart(fig)
 
 
-# Plot multiple functions
+# Plot multiple functions with specific x-values
 fig = graphing.line_2D([  ("line number one", line_1_eq), 
                     ("line number two", line_2_eq), 
                     ("line number three", line_3_eq)], 
-                x_range=[-10,10], 
+                x_range=[-10, 2, 5, 10], 
                 label_x="x-axis", 
                 label_y="Goodness (cm)",
                 legend_title="Line number",
                 title="Line plot", show=show_charts)
 save_chart(fig)
 
-
+exit()
 def surf_eq(x, y):
     return x * 8 + y ** 2
 fig = graphing.surface(np.array([0,1]), np.linspace(-2,2), surf_eq, axis_title_x="X values", axis_title_y="Y Values", axis_title_z="Z values", show=show_charts)
