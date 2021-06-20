@@ -118,3 +118,7 @@ save_chart(fig)
 
 fig = graphing.multiple_histogram(dataset, label_x="hat_size", label_group="hair_colour", title="A histogram (two variables)", show=show_charts)
 save_chart(fig)
+
+
+# saves figule as a static file
+graphing.save_plot_as_image(fig, "./test_plot.jpg")
