@@ -1,7 +1,7 @@
 '''
 Several no-fuss methods for creating plots
 '''
-from typing import Optional, Callable, Tuple, Union, List
+from typing import Dict, Optional, Callable, Tuple, Union, List
 from numpy import exp
 import numpy
 from numpy.core.fromnumeric import repeat, shape
@@ -237,7 +237,7 @@ def multiple_histogram(df:pandas.DataFrame,
 
 
 def line_2D(
-                trendline:Union[Tuple[str,Callable],List[Tuple[str,Callable]]],
+                trendline:Union[Tuple[str,Callable],List[Tuple[str,Callable]], Dict[str,List[float]]],
                 x_range:List[float]=[0,1],
                 label_x:str='x',
                 label_y:str='y',
@@ -251,7 +251,7 @@ def line_2D(
     Note that if calling this from jupyter notebooks and not capturing the output
     it will appear on screen as though `.show()` has been called
 
-    trendline:  (name, function) tuples. The functions accept X (a numpy array) and return Y (an iterable)
+    trendline:  (name, function) tuples. The functions accept X (a numpy array) and return Y (an iterable). Alternatively a dict of pre-calculated values
     x_range:    Sets the x-axis range. If this has more than three values, it is interpeted as each x-value to be graphed
     label_x:    The title for the x-axis
     label_y:    The title for the y-axis
@@ -279,11 +279,22 @@ def line_2D(
         x_range = [x_vals[0], x_vals[-1]]
 
     names = []
-    for cur in trendline:
-        name = cur[0]
-        x = numpy.concatenate([x, x_vals])
-        names = names + ([name] * len(x_vals))
-        y = numpy.concatenate([y, cur[1](x=x_vals)])
+
+    if isinstance(trendline, dict):
+        for cur in trendline.items():
+            print(cur)
+            print(cur[0])
+            print(cur[1])
+            name = cur[0]
+            x = numpy.concatenate([x, x_vals])
+            names = names + ([name] * len(x_vals))
+            y = numpy.concatenate([y, cur[1]])
+    else:
+        for cur in trendline:
+            name = cur[0]
+            x = numpy.concatenate([x, x_vals])
+            names = names + ([name] * len(x_vals))
+            y = numpy.concatenate([y, cur[1](x=x_vals)])
     
     data = dict()
     data[label_x] = x

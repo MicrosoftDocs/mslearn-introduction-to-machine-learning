@@ -77,6 +77,16 @@ fig = graphing.line_2D([  ("line number one", line_1_eq),
                 title="Line plot", show=show_charts)
 save_chart(fig)
 
+
+# Plot multiple functions with specific x-values and precalculated values
+dat = dict(line_number_one=[1,2,3,4,5], line_number_two=[2, 3,5,7,11])
+fig = graphing.line_2D(dat, 
+                x_range=[0, 1, 2, 3, 4], 
+                label_x="x-axis", 
+                legend_title="Line number",
+                title="Line plot", show=show_charts)
+save_chart(fig)
+
 exit()
 def surf_eq(x, y):
     return x * 8 + y ** 2
