@@ -514,7 +514,7 @@ def save_plot_as_image(fig, file="./plot.jpg", width="150", height="150", scale=
         figure’s layout pixel dimensions. Whereas as scale factor of less than 1.0 will decrease 
         the image resolution.
     """
-    plotly.io.write_image(fig, 
+    pio.write_image(fig, 
                             file=file, 
                             width=width, 
                             height=height, 
