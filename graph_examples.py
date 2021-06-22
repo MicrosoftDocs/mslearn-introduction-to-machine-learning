@@ -10,8 +10,8 @@ import graphing
 import os
 import plotly.io
 
-save_charts = False
-show_charts = True
+save_charts = True
+show_charts = False
 dir_save = "charts/"
 chart_count = 0
 
@@ -87,7 +87,6 @@ fig = graphing.line_2D(dat,
                 title="Line plot", show=show_charts)
 save_chart(fig)
 
-exit()
 def surf_eq(x, y):
     return x * 8 + y ** 2
 fig = graphing.surface(np.array([0,1]), np.linspace(-2,2), surf_eq, axis_title_x="X values", axis_title_y="Y Values", axis_title_z="Z values", show=show_charts)
@@ -131,17 +130,18 @@ save_chart(fig)
 
 
 # saves plot as a static file 
-# Use defaults
-graphing.save_plot_as_image(fig, "./test_plot.jpg")
+if save_chart:
+    # Use defaults
+    graphing.save_plot_as_image(fig, dir_save + "test_plot.jpg")
 
-# Set custom size
-graphing.save_plot_as_image(fig, "./test_plot2.jpg", width=350, height=200)
+    # Set custom size
+    graphing.save_plot_as_image(fig, dir_save + "./test_plot2.jpg", width=350, height=200)
 
-# Set custom scale
-graphing.save_plot_as_image(fig, "./test_plot3.jpg", scale=2)
+    # Set custom scale
+    graphing.save_plot_as_image(fig, dir_save + "./test_plot3.jpg", scale=2)
 
-# Save as PNG
-graphing.save_plot_as_image(fig, "./test_plot4.png", format="png")
+    # Save as PNG
+    graphing.save_plot_as_image(fig, dir_save + "./test_plot4.png", format="png")
 
-# Save as PDF
-graphing.save_plot_as_image(fig, "./test_plot5.pdf", format="pdf")
+    # Save as PDF
+    graphing.save_plot_as_image(fig, dir_save + "./test_plot5.pdf", format="pdf")
