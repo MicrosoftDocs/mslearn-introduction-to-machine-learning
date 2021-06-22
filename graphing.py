@@ -552,3 +552,38 @@ def model_to_surface_plot(model, plot_features:List[str], data:pandas.DataFrame)
                     axis_title_x=plot_features[0], 
                     axis_title_y=plot_features[1], 
                     axis_title_z="Probability")
+
+
+def save_plot_as_image(fig, file="./plot.jpg", width="150", height="150", scale=1, format="jpg"):
+    """
+    Convert a figure to a static image and write it to a file or writeable object
+
+    Parameters  
+
+        fig – Figure object or dict representing a figure
+        file (str or writeable) – A string representing a local file path or a writeable object (e.g. an open file descriptor)
+        format (str or None) – The desired image format:
+
+                ’png’
+                ’jpg’ or ‘jpeg’
+                ’webp’
+                ’svg’
+                ’pdf’
+                ’eps’ (Requires the poppler library to be installed and on the PATH)
+
+        width (int or None) – The width of the exported image in layout pixels. 
+        height (int or None) – The height of the exported image in layout pixels. 
+
+        scale (int or float or None) – The scale factor to use when exporting the figure. 
+        A scale factor larger than 1.0 will increase the image resolution with respect to the 
+        figure’s layout pixel dimensions. Whereas as scale factor of less than 1.0 will decrease 
+        the image resolution.
+    """
+    pio.write_image(fig, 
+                    file=file, 
+                    width=width, 
+                    height=height, 
+                    scale=scale,
+                    format=format, 
+                    engine="kaleido",
+                    )

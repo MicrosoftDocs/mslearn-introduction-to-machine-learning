@@ -128,3 +128,20 @@ save_chart(fig)
 
 fig = graphing.multiple_histogram(dataset, label_x="hat_size", label_group="hair_colour", title="A histogram (two variables)", show=show_charts)
 save_chart(fig)
+
+
+# saves plot as a static file 
+# Use defaults
+graphing.save_plot_as_image(fig, "./test_plot.jpg")
+
+# Set custom size
+graphing.save_plot_as_image(fig, "./test_plot2.jpg", width=350, height=200)
+
+# Set custom scale
+graphing.save_plot_as_image(fig, "./test_plot3.jpg", scale=2)
+
+# Save as PNG
+graphing.save_plot_as_image(fig, "./test_plot4.png", format="png")
+
+# Save as PDF
+graphing.save_plot_as_image(fig, "./test_plot5.pdf", format="pdf")
