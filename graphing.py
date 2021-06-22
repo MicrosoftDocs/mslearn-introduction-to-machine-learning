@@ -452,6 +452,7 @@ def scatter_3D(df:pandas.DataFrame,
     # return the figure
     return fig
 
+
 def surface(x_values,
             y_values,
             calc_z:Callable,
