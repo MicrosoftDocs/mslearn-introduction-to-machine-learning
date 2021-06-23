@@ -66,17 +66,26 @@ fig = graphing.line_2D(("line number one", line_1_eq),
 save_chart(fig)
 
 
-# Plot multiple functions
+# Plot multiple functions with specific x-values
 fig = graphing.line_2D([  ("line number one", line_1_eq), 
                     ("line number two", line_2_eq), 
                     ("line number three", line_3_eq)], 
-                x_range=[-10,10], 
+                x_range=[-10, 2, 5, 10], 
                 label_x="x-axis", 
                 label_y="Goodness (cm)",
                 legend_title="Line number",
                 title="Line plot", show=show_charts)
 save_chart(fig)
 
+
+# Plot multiple functions with specific x-values and precalculated values
+dat = dict(line_number_one=[1,2,3,4,5], line_number_two=[2, 3,5,7,11])
+fig = graphing.line_2D(dat, 
+                x_range=[0, 1, 2, 3, 4], 
+                label_x="x-axis", 
+                legend_title="Line number",
+                title="Line plot", show=show_charts)
+save_chart(fig)
 
 def surf_eq(x, y):
     return x * 8 + y ** 2
@@ -118,3 +127,21 @@ save_chart(fig)
 
 fig = graphing.multiple_histogram(dataset, label_x="hat_size", label_group="hair_colour", title="A histogram (two variables)", show=show_charts)
 save_chart(fig)
+
+
+# saves plot as a static file 
+if save_chart:
+    # Use defaults
+    graphing.save_plot_as_image(fig, dir_save + "test_plot.jpg")
+
+    # Set custom size
+    graphing.save_plot_as_image(fig, dir_save + "./test_plot2.jpg", width=350, height=200)
+
+    # Set custom scale
+    graphing.save_plot_as_image(fig, dir_save + "./test_plot3.jpg", scale=2)
+
+    # Save as PNG
+    graphing.save_plot_as_image(fig, dir_save + "./test_plot4.png", format="png")
+
+    # Save as PDF
+    graphing.save_plot_as_image(fig, dir_save + "./test_plot5.pdf", format="pdf")
