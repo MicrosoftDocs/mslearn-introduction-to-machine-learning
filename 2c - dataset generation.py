@@ -170,7 +170,7 @@ def assess_performance(model):
 
 
 # Create the model
-random_forest = RandomForestClassifier(n_estimators=1, random_state=1, verbose=False)
+random_forest = RandomForestClassifier(n_estimators=100, random_state=1, verbose=False)
 
 # Train the model
 random_forest.fit(train[features], train.label)
