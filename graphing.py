@@ -555,9 +555,10 @@ def model_to_surface_plot(model, plot_features:List[str], data:pandas.DataFrame)
                     axis_title_z="Probability")
 
 
-def save_plot_as_image(fig, file="./plot.jpg", width="150", height="150", scale=1, format="jpg"):
+def save_plot_as_image(fig, file="./plot.jpg", width=None, height="400", scale=1, format="jpg"):
     """
     Convert a figure to a static image and write it to a file or writeable object
+    If "width" not set, plotly will set the aspect ration based on "hight"
 
     Parameters  
 
