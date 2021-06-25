@@ -14,12 +14,6 @@ from scipy.stats import norm, skewnorm
 
 # We need the following **histograms**. When the script is run, it should save
 # each as a jpg.
-# Leave the size as default. Don't commit the images to git:
-# 1) Random data that are normally distributed. Mean 0, std dev 1
-# 2) a skewed normal distribution - similar to the above distribution but
-#  where the positive (right) tail is much longer than the left. The mean should still be 0
-# 3) a histogram with only True and False (true=250, false=750)
-# 4) a histogram with 'banana' (200),  'apple' (400),  and 'cherry' (100)
 
 
 # 1: Randomly distributed data
@@ -29,7 +23,7 @@ data = norm.rvs(0, 0.1, size=1000)
 df = pandas.DataFrame(data, columns=["Data"])
 
 # Plot and save histogram
-fig = graphing.histogram(df, title="", show=True)
+fig = graphing.histogram(df, title="")
 graphing.save_plot_as_image(fig, file="./normal_distribution.jpg", format="jpg")
 
 
@@ -43,7 +37,7 @@ data = skewnorm.rvs(alpha, size=1000)
 df = pandas.DataFrame(data, columns=["Data"])
 
 # Plot and save histogram
-fig = graphing.histogram(df, title="", show=True)
+fig = graphing.histogram(df, title="")
 graphing.save_plot_as_image(fig, file="./skewed_distribution.jpg", format="jpg")
 
 
@@ -56,7 +50,7 @@ data = numpy.hstack((all_true, all_false))
 df = pandas.DataFrame(data, columns=["Data"])
 
 # Plot and save histogram
-fig = graphing.histogram(df, title="", show=True, label_colour="Data")
+fig = graphing.histogram(df, title="", label_colour="Data")
 graphing.save_plot_as_image(fig, file="./boolean_distribution.jpg", format="jpg")
 
 # %%
@@ -68,5 +62,5 @@ data = numpy.hstack((bananas, apples, cherries))
 df = pandas.DataFrame(data, columns=["Data"])
 
 # Plot and save histogram
-fig = graphing.histogram(df, title="", show=True, label_colour="Data")
-graphing.save_plot_as_image(fig, file="./fruit_distribution.jpg", height=400, format="jpg")
+fig = graphing.histogram(df, title="", label_colour="Data")
+graphing.save_plot_as_image(fig, file="./fruit_distribution.jpg", format="jpg")
