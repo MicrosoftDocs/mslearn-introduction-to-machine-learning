@@ -1,4 +1,4 @@
-#%%
+# %%
 
 """
 This creates figures for content. It is not intended to act as learning material
@@ -47,3 +47,26 @@ fig = graphing.histogram(df, title="", show=True)
 graphing.save_plot_as_image(fig, file="./skewed_distribution.jpg", format="jpg")
 
 
+# %%
+
+# 3) a histogram with only True and False (true=250, false=750)
+all_true = numpy.full(250, True, dtype=bool)
+all_false = numpy.full(750, False, dtype=bool)
+data = numpy.hstack((all_true, all_false))
+df = pandas.DataFrame(data, columns=["Data"])
+
+# Plot and save histogram
+fig = graphing.histogram(df, title="", show=True, label_colour="Data")
+graphing.save_plot_as_image(fig, file="./boolean_distribution.jpg", format="jpg")
+
+# %%
+# 4) a histogram with 'banana' (200),  'apple' (400),  and 'cherry' (100)
+bananas = numpy.full(200, "banana")
+apples = numpy.full(400, "apple")
+cherries = numpy.full(200, "cherry")
+data = numpy.hstack((bananas, apples, cherries))
+df = pandas.DataFrame(data, columns=["Data"])
+
+# Plot and save histogram
+fig = graphing.histogram(df, title="", show=True, label_colour="Data")
+graphing.save_plot_as_image(fig, file="./fruit_distribution.jpg", height=400, format="jpg")
