@@ -84,6 +84,8 @@ def generate_data(filename:str, n_trees:int, n_rocks:int, n_animals:int, n_hiker
 
 generate_data("snow_objects.csv", 800, 800, 200, 400)
 generate_data("snow_objects_balanced.csv", 500, 500, 500, 500)
+# 50% hikers, 50% everything else
+generate_data("snow_objects_balanced_for_hikers.csv", 200, 200, 200, 600)
 
 
 # Example of data fitting
