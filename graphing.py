@@ -282,9 +282,6 @@ def line_2D(
 
     if isinstance(trendline, dict):
         for cur in trendline.items():
-            print(cur)
-            print(cur[0])
-            print(cur[1])
             name = cur[0]
             x = numpy.concatenate([x, x_vals])
             names = names + ([name] * len(x_vals))
