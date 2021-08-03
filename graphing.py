@@ -1,7 +1,7 @@
 '''
 Several no-fuss methods for creating plots
 '''
-from typing import Optional, Callable, Tuple, Union, List
+from typing import Dict, Optional, Callable, Tuple, Union, List
 from numpy import exp
 import numpy
 from numpy.core.fromnumeric import repeat, shape
@@ -237,7 +237,7 @@ def multiple_histogram(df:pandas.DataFrame,
 
 
 def line_2D(
-                trendline:Union[Tuple[str,Callable],List[Tuple[str,Callable]]],
+                trendline:Union[Tuple[str,Callable],List[Tuple[str,Callable]], Dict[str,List[float]]],
                 x_range:List[float]=[0,1],
                 label_x:str='x',
                 label_y:str='y',
@@ -251,8 +251,8 @@ def line_2D(
     Note that if calling this from jupyter notebooks and not capturing the output
     it will appear on screen as though `.show()` has been called
 
-    trendline:  (name, function) tuples. The functions accept X (a numpy array) and return Y (an iterable)
-    x_range:    Sets the x-axis range
+    trendline:  (name, function) tuples. The functions accept X (a numpy array) and return Y (an iterable). Alternatively a dict of pre-calculated values
+    x_range:    Sets the x-axis range. If this has more than three values, it is interpeted as each x-value to be graphed
     label_x:    The title for the x-axis
     label_y:    The title for the y-axis
     legend_title: The title for the legend
@@ -268,13 +268,30 @@ def line_2D(
     x = numpy.array([])
     y = numpy.array([])
 
-    x_vals = numpy.linspace(x_range[0], x_range[1], num=200)
+    if len(x_range) == 2:
+        x_vals = numpy.linspace(x_range[0], x_range[1], num=200)
+    else:
+        # X-range is interpreted as x_vals
+        x_vals = numpy.array(x_range)
+        x_vals.sort()
+
+        # Rewrite x_range to actually be an x-axis range
+        x_range = [x_vals[0], x_vals[-1]]
+
     names = []
-    for cur in trendline:
-        name = cur[0]
-        x = numpy.concatenate([x, x_vals])
-        names = names + ([name] * len(x_vals))
-        y = numpy.concatenate([y, cur[1](x=x_vals)])
+
+    if isinstance(trendline, dict):
+        for cur in trendline.items():
+            name = cur[0]
+            x = numpy.concatenate([x, x_vals])
+            names = names + ([name] * len(x_vals))
+            y = numpy.concatenate([y, cur[1]])
+    else:
+        for cur in trendline:
+            name = cur[0]
+            x = numpy.concatenate([x, x_vals])
+            names = names + ([name] * len(x_vals))
+            y = numpy.concatenate([y, cur[1](x=x_vals)])
     
     data = dict()
     data[label_x] = x
@@ -432,6 +449,7 @@ def scatter_3D(df:pandas.DataFrame,
     # return the figure
     return fig
 
+
 def surface(x_values,
             y_values,
             calc_z:Callable,
@@ -532,3 +550,39 @@ def model_to_surface_plot(model, plot_features:List[str], data:pandas.DataFrame)
                     axis_title_x=plot_features[0], 
                     axis_title_y=plot_features[1], 
                     axis_title_z="Probability")
+
+
+def save_plot_as_image(fig, file="./plot.jpg", width=None, height="400", scale=1, format="jpg"):
+    """
+    Convert a figure to a static image and write it to a file or writeable object
+    If "width" not set, plotly will set the aspect ration based on "hight"
+
+    Parameters  
+
+        fig – Figure object or dict representing a figure
+        file (str or writeable) – A string representing a local file path or a writeable object (e.g. an open file descriptor)
+        format (str or None) – The desired image format:
+
+                ’png’
+                ’jpg’ or ‘jpeg’
+                ’webp’
+                ’svg’
+                ’pdf’
+                ’eps’ (Requires the poppler library to be installed and on the PATH)
+
+        width (int or None) – The width of the exported image in layout pixels. 
+        height (int or None) – The height of the exported image in layout pixels. 
+
+        scale (int or float or None) – The scale factor to use when exporting the figure. 
+        A scale factor larger than 1.0 will increase the image resolution with respect to the 
+        figure’s layout pixel dimensions. Whereas as scale factor of less than 1.0 will decrease 
+        the image resolution.
+    """
+    pio.write_image(fig, 
+                    file=file, 
+                    width=width, 
+                    height=height, 
+                    scale=scale,
+                    format=format, 
+                    engine="kaleido",
+                    )
