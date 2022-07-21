@@ -1,0 +1,2853 @@
+﻿date,home_team_name,away_team_name,home_score,away_score,score_difference,home_team_points,away_team_points,home_win/lose,away_win/lose
+28/08/2009,D.H. Eljadida,Ittihad Zemmouri Khmissat,1,0,1,3,0,win,lose
+29/08/2009,Wydad fes,Hassania Agadir,1,3,-2,0,3,lose,win
+29/08/2009,AS Salé,KAC Kénitra,1,0,1,3,0,win,lose
+30/08/2009,RCA ,FAR,1,0,1,3,0,win,lose
+30/08/2009,JSM Lâayoune,Maghreb Fès,1,1,0,1,1,draw,draw
+30/08/2009,Moghreb Tétouan,Olympique club de safi ,0,1,-1,0,3,lose,win
+30/08/2009,FUS Rabat ,WAC Casablanca,2,3,-1,0,3,lose,win
+31/08/2009,KACM Marrakech,OCK Khouribga,1,0,1,3,0,win,lose
+10/09/2009,Olympique club de safi,KACM Marrakech,0,1,-1,0,3,lose,win
+11/09/2009,WAC Casablanca,JSM Lâayoune,3,1,2,3,0,win,lose
+12/09/2009,FAR Rabat,Moghreb Tétouan,0,0,0,1,1,draw,draw
+12/09/2009,Hassania Agadir,RCA ,0,0,0,1,1,draw,draw
+12/09/2009,Ittihad Zemmouri Khmissat,FUS Rabat,0,0,0,1,1,draw,draw
+13/09/2009,KAC Kénitra,Wydad Fès,2,1,1,3,0,win,lose
+14/09/2009,Maghreb Fès,AS Salé,1,0,1,3,0,win,lose
+15/09/2009,OCK Khouribga,D.H. Eljadida,0,1,-1,0,3,lose,win
+26/09/2009,KACM Marrakech,FAR Rabat,1,0,1,3,0,win,lose
+26/09/2009,AS Salé,Wydad Fès,2,1,1,3,0,win,lose
+26/09/2009,Maghreb Fès,WAC Casablanca,2,2,0,1,1,draw,draw
+27/09/2009,Moghreb Tétouan,Hassania Agadir,1,1,0,1,1,draw,draw
+27/09/2009,RCA ,KAC Kénitra,2,0,2,3,0,win,lose
+27/09/2009,JSM Lâayoune,Ittihad Zemmouri Khmissat,0,1,-1,0,3,lose,win
+27/09/2009,D.H. Eljadida,Olympique club de safi ,2,0,2,3,0,win,lose
+27/09/2009,FUS Rabat ,OCK Khouribga,1,1,0,1,1,draw,draw
+02/10/2009,Olympique club de safi,FUS Rabat,1,1,0,1,1,draw,draw
+03/10/2009,FAR Rabat,D.H. Eljadida,0,1,-1,0,3,lose,win
+03/10/2009,Ittihad Zemmouri Khmissat,Maghreb Fès,2,1,1,3,0,win,lose
+03/10/2009,KAC Kénitra,Moghreb Tétouan,0,1,-1,0,3,lose,win
+04/10/2009,WAC Casablanca,AS Salé,0,1,-1,0,3,lose,win
+04/10/2009,Hassania Agadir,KACM Marrakech,2,1,1,3,0,win,lose
+04/10/2009,OCK Khouribga,JSM Lâayoune,2,1,1,3,0,win,lose
+04/10/2009,Wydad fes,RCA ,1,1,0,1,1,draw,draw
+16/10/2009,WAC Casablanca,Ittihad Zemmouri Khmissat,2,1,1,3,0,win,lose
+17/10/2009,KACM Marrakech,KAC Kénitra,3,1,2,3,0,win,lose
+17/10/2009,AS Salé,RCA ,1,1,0,1,1,draw,draw
+17/10/2009,Moghreb Tétouan,Wydad Fès,2,0,2,3,0,win,lose
+18/10/2009,Maghreb Fès,OCK Khouribga,0,0,0,1,1,draw,draw
+18/10/2009,D.H. Eljadida,Hassania Agadir,0,0,0,1,1,draw,draw
+18/10/2009,JSM Lâayoune,Olympique club de safi ,2,0,2,3,0,win,lose
+18/10/2009,FUS Rabat ,FAR Rabat,0,1,-1,0,3,lose,win
+23/10/2009,RCA ,Moghreb Tétouan,1,1,0,1,1,draw,draw
+24/10/2009,OCK Khouribga,WAC Casablanca,0,0,0,1,1,draw,draw
+24/10/2009,FAR Rabat,JSM Lâayoune,0,0,0,1,1,draw,draw
+24/10/2009,KAC Kénitra,D.H. Eljadida,0,0,0,1,1,draw,draw
+24/10/2009,Wydad fes,KACM Marrakech,0,0,0,1,1,draw,draw
+25/10/2009,Olympique club de safi,Maghreb Fès,1,1,0,1,1,draw,draw
+25/10/2009,Hassania Agadir,FUS Rabat,0,1,-1,0,3,lose,win
+25/10/2009,Ittihad Zemmouri Khmissat,AS Salé,1,0,1,3,0,win,lose
+30/10/2009,D.H. Eljadida,Wydad Fès,4,2,2,3,0,win,lose
+31/10/2009,Maghreb Fès,FAR Rabat,0,0,0,1,1,draw,draw
+31/10/2009,AS Salé,Moghreb Tétouan,1,1,0,1,1,draw,draw
+31/10/2009,FUS Rabat ,KAC Kénitra,2,1,1,3,0,win,lose
+01/11/2009,KACM Marrakech,RCA ,1,2,-1,0,3,lose,win
+01/11/2009,Ittihad Zemmouri Khmissat,OCK Khouribga,0,0,0,1,1,draw,draw
+01/11/2009,WAC Casablanca,Olympique club de safi ,1,0,1,3,0,win,lose
+01/11/2009,JSM Lâayoune,Hassania Agadir,3,1,2,3,0,win,lose
+06/11/2009,Olympique club de safi,Ittihad Zemmouri Khmissat,1,0,1,3,0,win,lose
+07/11/2009,RCA ,D.H. Eljadida,1,1,0,1,1,draw,draw
+07/11/2009,KAC Kénitra,JSM Lâayoune,2,0,2,3,0,win,lose
+07/11/2009,FAR Rabat,WAC Casablanca,1,0,1,3,0,win,lose
+08/11/2009,Wydad fes,FUS Rabat,3,1,2,3,0,win,lose
+08/11/2009,Moghreb Tétouan,KACM Marrakech,0,0,0,1,1,draw,draw
+08/11/2009,Hassania Agadir,Maghreb Fès,1,1,0,1,1,draw,draw
+08/11/2009,OCK Khouribga,AS Salé,0,0,0,1,1,draw,draw
+20/11/2009,WAC Casablanca,Hassania Agadir,1,0,1,3,0,win,lose
+21/11/2009,OCK Khouribga,Olympique club de safi ,4,2,2,3,0,win,lose
+21/11/2009,AS Salé,KACM Marrakech,0,0,0,1,1,draw,draw
+22/11/2009,Maghreb Fès,KAC Kénitra,1,0,1,3,0,win,lose
+22/11/2009,D.H. Eljadida,Moghreb Tétouan,0,0,0,1,1,draw,draw
+22/11/2009,JSM Lâayoune,Wydad Fès,1,2,-1,0,3,lose,win
+02/12/2009,FUS Rabat ,RCA ,1,0,1,3,0,win,lose
+04/12/2009,FAR Rabat,OCK Khouribga,0,1,-1,0,3,lose,win
+05/12/2009,Wydad fes,Maghreb Fès,1,1,0,1,1,draw,draw
+05/12/2009,Hassania Agadir,Ittihad Zemmouri Khmissat,2,0,2,3,0,win,lose
+06/12/2009,RCA ,JSM Lâayoune,3,2,1,3,0,win,lose
+06/12/2009,Olympique club de safi,AS Salé,2,0,2,3,0,win,lose
+06/12/2009,Moghreb Tétouan,FUS Rabat,2,0,2,3,0,win,lose
+06/12/2009,KAC Kénitra,WAC Casablanca,0,1,-1,0,3,lose,win
+07/12/2009,KACM Marrakech,D.H. Eljadida,1,1,0,1,1,draw,draw
+09/12/2009,Ittihad Zemmouri Khmissat,FAR Rabat,0,0,0,1,1,draw,draw
+11/12/2009,OCK Khouribga,Hassania Agadir,0,1,-1,0,3,lose,win
+12/12/2009,FUS Rabat ,KACM Marrakech,0,0,0,1,1,draw,draw
+12/12/2009,Maghreb Fès,RCA ,1,0,1,3,0,win,lose
+12/12/2009,AS Salé,D.H. Eljadida,0,0,0,1,1,draw,draw
+13/12/2009,Olympique club de safi,FAR Rabat,0,0,0,1,1,draw,draw
+13/12/2009,Ittihad Zemmouri Khmissat,KAC Kénitra,1,1,0,1,1,draw,draw
+13/12/2009,WAC Casablanca,Wydad Fès,3,1,2,3,0,win,lose
+13/12/2009,JSM Lâayoune,Moghreb Tétouan,1,1,0,1,1,draw,draw
+18/12/2009,Wydad fes,Ittihad Zemmouri Khmissat,1,0,1,3,0,win,lose
+19/12/2009,KAC Kénitra,OCK Khouribga,1,0,1,3,0,win,lose
+19/12/2009,FAR Rabat,AS Salé,1,0,1,3,0,win,lose
+19/12/2009,Moghreb Tétouan,Maghreb Fès,0,0,0,1,1,draw,draw
+19/12/2009,Hassania Agadir,Olympique club de safi ,0,0,0,1,1,draw,draw
+20/12/2009,D.H. Eljadida,FUS Rabat,2,0,2,3,0,win,lose
+20/12/2009,KACM Marrakech,JSM Lâayoune,0,0,0,1,1,draw,draw
+20/12/2009,RCA ,WAC Casablanca,1,1,0,1,1,draw,draw
+25/12/2009,WAC Casablanca,Moghreb Tétouan,2,1,1,3,0,win,lose
+26/12/2009,Maghreb Fès,KACM Marrakech,1,1,0,1,1,draw,draw
+26/12/2009,JSM Lâayoune,D.H. Eljadida,0,2,-2,0,3,lose,win
+26/12/2009,AS Salé,FUS Rabat,1,1,0,1,1,draw,draw
+27/12/2009,FAR Rabat,Hassania Agadir,1,0,1,3,0,win,lose
+27/12/2009,OCK Khouribga,Wydad Fès,3,0,3,3,0,win,lose
+27/12/2009,Ittihad Zemmouri Khmissat,RCA ,0,1,-1,0,3,lose,win
+27/12/2009,Olympique club de safi,KAC Kénitra,0,1,-1,0,3,lose,win
+01/01/2010,RCA ,OCK Khouribga,2,2,0,1,1,draw,draw
+02/01/2010,KACM Marrakech,WAC Casablanca,0,2,-2,0,3,lose,win
+02/01/2010,KAC Kénitra,FAR Rabat,0,0,0,1,1,draw,draw
+02/01/2010,Moghreb Tétouan,Ittihad Zemmouri Khmissat,0,0,0,1,1,draw,draw
+03/01/2010,FUS Rabat ,JSM Lâayoune,3,1,2,3,0,win,lose
+03/01/2010,Wydad fes,Olympique club de safi ,3,2,1,3,0,win,lose
+03/01/2010,D.H. Eljadida,Maghreb Fès,1,0,1,3,0,win,lose
+03/01/2010,AS Salé,Hassania Agadir,0,1,-1,0,3,lose,win
+08/01/2010,FAR Rabat,Wydad Fès,3,1,2,3,0,win,lose
+09/01/2010,WAC Casablanca,D.H. Eljadida,1,2,-1,0,3,lose,win
+09/01/2010,Hassania Agadir,KAC Kénitra,2,0,2,3,0,win,lose
+09/01/2010,OCK Khouribga,Moghreb Tétouan,1,0,1,3,0,win,lose
+10/01/2010,Maghreb Fès,FUS Rabat,1,0,1,3,0,win,lose
+10/01/2010,Olympique club de safi,RCA ,0,2,-2,0,3,lose,win
+10/01/2010,Ittihad Zemmouri Khmissat,KACM Marrakech,1,1,0,1,1,draw,draw
+10/01/2010,JSM Lâayoune,AS Salé,1,1,0,1,1,draw,draw
+29/01/2010,Wydad fes,KAC Kénitra,1,1,0,1,1,draw,draw
+30/01/2010,KACM Marrakech,Olympique club de safi ,2,0,2,3,0,win,lose
+30/01/2010,Moghreb Tétouan,FAR Rabat,0,0,0,1,1,draw,draw
+30/01/2010,FUS Rabat ,Ittihad Zemmouri Khmissat,1,0,1,3,0,win,lose
+30/01/2010,JSM Lâayoune,WAC Casablanca,1,3,-2,0,3,lose,win
+31/01/2010,D.H. Eljadida,OCK Khouribga,0,0,0,1,1,draw,draw
+31/01/2010,RCA ,Hassania Agadir,2,1,1,3,0,win,lose
+31/01/2010,AS Salé,Maghreb Fès,0,1,-1,0,3,lose,win
+05/02/2010,WAC Casablanca,Maghreb Fès,1,0,1,3,0,win,lose
+06/02/2010,FAR Rabat,KACM Marrakech,0,0,0,1,1,draw,draw
+06/02/2010,Hassania Agadir,Moghreb Tétouan,0,1,-1,0,3,lose,win
+06/02/2010,OCK Khouribga,FUS Rabat,0,1,-1,0,3,lose,win
+06/02/2010,Olympique club de safi,D.H. Eljadida,2,1,1,3,0,win,lose
+07/02/2010,Wydad fes,AS Salé,3,0,3,3,0,win,lose
+07/02/2010,KAC Kénitra,RCA ,0,3,-3,0,3,lose,win
+07/02/2010,Ittihad Zemmouri Khmissat,JSM Lâayoune,1,0,1,3,0,win,lose
+12/02/2010,KACM Marrakech,Hassania Agadir,3,1,2,3,0,win,lose
+13/02/2010,AS Salé,WAC Casablanca,1,1,0,1,1,draw,draw
+13/02/2010,Moghreb Tétouan,KAC Kénitra,2,0,2,3,0,win,lose
+14/02/2010,Maghreb Fès,Ittihad Zemmouri Khmissat,2,0,2,3,0,win,lose
+14/02/2010,JSM Lâayoune,OCK Khouribga,2,1,1,3,0,win,lose
+18/02/2010,D.H. Eljadida,FAR Rabat,2,0,2,3,0,win,lose
+18/02/2010,FUS Rabat ,Olympique club de safi ,1,0,1,3,0,win,lose
+19/02/2010,RCA ,AS Salé,1,1,0,1,1,draw,draw
+20/02/2010,Ittihad Zemmouri Khmissat,WAC Casablanca,1,0,1,3,0,win,lose
+20/02/2010,Wydad fes,Moghreb Tétouan,0,0,0,1,1,draw,draw
+21/02/2010,OCK Khouribga,Maghreb Fès,2,1,1,3,0,win,lose
+21/02/2010,KAC Kénitra,KACM Marrakech,1,1,0,1,1,draw,draw
+22/02/2010,Hassania Agadir,D.H. Eljadida,2,1,1,3,0,win,lose
+23/02/2010,Olympique club de safi,JSM Lâayoune,1,1,0,1,1,draw,draw
+23/02/2010,FAR Rabat,FUS Rabat,1,0,1,3,0,win,lose
+24/02/2010,RCA ,Wydad Fès,1,0,1,3,0,win,lose
+26/02/2010,WAC Casablanca,OCK Khouribga,1,0,1,3,0,win,lose
+27/02/2010,AS Salé,Ittihad Zemmouri Khmissat,0,1,-1,0,3,lose,win
+28/02/2010,KACM Marrakech,Wydad Fès,2,0,2,3,0,win,lose
+28/02/2010,Maghreb Fès,Olympique club de safi ,0,0,0,1,1,draw,draw
+28/02/2010,JSM Lâayoune,FAR Rabat,2,0,2,3,0,win,lose
+03/03/2010,D.H. Eljadida,KAC Kénitra,0,1,-1,0,3,lose,win
+04/03/2010,FUS Rabat ,Hassania Agadir,2,2,0,1,1,draw,draw
+04/03/2010,Moghreb Tétouan,RCA ,0,0,0,1,1,draw,draw
+05/03/2010,OCK Khouribga,Ittihad Zemmouri Khmissat,0,0,0,1,1,draw,draw
+06/03/2010,Olympique club de safi,WAC Casablanca,1,1,0,1,1,draw,draw
+06/03/2010,FAR Rabat,Maghreb Fès,1,3,-2,0,3,lose,win
+07/03/2010,Wydad fes,D.H. Eljadida,0,0,0,1,1,draw,draw
+08/03/2010,KAC Kénitra,FUS Rabat,2,1,1,3,0,win,lose
+08/03/2010,Moghreb Tétouan,AS Salé,1,3,-2,0,3,lose,win
+09/03/2010,RCA ,KACM Marrakech,1,2,-1,0,3,lose,win
+09/03/2010,Hassania Agadir,JSM Lâayoune,3,1,2,3,0,win,lose
+13/03/2010,WAC Casablanca,FAR Rabat,1,0,1,3,0,win,lose
+13/03/2010,FUS Rabat ,Wydad Fès,0,2,-2,0,3,lose,win
+13/03/2010,AS Salé,OCK Khouribga,0,1,-1,0,3,lose,win
+13/03/2010,Ittihad Zemmouri Khmissat,Olympique club de safi ,1,1,0,1,1,draw,draw
+14/03/2010,KACM Marrakech,Moghreb Tétouan,1,0,1,3,0,win,lose
+14/03/2010,Maghreb Fès,Hassania Agadir,4,1,3,3,0,win,lose
+14/03/2010,D.H. Eljadida,RCA ,1,2,-1,0,3,lose,win
+14/03/2010,JSM Lâayoune,KAC Kénitra,1,0,1,3,0,win,lose
+26/03/2010,KACM Marrakech,AS Salé,3,0,3,3,0,win,lose
+27/03/2010,Olympique club de safi,OCK Khouribga,1,2,-1,0,3,lose,win
+27/03/2010,Wydad fes,JSM Lâayoune,0,0,0,1,1,draw,draw
+27/03/2010,Moghreb Tétouan,D.H. Eljadida,0,0,0,1,1,draw,draw
+28/03/2010,FAR Rabat,Ittihad Zemmouri Khmissat,2,1,1,3,0,win,lose
+28/03/2010,Hassania Agadir,WAC Casablanca,1,1,0,1,1,draw,draw
+28/03/2010,KAC Kénitra,Maghreb Fès,2,2,0,1,1,draw,draw
+28/03/2010,RCA ,FUS Rabat,3,2,1,3,0,win,lose
+02/04/2010,WAC Casablanca,KAC Kénitra,2,2,0,1,1,draw,draw
+03/04/2010,AS Salé,Olympique club de safi ,1,3,-2,0,3,lose,win
+04/04/2010,Maghreb Fès,Wydad Fès,1,2,-1,0,3,lose,win
+04/04/2010,Ittihad Zemmouri Khmissat,Hassania Agadir,0,0,0,1,1,draw,draw
+06/04/2010,D.H. Eljadida,KACM Marrakech,1,1,0,1,1,draw,draw
+07/04/2010,FUS Rabat ,Moghreb Tétouan,1,1,0,1,1,draw,draw
+07/04/2010,OCK Khouribga,FAR Rabat,2,1,1,3,0,win,lose
+09/04/2010,Wydad fes,WAC Casablanca,0,0,0,1,1,draw,draw
+09/04/2010,JSM Lâayoune,RCA ,1,0,1,3,0,win,lose
+10/04/2010,KAC Kénitra,Ittihad Zemmouri Khmissat,1,0,1,3,0,win,lose
+10/04/2010,D.H. Eljadida,AS Salé,0,0,0,1,1,draw,draw
+11/04/2010,FAR Rabat,Olympique club de safi ,4,1,3,3,0,win,lose
+11/04/2010,KACM Marrakech,FUS Rabat,0,0,0,1,1,draw,draw
+11/04/2010,Hassania Agadir,OCK Khouribga,2,1,1,3,0,win,lose
+13/04/2010,RCA ,Maghreb Fès,2,0,2,3,0,win,lose
+13/04/2010,Moghreb Tétouan,JSM Lâayoune,1,0,1,3,0,win,lose
+16/04/2010,OCK Khouribga,KAC Kénitra,0,2,-2,0,3,lose,win
+17/04/2010,Olympique club de safi,Hassania Agadir,1,1,0,1,1,draw,draw
+17/04/2010,FUS Rabat ,D.H. Eljadida,0,1,-1,0,3,lose,win
+17/04/2010,AS Salé,FAR Rabat,0,2,-2,0,3,lose,win
+17/04/2010,Ittihad Zemmouri Khmissat,Wydad Fès,0,2,-2,0,3,lose,win
+18/04/2010,Maghreb Fès,Moghreb Tétouan,1,0,1,3,0,win,lose
+18/04/2010,WAC Casablanca,RCA ,0,1,-1,0,3,lose,win
+18/04/2010,JSM Lâayoune,KACM Marrakech,1,0,1,3,0,win,lose
+24/04/2010,Hassania Agadir,FAR Rabat,1,1,0,1,1,draw,draw
+24/04/2010,Wydad fes,OCK Khouribga,2,2,0,1,1,draw,draw
+24/04/2010,KACM Marrakech,Maghreb Fès,0,0,0,1,1,draw,draw
+25/04/2010,D.H. Eljadida,JSM Lâayoune,1,1,0,1,1,draw,draw
+25/04/2010,KAC Kénitra,Olympique club de safi ,0,1,-1,0,3,lose,win
+25/04/2010,RCA ,Ittihad Zemmouri Khmissat,1,1,0,1,1,draw,draw
+25/04/2010,Moghreb Tétouan,WAC Casablanca,1,0,1,3,0,win,lose
+28/04/2010,FUS Rabat ,AS Salé,1,0,1,3,0,win,lose
+01/05/2010,FAR Rabat,KAC Kénitra,1,1,0,1,1,draw,draw
+02/05/2010,Maghreb Fès,D.H. Eljadida,2,3,-1,0,3,lose,win
+02/05/2010,OCK Khouribga,RCA ,2,1,1,3,0,win,lose
+02/05/2010,WAC Casablanca,KACM Marrakech,2,0,2,3,0,win,lose
+03/05/2010,Hassania Agadir,AS Salé,1,1,0,1,1,draw,draw
+03/05/2010,Ittihad Zemmouri Khmissat,Moghreb Tétouan,1,0,1,3,0,win,lose
+03/05/2010,JSM Lâayoune,FUS Rabat,0,0,0,1,1,draw,draw
+03/05/2010,Olympique club de safi,Wydad Fès,3,1,2,3,0,win,lose
+08/05/2010,D.H. Eljadida,WAC Casablanca,0,0,0,1,1,draw,draw
+08/05/2010,AS Salé,JSM Lâayoune,0,0,0,1,1,draw,draw
+08/05/2010,KAC Kénitra,Hassania Agadir,1,0,1,3,0,win,lose
+08/05/2010,KACM Marrakech,Ittihad Zemmouri Khmissat,0,0,0,1,1,draw,draw
+08/05/2010,RCA ,Olympique club de safi ,3,2,1,3,0,win,lose
+08/05/2010,Wydad fes,FAR Rabat,1,0,1,3,0,win,lose
+09/05/2010,Moghreb Tétouan,OCK Khouribga,1,1,0,1,1,draw,draw
+14/05/2010,OCK Khouribga,KACM Marrakech,2,1,1,3,0,win,lose
+14/05/2010,KAC Kénitra,AS Salé,5,0,5,3,0,win,lose
+15/05/2010,WAC Casablanca,FUS Rabat,1,0,1,3,0,win,lose
+15/05/2010,Maghreb Fès,JSM Lâayoune,0,1,-1,0,3,lose,win
+15/05/2010,Ittihad Zemmouri Khmissat,D.H. Eljadida,1,1,0,1,1,draw,draw
+15/05/2010,FAR Rabat,RCA ,1,0,1,3,0,win,lose
+15/05/2010,Olympique club de safi,Moghreb Tétouan,2,0,2,3,0,win,lose
+16/05/2010,Hassania Agadir,Wydad Fès,3,1,2,3,0,win,lose
+19/05/2010,FUS Rabat ,Maghreb Fès,1,0,1,3,0,win,lose
+21/08/2010,JSK Chabab Kasbat Tadla,FAR Rabat,0,3,-3,0,3,lose,win
+22/08/2010,KAC Kénitra,JSM Lâayoune,0,1,-1,0,3,lose,win
+22/08/2010,Moghreb Tétouan,WAC Casablanca,0,1,-1,0,3,lose,win
+22/08/2010,Maghreb Fès,KACM Marrakech,1,1,0,1,1,draw,draw
+23/08/2010,FUS Rabat ,OCK Khouribga,2,1,1,3,0,win,lose
+24/08/2010,RCA ,Chabab Rif Al Hoceima,2,0,2,3,0,win,lose
+25/08/2010,D.H. Eljadida,Olympique club de safi ,0,0,0,1,1,draw,draw
+26/08/2010,Hassania Agadir,Wydad Fès,1,0,1,3,0,win,lose
+28/08/2010,FAR Rabat,Moghreb Tétouan,1,1,0,1,1,draw,draw
+28/08/2010,WAC Casablanca,KAC Kénitra,0,0,0,1,1,draw,draw
+29/08/2010,JSM Lâayoune,RCA ,1,0,1,3,0,win,lose
+30/08/2010,KACM Marrakech,D.H. Eljadida,0,0,0,1,1,draw,draw
+31/08/2010,OCK Khouribga,Maghreb Fès,2,1,1,3,0,win,lose
+02/09/2010,Olympique club de safi,Hassania Agadir,1,0,1,3,0,win,lose
+03/09/2010,Wydad fes,JSK Chabab Kasbat Tadla,3,1,2,3,0,win,lose
+04/09/2010,Chabab Rif Al Hoceima,FUS Rabat,2,2,0,1,1,draw,draw
+17/09/2010,Maghreb Fès,Chabab Rif Al Hoceima,0,0,0,1,1,draw,draw
+18/09/2010,Hassania Agadir,KACM Marrakech,0,0,0,1,1,draw,draw
+18/09/2010,Moghreb Tétouan,Wydad Fès,1,0,1,3,0,win,lose
+19/09/2010,WAC Casablanca,FAR Rabat,1,1,0,1,1,draw,draw
+19/09/2010,KAC Kénitra,RCA ,1,2,-1,0,3,lose,win
+19/09/2010,D.H. Eljadida,OCK Khouribga,0,0,0,1,1,draw,draw
+20/09/2010,JSK Chabab Kasbat Tadla,Olympique club de safi ,0,0,0,1,1,draw,draw
+24/09/2010,RCA ,FUS Rabat,0,0,0,1,1,draw,draw
+24/09/2010,JSM Lâayoune,Maghreb Fès,1,2,-1,0,3,lose,win
+25/09/2010,FAR Rabat,KAC Kénitra,0,1,-1,0,3,lose,win
+25/09/2010,OCK Khouribga,Hassania Agadir,0,0,0,1,1,draw,draw
+26/09/2010,Olympique club de safi,Moghreb Tétouan,1,1,0,1,1,draw,draw
+26/09/2010,KACM Marrakech,JSK Chabab Kasbat Tadla,2,1,1,3,0,win,lose
+26/09/2010,Wydad fes,WAC Casablanca,0,1,-1,0,3,lose,win
+26/09/2010,Chabab Rif Al Hoceima,D.H. Eljadida,1,0,1,3,0,win,lose
+01/10/2010,JSK Chabab Kasbat Tadla,OCK Khouribga,0,2,-2,0,3,lose,win
+02/10/2010,Maghreb Fès,RCA ,2,1,1,3,0,win,lose
+02/10/2010,Hassania Agadir,Chabab Rif Al Hoceima,1,1,0,1,1,draw,draw
+02/10/2010,WAC Casablanca,Olympique club de safi ,1,0,1,3,0,win,lose
+02/10/2010,D.H. Eljadida,JSM Lâayoune,2,0,2,3,0,win,lose
+03/10/2010,FAR Rabat,Wydad Fès,1,1,0,1,1,draw,draw
+03/10/2010,Moghreb Tétouan,KACM Marrakech,1,0,1,3,0,win,lose
+12/10/2010,FUS Rabat ,JSM Lâayoune,2,0,2,3,0,win,lose
+15/10/2010,Wydad fes,KAC Kénitra,0,0,0,1,1,draw,draw
+16/10/2010,OCK Khouribga,Moghreb Tétouan,2,0,2,3,0,win,lose
+16/10/2010,Chabab Rif Al Hoceima,JSK Chabab Kasbat Tadla,1,1,0,1,1,draw,draw
+16/10/2010,RCA ,D.H. Eljadida,1,1,0,1,1,draw,draw
+17/10/2010,Olympique club de safi,FAR Rabat,1,0,1,3,0,win,lose
+17/10/2010,KACM Marrakech,WAC Casablanca,0,0,0,1,1,draw,draw
+17/10/2010,JSM Lâayoune,Hassania Agadir,1,3,-2,0,3,lose,win
+20/10/2010,KAC Kénitra,FUS Rabat,0,0,0,1,1,draw,draw
+22/10/2010,WAC Casablanca,OCK Khouribga,1,2,-1,0,3,lose,win
+23/10/2010,Moghreb Tétouan,Chabab Rif Al Hoceima,0,0,0,1,1,draw,draw
+23/10/2010,FAR Rabat,KACM Marrakech,0,0,0,1,1,draw,draw
+24/10/2010,D.H. Eljadida,FUS Rabat,0,0,0,1,1,draw,draw
+24/10/2010,Wydad fes,Olympique club de safi ,0,0,0,1,1,draw,draw
+24/10/2010,JSK Chabab Kasbat Tadla,JSM Lâayoune,1,1,0,1,1,draw,draw
+24/10/2010,Hassania Agadir,RCA ,1,1,0,1,1,draw,draw
+24/10/2010,KAC Kénitra,Maghreb Fès,0,0,0,1,1,draw,draw
+29/10/2010,OCK Khouribga,FAR Rabat,1,0,1,3,0,win,lose
+30/10/2010,KACM Marrakech,Wydad Fès,0,1,-1,0,3,lose,win
+30/10/2010,Olympique club de safi,KAC Kénitra,2,0,2,3,0,win,lose
+31/10/2010,Maghreb Fès,D.H. Eljadida,3,1,2,3,0,win,lose
+31/10/2010,RCA ,JSK Chabab Kasbat Tadla,2,1,1,3,0,win,lose
+31/10/2010,JSM Lâayoune,Moghreb Tétouan,2,1,1,3,0,win,lose
+05/11/2010,Wydad fes,OCK Khouribga,1,0,1,3,0,win,lose
+07/11/2010,WAC Casablanca,JSM Lâayoune,2,0,2,3,0,win,lose
+07/11/2010,FAR Rabat,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+07/11/2010,Olympique club de safi,KACM Marrakech,1,1,0,1,1,draw,draw
+07/11/2010,Moghreb Tétouan,RCA ,1,2,-1,0,3,lose,win
+13/11/2010,KAC Kénitra,D.H. Eljadida,1,2,-1,0,3,lose,win
+14/11/2010,Hassania Agadir,Maghreb Fès,0,1,-1,0,3,lose,win
+26/11/2010,KACM Marrakech,KAC Kénitra,0,0,0,1,1,draw,draw
+27/11/2010,OCK Khouribga,Olympique club de safi ,2,0,2,3,0,win,lose
+27/11/2010,JSM Lâayoune,FAR Rabat,1,1,0,1,1,draw,draw
+28/11/2010,D.H. Eljadida,Hassania Agadir,0,1,-1,0,3,lose,win
+29/11/2010,Chabab Rif Al Hoceima,Wydad Fès,1,1,0,1,1,draw,draw
+30/11/2010,Maghreb Fès,JSK Chabab Kasbat Tadla,1,0,1,3,0,win,lose
+04/12/2010,RCA ,WAC Casablanca,1,2,-1,0,3,lose,win
+04/12/2010,Wydad fes,JSM Lâayoune,1,2,-1,0,3,lose,win
+04/12/2010,KAC Kénitra,Hassania Agadir,2,1,1,3,0,win,lose
+05/12/2010,Olympique club de safi,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+05/12/2010,KACM Marrakech,OCK Khouribga,1,1,0,1,1,draw,draw
+05/12/2010,Moghreb Tétouan,Maghreb Fès,1,1,0,1,1,draw,draw
+06/12/2010,JSK Chabab Kasbat Tadla,D.H. Eljadida,1,3,-2,0,3,lose,win
+08/12/2010,FAR Rabat,RCA ,1,1,0,1,1,draw,draw
+08/12/2010,WAC Casablanca,FUS Rabat,0,2,-2,0,3,lose,win
+10/12/2010,OCK Khouribga,KAC Kénitra,1,0,1,3,0,win,lose
+11/12/2010,D.H. Eljadida,Moghreb Tétouan,1,1,0,1,1,draw,draw
+11/12/2010,JSM Lâayoune,Olympique club de safi ,3,3,0,1,1,draw,draw
+11/12/2010,Chabab Rif Al Hoceima,KACM Marrakech,1,1,0,1,1,draw,draw
+12/12/2010,Maghreb Fès,WAC Casablanca,2,1,1,3,0,win,lose
+12/12/2010,Hassania Agadir,JSK Chabab Kasbat Tadla,1,0,1,3,0,win,lose
+12/12/2010,RCA ,Wydad Fès,3,0,3,3,0,win,lose
+12/12/2010,FUS Rabat ,FAR Rabat,0,1,-1,0,3,lose,win
+17/12/2010,Wydad fes,FUS Rabat,1,1,0,1,1,draw,draw
+18/12/2010,OCK Khouribga,Chabab Rif Al Hoceima,0,0,0,1,1,draw,draw
+18/12/2010,KACM Marrakech,JSM Lâayoune,0,1,-1,0,3,lose,win
+18/12/2010,FAR Rabat,Maghreb Fès,1,1,0,1,1,draw,draw
+18/12/2010,Olympique club de safi,RCA ,1,0,1,3,0,win,lose
+19/12/2010,Moghreb Tétouan,Hassania Agadir,1,0,1,3,0,win,lose
+19/12/2010,KAC Kénitra,JSK Chabab Kasbat Tadla,1,1,0,1,1,draw,draw
+19/12/2010,WAC Casablanca,D.H. Eljadida,1,1,0,1,1,draw,draw
+22/12/2010,FUS Rabat ,Maghreb Fès,0,0,0,1,1,draw,draw
+24/12/2010,JSK Chabab Kasbat Tadla,Moghreb Tétouan,1,0,1,3,0,win,lose
+25/12/2010,D.H. Eljadida,FAR Rabat,0,1,-1,0,3,lose,win
+25/12/2010,Hassania Agadir,WAC Casablanca,0,0,0,1,1,draw,draw
+25/12/2010,KAC Kénitra,Chabab Rif Al Hoceima,0,2,-2,0,3,lose,win
+26/12/2010,Maghreb Fès,Wydad Fès,3,0,3,3,0,win,lose
+26/12/2010,RCA ,KACM Marrakech,2,0,2,3,0,win,lose
+26/12/2010,FUS Rabat ,Olympique club de safi ,0,0,0,1,1,draw,draw
+26/12/2010,JSM Lâayoune,OCK Khouribga,1,1,0,1,1,draw,draw
+30/12/2010,WAC Casablanca,JSK Chabab Kasbat Tadla,0,0,0,1,1,draw,draw
+01/01/2011,Olympique club de safi,Maghreb Fès,2,1,1,3,0,win,lose
+01/01/2011,KACM Marrakech,FUS Rabat,3,0,3,3,0,win,lose
+01/01/2011,FAR Rabat,Hassania Agadir,2,3,-1,0,3,lose,win
+01/01/2011,Moghreb Tétouan,KAC Kénitra,2,0,2,3,0,win,lose
+02/01/2011,Wydad fes,D.H. Eljadida,1,1,0,1,1,draw,draw
+02/01/2011,OCK Khouribga,RCA ,1,2,-1,0,3,lose,win
+02/01/2011,Chabab Rif Al Hoceima,JSM Lâayoune,0,1,-1,0,3,lose,win
+05/01/2011,FUS Rabat ,Hassania Agadir,1,1,0,1,1,draw,draw
+09/01/2011,JSK Chabab Kasbat Tadla,FUS Rabat,0,1,-1,0,3,lose,win
+19/01/2011,Chabab Rif Al Hoceima,WAC Casablanca,0,0,0,1,1,draw,draw
+04/02/2011,D.H. Eljadida,KACM Marrakech,1,1,0,1,1,draw,draw
+05/02/2011,Maghreb Fès,OCK Khouribga,0,0,0,1,1,draw,draw
+05/02/2011,FUS Rabat ,Chabab Rif Al Hoceima,2,1,1,3,0,win,lose
+05/02/2011,Hassania Agadir,Olympique club de safi ,1,2,-1,0,3,lose,win
+05/02/2011,JSK Chabab Kasbat Tadla,Wydad Fès,0,3,-3,0,3,lose,win
+06/02/2011,RCA ,JSM Lâayoune,2,0,2,3,0,win,lose
+06/02/2011,Moghreb Tétouan,FAR Rabat,2,1,1,3,0,win,lose
+06/02/2011,KAC Kénitra,WAC Casablanca,0,0,0,1,1,draw,draw
+12/02/2011,JSM Lâayoune,FUS Rabat,0,0,0,1,1,draw,draw
+12/02/2011,Wydad fes,Moghreb Tétouan,1,0,1,3,0,win,lose
+13/02/2011,KACM Marrakech,Hassania Agadir,1,2,-1,0,3,lose,win
+13/02/2011,Olympique club de safi,JSK Chabab Kasbat Tadla,1,0,1,3,0,win,lose
+13/02/2011,FAR Rabat,WAC Casablanca,1,1,0,1,1,draw,draw
+13/02/2011,RCA ,KAC Kénitra,1,0,1,3,0,win,lose
+16/02/2011,OCK Khouribga,D.H. Eljadida,2,1,1,3,0,win,lose
+16/02/2011,FUS Rabat ,Moghreb Tétouan,1,1,0,1,1,draw,draw
+16/02/2011,Chabab Rif Al Hoceima,Maghreb Fès,0,1,-1,0,3,lose,win
+19/02/2011,WAC Casablanca,Wydad Fès,2,0,2,3,0,win,lose
+19/02/2011,JSK Chabab Kasbat Tadla,KACM Marrakech,2,1,1,3,0,win,lose
+19/02/2011,KAC Kénitra,FAR Rabat,1,0,1,3,0,win,lose
+20/02/2011,FUS Rabat ,RCA ,1,1,0,1,1,draw,draw
+20/02/2011,Maghreb Fès,JSM Lâayoune,1,0,1,3,0,win,lose
+20/02/2011,Hassania Agadir,OCK Khouribga,1,0,1,3,0,win,lose
+20/02/2011,Moghreb Tétouan,Olympique club de safi ,0,1,-1,0,3,lose,win
+21/02/2011,D.H. Eljadida,Chabab Rif Al Hoceima,0,1,-1,0,3,lose,win
+25/02/2011,OCK Khouribga,JSK Chabab Kasbat Tadla,2,0,2,3,0,win,lose
+26/02/2011,Wydad fes,FAR Rabat,0,1,-1,0,3,lose,win
+26/02/2011,KACM Marrakech,Moghreb Tétouan,2,2,0,1,1,draw,draw
+27/02/2011,Chabab Rif Al Hoceima,Hassania Agadir,0,0,0,1,1,draw,draw
+27/02/2011,FUS Rabat ,KAC Kénitra,1,1,0,1,1,draw,draw
+27/02/2011,JSM Lâayoune,D.H. Eljadida,1,0,1,3,0,win,lose
+01/03/2011,RCA ,Maghreb Fès,2,1,1,3,0,win,lose
+05/03/2011,Moghreb Tétouan,OCK Khouribga,2,0,2,3,0,win,lose
+05/03/2011,D.H. Eljadida,RCA ,1,0,1,3,0,win,lose
+05/03/2011,KAC Kénitra,Wydad Fès,0,0,0,1,1,draw,draw
+06/03/2011,Maghreb Fès,FUS Rabat,2,1,1,3,0,win,lose
+06/03/2011,Hassania Agadir,JSM Lâayoune,1,0,1,3,0,win,lose
+06/03/2011,JSK Chabab Kasbat Tadla,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+07/03/2011,FAR Rabat,Olympique club de safi ,1,2,-1,0,3,lose,win
+08/03/2011,WAC Casablanca,KACM Marrakech,2,0,2,3,0,win,lose
+12/03/2011,RCA ,Hassania Agadir,2,0,2,3,0,win,lose
+12/03/2011,Olympique club de safi,Wydad Fès,1,1,0,1,1,draw,draw
+12/03/2011,Maghreb Fès,KAC Kénitra,1,1,0,1,1,draw,draw
+12/03/2011,OCK Khouribga,WAC Casablanca,1,0,1,3,0,win,lose
+13/03/2011,Chabab Rif Al Hoceima,Moghreb Tétouan,3,2,1,3,0,win,lose
+13/03/2011,FUS Rabat ,D.H. Eljadida,1,0,1,3,0,win,lose
+13/03/2011,JSM Lâayoune,JSK Chabab Kasbat Tadla,0,0,0,1,1,draw,draw
+14/03/2011,KACM Marrakech,FAR Rabat,0,1,-1,0,3,lose,win
+16/03/2011,Olympique club de safi,WAC Casablanca,0,1,-1,0,3,lose,win
+19/03/2011,Moghreb Tétouan,JSM Lâayoune,0,0,0,1,1,draw,draw
+19/03/2011,Wydad fes,KACM Marrakech,0,0,0,1,1,draw,draw
+21/03/2011,KAC Kénitra,Olympique club de safi ,1,0,1,3,0,win,lose
+21/03/2011,FAR Rabat,OCK Khouribga,0,2,-2,0,3,lose,win
+25/03/2011,WAC Casablanca,Chabab Rif Al Hoceima,2,2,0,1,1,draw,draw
+26/03/2011,JSK Chabab Kasbat Tadla,RCA ,0,1,-1,0,3,lose,win
+26/03/2011,Hassania Agadir,FUS Rabat,0,1,-1,0,3,lose,win
+02/04/2011,KACM Marrakech,Olympique club de safi ,1,1,0,1,1,draw,draw
+08/04/2011,JSK Chabab Kasbat Tadla,Maghreb Fès,1,2,-1,0,3,lose,win
+09/04/2011,Olympique club de safi,OCK Khouribga,1,1,0,1,1,draw,draw
+09/04/2011,Wydad fes,Chabab Rif Al Hoceima,1,1,0,1,1,draw,draw
+09/04/2011,Moghreb Tétouan,FUS Rabat,1,0,1,3,0,win,lose
+10/04/2011,KAC Kénitra,KACM Marrakech,0,0,0,1,1,draw,draw
+10/04/2011,WAC Casablanca,RCA ,1,1,0,1,1,draw,draw
+10/04/2011,FAR Rabat,JSM Lâayoune,4,2,2,3,0,win,lose
+13/04/2011,FUS Rabat ,JSK Chabab Kasbat Tadla,0,0,0,1,1,draw,draw
+13/04/2011,D.H. Eljadida,Maghreb Fès,0,0,0,1,1,draw,draw
+13/04/2011,JSM Lâayoune,WAC Casablanca,0,1,-1,0,3,lose,win
+13/04/2011,RCA ,Moghreb Tétouan,2,1,1,3,0,win,lose
+15/04/2011,Hassania Agadir,KAC Kénitra,1,1,0,1,1,draw,draw
+16/04/2011,Chabab Rif Al Hoceima,Olympique club de safi ,0,2,-2,0,3,lose,win
+16/04/2011,OCK Khouribga,KACM Marrakech,0,0,0,1,1,draw,draw
+17/04/2011,FUS Rabat ,WAC Casablanca,0,1,-1,0,3,lose,win
+17/04/2011,Maghreb Fès,Moghreb Tétouan,1,0,1,3,0,win,lose
+17/04/2011,RCA ,FAR Rabat,2,1,1,3,0,win,lose
+17/04/2011,JSM Lâayoune,Wydad Fès,2,2,0,1,1,draw,draw
+17/04/2011,D.H. Eljadida,JSK Chabab Kasbat Tadla,3,2,1,3,0,win,lose
+20/04/2011,Maghreb Fès,Hassania Agadir,0,0,0,1,1,draw,draw
+20/04/2011,D.H. Eljadida,KAC Kénitra,2,0,2,3,0,win,lose
+22/04/2011,KACM Marrakech,Chabab Rif Al Hoceima,0,2,-2,0,3,lose,win
+23/04/2011,Wydad fes,RCA ,0,3,-3,0,3,lose,win
+23/04/2011,Olympique club de safi,JSM Lâayoune,1,1,0,1,1,draw,draw
+24/04/2011,JSK Chabab Kasbat Tadla,Hassania Agadir,2,1,1,3,0,win,lose
+25/04/2011,KAC Kénitra,OCK Khouribga,3,2,1,3,0,win,lose
+28/04/2011,WAC Casablanca,Maghreb Fès,3,1,2,3,0,win,lose
+28/04/2011,FAR Rabat,FUS Rabat,0,2,-2,0,3,lose,win
+28/04/2011,Moghreb Tétouan,D.H. Eljadida,0,0,0,1,1,draw,draw
+30/04/2011,JSK Chabab Kasbat Tadla,KAC Kénitra,0,1,-1,0,3,lose,win
+30/04/2011,JSM Lâayoune,KACM Marrakech,0,2,-2,0,3,lose,win
+30/04/2011,Chabab Rif Al Hoceima,OCK Khouribga,1,0,1,3,0,win,lose
+30/04/2011,RCA ,Olympique club de safi ,4,1,3,3,0,win,lose
+02/05/2011,Maghreb Fès,FAR Rabat,1,2,-1,0,3,lose,win
+02/05/2011,D.H. Eljadida,WAC Casablanca,0,1,-1,0,3,lose,win
+02/05/2011,FUS Rabat ,Wydad Fès,0,1,-1,0,3,lose,win
+03/05/2011,Hassania Agadir,Moghreb Tétouan,1,1,0,1,1,draw,draw
+14/05/2011,FAR Rabat,D.H. Eljadida,0,0,0,1,1,draw,draw
+14/05/2011,Wydad fes,Maghreb Fès,0,1,-1,0,3,lose,win
+14/05/2011,WAC Casablanca,Hassania Agadir,1,1,0,1,1,draw,draw
+14/05/2011,Olympique club de safi,FUS Rabat,1,0,1,3,0,win,lose
+14/05/2011,OCK Khouribga,JSM Lâayoune,1,1,0,1,1,draw,draw
+15/05/2011,Chabab Rif Al Hoceima,KAC Kénitra,0,0,0,1,1,draw,draw
+15/05/2011,Moghreb Tétouan,JSK Chabab Kasbat Tadla,1,1,0,1,1,draw,draw
+16/05/2011,KACM Marrakech,RCA ,1,0,1,3,0,win,lose
+18/05/2011,Hassania Agadir,D.H. Eljadida,0,1,-1,0,3,lose,win
+21/05/2011,JSK Chabab Kasbat Tadla,WAC Casablanca,0,3,-3,0,3,lose,win
+21/05/2011,KAC Kénitra,Moghreb Tétouan,0,0,0,1,1,draw,draw
+21/05/2011,Hassania Agadir,FAR Rabat,0,1,-1,0,3,lose,win
+21/05/2011,JSM Lâayoune,Chabab Rif Al Hoceima,0,0,0,1,1,draw,draw
+21/05/2011,FUS Rabat ,KACM Marrakech,1,1,0,1,1,draw,draw
+21/05/2011,Maghreb Fès,Olympique club de safi ,2,2,0,1,1,draw,draw
+21/05/2011,RCA ,OCK Khouribga,2,1,1,3,0,win,lose
+21/05/2011,D.H. Eljadida,Wydad Fès,2,2,0,1,1,draw,draw
+24/05/2011,JSM Lâayoune,KAC Kénitra,2,1,1,3,0,win,lose
+24/05/2011,Olympique club de safi,D.H. Eljadida,2,2,0,1,1,draw,draw
+24/05/2011,OCK Khouribga,FUS Rabat,1,0,1,3,0,win,lose
+24/05/2011,WAC Casablanca,Moghreb Tétouan,1,2,-1,0,3,lose,win
+24/05/2011,KACM Marrakech,Maghreb Fès,0,1,-1,0,3,lose,win
+24/05/2011,Wydad fes,Hassania Agadir,0,0,0,1,1,draw,draw
+25/05/2011,FAR Rabat,JSK Chabab Kasbat Tadla,1,0,1,3,0,win,lose
+28/05/2011,Chabab Rif Al Hoceima,RCA ,1,2,-1,0,3,lose,win
+20/08/2011,Maghreb Fès,Hassania Agadir,2,0,2,3,0,win,lose
+21/08/2011,WAC Casablanca,Ittihad Zemmouri Khmissat,2,0,2,3,0,win,lose
+22/08/2011,KAC Kénitra,RCA ,1,0,1,3,0,win,lose
+23/08/2011,D.H. Eljadida,Olympique club de safi ,2,1,1,3,0,win,lose
+24/08/2011,CODM Meknès,OCK Khouribga,1,1,0,1,1,draw,draw
+25/08/2011,FAR Rabat,Chabab Rif Al Hoceima,0,0,0,1,1,draw,draw
+26/08/2011,Moghreb Tétouan,FUS Rabat,0,0,0,1,1,draw,draw
+27/08/2011,JSM Lâayoune,Wydad Fès,3,3,0,1,1,draw,draw
+16/09/2011,FUS Rabat ,JSM Lâayoune,2,0,2,3,0,win,lose
+17/09/2011,OCK Khouribga,Moghreb Tétouan,1,3,-2,0,3,lose,win
+17/09/2011,Chabab Rif Al Hoceima,CODM Meknès ,1,0,1,3,0,win,lose
+18/09/2011,Ittihad Zemmouri Khmissat,D.H. Eljadida,1,1,0,1,1,draw,draw
+18/09/2011,Olympique club de safi,KAC Kénitra,1,1,0,1,1,draw,draw
+18/09/2011,Hassania Agadir,KAC Kénitra,0,0,0,1,1,draw,draw
+21/09/2011,RCA ,Maghreb Fès,1,1,0,1,1,draw,draw
+23/09/2011,D.H. Eljadida,Wydad Fès,3,0,3,3,0,win,lose
+24/09/2011,CODM Meknès,Moghreb Tétouan,0,0,0,1,1,draw,draw
+24/09/2011,KAC Kénitra,Ittihad Zemmouri Khmissat,0,0,0,1,1,draw,draw
+25/09/2011,Chabab Rif Al Hoceima,Hassania Agadir,5,0,5,3,0,win,lose
+25/09/2011,Maghreb Fès,Olympique club de safi ,5,1,4,3,0,win,lose
+25/09/2011,WAC Casablanca,FUS Rabat,2,0,2,3,0,win,lose
+25/09/2011,FAR Rabat,RCA ,0,0,0,1,1,draw,draw
+25/09/2011,JSM Lâayoune,OCK Khouribga,0,0,0,1,1,draw,draw
+10/10/2011,Ittihad Zemmouri Khmissat,Maghreb Fès,0,0,0,1,1,draw,draw
+11/10/2011,Wydad fes,WAC Casablanca,0,1,-1,0,3,lose,win
+14/10/2011,FUS Rabat ,D.H. Eljadida,1,0,1,3,0,win,lose
+15/10/2011,Olympique club de safi,FAR Rabat,1,1,0,1,1,draw,draw
+15/10/2011,Moghreb Tétouan,JSM Lâayoune,1,0,1,3,0,win,lose
+16/10/2011,Wydad fes,KAC Kénitra,1,1,0,1,1,draw,draw
+16/10/2011,Hassania Agadir,CODM Meknès ,0,1,-1,0,3,lose,win
+16/10/2011,RCA ,Chabab Rif Al Hoceima,0,0,0,1,1,draw,draw
+22/10/2011,CODM Meknès,JSM Lâayoune,2,1,1,3,0,win,lose
+22/10/2011,WAC Casablanca,Moghreb Tétouan,1,0,1,3,0,win,lose
+22/10/2011,KAC Kénitra,FUS Rabat,1,1,0,1,1,draw,draw
+23/10/2011,Maghreb Fès,Wydad Fès,0,0,0,1,1,draw,draw
+23/10/2011,Hassania Agadir,RCA ,0,0,0,1,1,draw,draw
+23/10/2011,Chabab Rif Al Hoceima,Olympique club de safi ,5,1,4,3,0,win,lose
+23/10/2011,FAR Rabat,Ittihad Zemmouri Khmissat,0,1,-1,0,3,lose,win
+24/10/2011,D.H. Eljadida,OCK Khouribga,1,0,1,3,0,win,lose
+28/10/2011,Wydad fes,FAR Rabat,1,1,0,1,1,draw,draw
+29/10/2011,Olympique club de safi,Hassania Agadir,0,0,0,1,1,draw,draw
+29/10/2011,Ittihad Zemmouri Khmissat,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+29/10/2011,RCA ,CODM Meknès ,1,0,1,3,0,win,lose
+30/10/2011,Moghreb Tétouan,D.H. Eljadida,3,0,3,3,0,win,lose
+30/10/2011,OCK Khouribga,KAC Kénitra,0,1,-1,0,3,lose,win
+30/10/2011,JSM Lâayoune,WAC Casablanca,0,0,0,1,1,draw,draw
+05/11/2011,Chabab Rif Al Hoceima,Wydad Fès,4,0,4,3,0,win,lose
+05/11/2011,Maghreb Fès,OCK Khouribga,1,2,-1,0,3,lose,win
+05/11/2011,Hassania Agadir,Ittihad Zemmouri Khmissat,1,0,1,3,0,win,lose
+05/11/2011,D.H. Eljadida,JSM Lâayoune,0,1,-1,0,3,lose,win
+06/11/2011,FAR Rabat,FUS Rabat,1,2,-1,0,3,lose,win
+12/11/2011,FUS Rabat ,Maghreb Fès,2,1,1,3,0,win,lose
+13/11/2011,KAC Kénitra,Moghreb Tétouan,1,1,0,1,1,draw,draw
+15/11/2011,RCA ,Olympique club de safi ,2,1,1,3,0,win,lose
+19/11/2011,Wydad fes,Hassania Agadir,3,2,1,3,0,win,lose
+19/11/2011,JSM Lâayoune,KAC Kénitra,3,1,2,3,0,win,lose
+19/11/2011,OCK Khouribga,FAR Rabat,1,1,0,1,1,draw,draw
+20/11/2011,Ittihad Zemmouri Khmissat,RCA ,0,0,0,1,1,draw,draw
+20/11/2011,FUS Rabat ,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+20/11/2011,Olympique club de safi,CODM Meknès ,2,0,2,3,0,win,lose
+21/11/2011,WAC Casablanca,D.H. Eljadida,0,1,-1,0,3,lose,win
+27/11/2011,Maghreb Fès,JSM Lâayoune,0,1,-1,0,3,lose,win
+28/11/2011,RCA ,Wydad Fès,2,0,2,3,0,win,lose
+28/11/2011,KAC Kénitra,WAC Casablanca,1,1,0,1,1,draw,draw
+28/11/2011,Hassania Agadir,FUS Rabat,1,2,-1,0,3,lose,win
+28/11/2011,FAR Rabat,Moghreb Tétouan,0,1,-1,0,3,lose,win
+30/11/2011,Olympique club de safi,Ittihad Zemmouri Khmissat,2,0,2,3,0,win,lose
+30/11/2011,CODM Meknès,D.H. Eljadida,1,1,0,1,1,draw,draw
+30/11/2011,Chabab Rif Al Hoceima,OCK Khouribga,0,2,-2,0,3,lose,win
+03/12/2011,FUS Rabat ,RCA ,2,0,2,3,0,win,lose
+04/12/2011,OCK Khouribga,Hassania Agadir,0,1,-1,0,3,lose,win
+04/12/2011,D.H. Eljadida,KAC Kénitra,0,0,0,1,1,draw,draw
+04/12/2011,JSM Lâayoune,FAR Rabat,0,1,-1,0,3,lose,win
+05/12/2011,Moghreb Tétouan,Chabab Rif Al Hoceima,1,1,0,1,1,draw,draw
+05/12/2011,Ittihad Zemmouri Khmissat,CODM Meknès ,1,0,1,3,0,win,lose
+06/12/2011,Wydad fes,Olympique club de safi ,3,1,2,3,0,win,lose
+07/12/2011,OCK Khouribga,WAC Casablanca,1,1,0,1,1,draw,draw
+09/12/2011,CODM Meknès,KAC Kénitra,1,0,1,3,0,win,lose
+10/12/2011,Maghreb Fès,D.H. Eljadida,1,0,1,3,0,win,lose
+11/12/2011,WAC Casablanca,FAR Rabat,2,2,0,1,1,draw,draw
+11/12/2011,RCA ,OCK Khouribga,2,1,1,3,0,win,lose
+11/12/2011,Chabab Rif Al Hoceima,JSM Lâayoune,1,0,1,3,0,win,lose
+11/12/2011,Hassania Agadir,Moghreb Tétouan,0,0,0,1,1,draw,draw
+11/12/2011,Ittihad Zemmouri Khmissat,Wydad Fès,0,0,0,1,1,draw,draw
+12/12/2011,Olympique club de safi,FUS Rabat,0,0,0,1,1,draw,draw
+16/12/2011,WAC Casablanca,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+18/12/2011,FUS Rabat ,Ittihad Zemmouri Khmissat,3,0,3,3,0,win,lose
+18/12/2011,D.H. Eljadida,FAR Rabat,2,1,1,3,0,win,lose
+18/12/2011,JSM Lâayoune,Hassania Agadir,2,1,1,3,0,win,lose
+18/12/2011,Moghreb Tétouan,RCA ,1,2,-1,0,3,lose,win
+18/12/2011,OCK Khouribga,Olympique club de safi ,1,1,0,1,1,draw,draw
+21/12/2011,CODM Meknès,WAC Casablanca,0,0,0,1,1,draw,draw
+22/12/2011,Moghreb Tétouan,Maghreb Fès,1,0,1,3,0,win,lose
+24/12/2011,Chabab Rif Al Hoceima,D.H. Eljadida,2,1,1,3,0,win,lose
+24/12/2011,RCA ,JSM Lâayoune,1,0,1,3,0,win,lose
+24/12/2011,Ittihad Zemmouri Khmissat,OCK Khouribga,0,1,-1,0,3,lose,win
+25/12/2011,FAR Rabat,KAC Kénitra,3,1,2,3,0,win,lose
+25/12/2011,Hassania Agadir,WAC Casablanca,1,0,1,3,0,win,lose
+25/12/2011,Wydad fes,FUS Rabat,0,1,-1,0,3,lose,win
+26/12/2011,Olympique club de safi,Moghreb Tétouan,0,0,0,1,1,draw,draw
+31/12/2011,CODM Meknès,FUS Rabat,1,0,1,3,0,win,lose
+31/12/2011,D.H. Eljadida,Hassania Agadir,0,1,-1,0,3,lose,win
+31/12/2011,WAC Casablanca,RCA ,0,0,0,1,1,draw,draw
+01/01/2012,Maghreb Fès,FAR Rabat,2,1,1,3,0,win,lose
+01/01/2012,KAC Kénitra,Chabab Rif Al Hoceima,1,1,0,1,1,draw,draw
+01/01/2012,OCK Khouribga,Wydad Fès,0,1,-1,0,3,lose,win
+01/01/2012,JSM Lâayoune,Olympique club de safi ,0,1,-1,0,3,lose,win
+01/01/2012,Moghreb Tétouan,Ittihad Zemmouri Khmissat,2,0,2,3,0,win,lose
+04/01/2012,WAC Casablanca,Maghreb Fès,1,1,0,1,1,draw,draw
+06/01/2012,Hassania Agadir,KAC Kénitra,2,2,0,1,1,draw,draw
+07/01/2012,RCA ,D.H. Eljadida,2,1,1,3,0,win,lose
+07/01/2012,FAR Rabat,CODM Meknès ,1,0,1,3,0,win,lose
+07/01/2012,Wydad fes,Moghreb Tétouan,0,0,0,1,1,draw,draw
+08/01/2012,Olympique club de safi,WAC Casablanca,2,1,1,3,0,win,lose
+08/01/2012,FUS Rabat ,OCK Khouribga,1,0,1,3,0,win,lose
+08/01/2012,Chabab Rif Al Hoceima,Maghreb Fès,1,2,-1,0,3,lose,win
+09/01/2012,Ittihad Zemmouri Khmissat,JSM Lâayoune,1,0,1,3,0,win,lose
+11/01/2012,Wydad fes,CODM Meknès ,1,0,1,3,0,win,lose
+01/02/2012,KAC Kénitra,Maghreb Fès,1,1,0,1,1,draw,draw
+10/02/2012,D.H. Eljadida,Ittihad Zemmouri Khmissat,1,0,1,3,0,win,lose
+11/02/2012,WAC Casablanca,Wydad Fès,2,2,0,1,1,draw,draw
+11/02/2012,FAR Rabat,Hassania Agadir,2,0,2,3,0,win,lose
+11/02/2012,Moghreb Tétouan,OCK Khouribga,2,0,2,3,0,win,lose
+11/02/2012,CODM Meknès,Chabab Rif Al Hoceima,2,1,1,3,0,win,lose
+12/02/2012,KAC Kénitra,Olympique club de safi ,2,1,1,3,0,win,lose
+12/02/2012,Maghreb Fès,RCA ,1,1,0,1,1,draw,draw
+12/02/2012,JSM Lâayoune,FUS Rabat,0,2,-2,0,3,lose,win
+17/02/2012,Ittihad Zemmouri Khmissat,KAC Kénitra,0,1,-1,0,3,lose,win
+17/02/2012,Wydad fes,D.H. Eljadida,0,1,-1,0,3,lose,win
+17/02/2012,Hassania Agadir,Chabab Rif Al Hoceima,0,0,0,1,1,draw,draw
+18/02/2012,FUS Rabat ,WAC Casablanca,0,0,0,1,1,draw,draw
+18/02/2012,Olympique club de safi,Maghreb Fès,0,2,-2,0,3,lose,win
+18/02/2012,OCK Khouribga,JSM Lâayoune,2,0,2,3,0,win,lose
+18/02/2012,RCA ,FAR Rabat,3,1,2,3,0,win,lose
+18/02/2012,Moghreb Tétouan,CODM Meknès ,1,0,1,3,0,win,lose
+24/02/2012,FAR Rabat,Olympique club de safi ,2,1,1,3,0,win,lose
+25/02/2012,D.H. Eljadida,FUS Rabat,1,1,0,1,1,draw,draw
+25/02/2012,JSM Lâayoune,Moghreb Tétouan,0,3,-3,0,3,lose,win
+26/02/2012,KAC Kénitra,Wydad Fès,2,1,1,3,0,win,lose
+26/02/2012,WAC Casablanca,OCK Khouribga,3,0,3,3,0,win,lose
+26/02/2012,CODM Meknès,Hassania Agadir,1,0,1,3,0,win,lose
+26/02/2012,Chabab Rif Al Hoceima,RCA ,0,0,0,1,1,draw,draw
+03/03/2012,Wydad fes,Maghreb Fès,0,1,-1,0,3,lose,win
+03/03/2012,Ittihad Zemmouri Khmissat,FAR Rabat,0,0,0,1,1,draw,draw
+03/03/2012,JSM Lâayoune,CODM Meknès ,1,2,-1,0,3,lose,win
+03/03/2012,Olympique club de safi,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+04/03/2012,OCK Khouribga,D.H. Eljadida,0,2,-2,0,3,lose,win
+04/03/2012,RCA ,Hassania Agadir,2,0,2,3,0,win,lose
+04/03/2012,Moghreb Tétouan,WAC Casablanca,2,0,2,3,0,win,lose
+05/03/2012,FUS Rabat ,KAC Kénitra,2,1,1,3,0,win,lose
+07/03/2012,Maghreb Fès,Ittihad Zemmouri Khmissat,1,2,-1,0,3,lose,win
+09/03/2012,FAR Rabat,Wydad Fès,1,0,1,3,0,win,lose
+10/03/2012,Hassania Agadir,Olympique club de safi ,1,1,0,1,1,draw,draw
+10/03/2012,D.H. Eljadida,Moghreb Tétouan,0,1,-1,0,3,lose,win
+10/03/2012,WAC Casablanca,JSM Lâayoune,2,0,2,3,0,win,lose
+11/03/2012,KAC Kénitra,OCK Khouribga,2,4,-2,0,3,lose,win
+11/03/2012,Maghreb Fès,FUS Rabat,1,1,0,1,1,draw,draw
+11/03/2012,CODM Meknès,RCA ,0,1,-1,0,3,lose,win
+11/03/2012,Chabab Rif Al Hoceima,Ittihad Zemmouri Khmissat,3,1,2,3,0,win,lose
+16/03/2012,Wydad fes,Chabab Rif Al Hoceima,2,1,1,3,0,win,lose
+17/03/2012,Olympique club de safi,RCA ,2,1,1,3,0,win,lose
+17/03/2012,OCK Khouribga,Maghreb Fès,1,1,0,1,1,draw,draw
+17/03/2012,WAC Casablanca,CODM Meknès ,1,0,1,3,0,win,lose
+17/03/2012,FUS Rabat ,FAR Rabat,0,0,0,1,1,draw,draw
+17/03/2012,JSM Lâayoune,D.H. Eljadida,0,0,0,1,1,draw,draw
+18/03/2012,Ittihad Zemmouri Khmissat,Hassania Agadir,0,1,-1,0,3,lose,win
+18/03/2012,Moghreb Tétouan,KAC Kénitra,0,0,0,1,1,draw,draw
+24/03/2012,FAR Rabat,OCK Khouribga,1,1,0,1,1,draw,draw
+24/03/2012,KAC Kénitra,JSM Lâayoune,1,1,0,1,1,draw,draw
+24/03/2012,Chabab Rif Al Hoceima,FUS Rabat,0,0,0,1,1,draw,draw
+25/03/2012,Hassania Agadir,Wydad Fès,3,0,3,3,0,win,lose
+30/03/2012,Ittihad Zemmouri Khmissat,Olympique club de safi ,0,2,-2,0,3,lose,win
+30/03/2012,D.H. Eljadida,CODM Meknès ,2,1,1,3,0,win,lose
+30/03/2012,WAC Casablanca,KAC Kénitra,1,1,0,1,1,draw,draw
+31/03/2012,Moghreb Tétouan,FAR Rabat,3,0,3,3,0,win,lose
+31/03/2012,Wydad fes,RCA ,2,0,2,3,0,win,lose
+31/03/2012,FUS Rabat ,Hassania Agadir,1,0,1,3,0,win,lose
+31/03/2012,JSM Lâayoune,Maghreb Fès,1,0,1,3,0,win,lose
+01/04/2012,OCK Khouribga,Chabab Rif Al Hoceima,2,1,1,3,0,win,lose
+03/04/2012,RCA ,Ittihad Zemmouri Khmissat,1,0,1,3,0,win,lose
+03/04/2012,D.H. Eljadida,WAC Casablanca,1,0,1,3,0,win,lose
+03/04/2012,CODM Meknès,Olympique club de safi ,1,0,1,3,0,win,lose
+04/04/2012,Maghreb Fès,Moghreb Tétouan,1,1,0,1,1,draw,draw
+07/04/2012,FAR Rabat,JSM Lâayoune,3,1,2,3,0,win,lose
+08/04/2012,KAC Kénitra,D.H. Eljadida,2,2,0,1,1,draw,draw
+08/04/2012,Hassania Agadir,OCK Khouribga,0,0,0,1,1,draw,draw
+09/04/2012,Chabab Rif Al Hoceima,Moghreb Tétouan,3,1,2,3,0,win,lose
+09/04/2012,Olympique club de safi,Wydad Fès,2,0,2,3,0,win,lose
+13/04/2012,D.H. Eljadida,Maghreb Fès,2,0,2,3,0,win,lose
+14/04/2012,FUS Rabat ,Olympique club de safi ,1,2,-1,0,3,lose,win
+14/04/2012,Wydad fes,Ittihad Zemmouri Khmissat,1,1,0,1,1,draw,draw
+14/04/2012,WAC Casablanca,FAR Rabat,2,0,2,3,0,win,lose
+14/04/2012,KAC Kénitra,CODM Meknès ,1,0,1,3,0,win,lose
+15/04/2012,Moghreb Tétouan,Hassania Agadir,2,2,0,1,1,draw,draw
+15/04/2012,OCK Khouribga,RCA ,1,1,0,1,1,draw,draw
+15/04/2012,JSM Lâayoune,Chabab Rif Al Hoceima,2,0,2,3,0,win,lose
+18/04/2012,CODM Meknès,Ittihad Zemmouri Khmissat,2,1,1,3,0,win,lose
+18/04/2012,Maghreb Fès,WAC Casablanca,1,1,0,1,1,draw,draw
+19/04/2012,RCA ,FUS Rabat,1,0,1,3,0,win,lose
+20/04/2012,FAR Rabat,D.H. Eljadida,2,3,-1,0,3,lose,win
+21/04/2012,Hassania Agadir,JSM Lâayoune,1,1,0,1,1,draw,draw
+21/04/2012,Olympique club de safi,OCK Khouribga,0,2,-2,0,3,lose,win
+22/04/2012,Maghreb Fès,KAC Kénitra,3,0,3,3,0,win,lose
+22/04/2012,CODM Meknès,Wydad Fès,1,0,1,3,0,win,lose
+22/04/2012,Chabab Rif Al Hoceima,WAC Casablanca,0,0,0,1,1,draw,draw
+23/04/2012,RCA ,Moghreb Tétouan,0,2,-2,0,3,lose,win
+23/04/2012,Ittihad Zemmouri Khmissat,FUS Rabat,0,0,0,1,1,draw,draw
+28/04/2012,OCK Khouribga,Ittihad Zemmouri Khmissat,0,0,0,1,1,draw,draw
+28/04/2012,KAC Kénitra,FAR Rabat,0,3,-3,0,3,lose,win
+28/04/2012,D.H. Eljadida,Chabab Rif Al Hoceima,1,1,0,1,1,draw,draw
+29/04/2012,JSM Lâayoune,RCA ,1,4,-3,0,3,lose,win
+29/04/2012,FUS Rabat ,Wydad Fès,2,1,1,3,0,win,lose
+30/04/2012,Moghreb Tétouan,Olympique club de safi ,3,1,2,3,0,win,lose
+04/05/2012,FAR Rabat,Maghreb Fès,2,1,1,3,0,win,lose
+05/05/2012,FUS Rabat ,CODM Meknès ,2,1,1,3,0,win,lose
+05/05/2012,Ittihad Zemmouri Khmissat,Moghreb Tétouan,0,3,-3,0,3,lose,win
+05/05/2012,Hassania Agadir,D.H. Eljadida,0,0,0,1,1,draw,draw
+06/05/2012,RCA ,WAC Casablanca,0,1,-1,0,3,lose,win
+06/05/2012,Chabab Rif Al Hoceima,KAC Kénitra,0,1,-1,0,3,lose,win
+06/05/2012,Olympique club de safi,JSM Lâayoune,2,2,0,1,1,draw,draw
+07/05/2012,Wydad fes,OCK Khouribga,1,1,0,1,1,draw,draw
+08/05/2012,Maghreb Fès,CODM Meknès ,0,0,0,1,1,draw,draw
+09/05/2012,WAC Casablanca,Hassania Agadir,3,1,2,3,0,win,lose
+19/05/2012,Maghreb Fès,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+19/05/2012,CODM Meknès,FAR Rabat,0,0,0,1,1,draw,draw
+20/05/2012,Moghreb Tétouan,Wydad Fès,2,0,2,3,0,win,lose
+20/05/2012,KAC Kénitra,Hassania Agadir,0,1,-1,0,3,lose,win
+20/05/2012,JSM Lâayoune,Ittihad Zemmouri Khmissat,3,2,1,3,0,win,lose
+20/05/2012,OCK Khouribga,FUS Rabat,0,2,-2,0,3,lose,win
+21/05/2012,D.H. Eljadida,RCA ,3,1,2,3,0,win,lose
+21/05/2012,WAC Casablanca,Olympique club de safi ,2,1,1,3,0,win,lose
+26/05/2012,OCK Khouribga,CODM Meknès ,2,1,1,3,0,win,lose
+26/05/2012,Chabab Rif Al Hoceima,FAR Rabat,0,2,-2,0,3,lose,win
+26/05/2012,Hassania Agadir,Maghreb Fès,2,1,1,3,0,win,lose
+27/05/2012,Olympique club de safi,D.H. Eljadida,3,3,0,1,1,draw,draw
+27/05/2012,Wydad fes,JSM Lâayoune,3,0,3,3,0,win,lose
+27/05/2012,RCA ,KAC Kénitra,5,2,3,3,0,win,lose
+27/05/2012,Ittihad Zemmouri Khmissat,WAC Casablanca,0,1,-1,0,3,lose,win
+28/05/2012,FUS Rabat ,Moghreb Tétouan,0,1,-1,0,3,lose,win
+14/09/2012,CODM Meknès,KAC Kénitra,1,2,-1,0,3,lose,win
+15/09/2012,OCK Khouribga,Maghreb Fès,2,2,0,1,1,draw,draw
+15/09/2012,Wydad fes,Rajaa Beni Mellal,1,1,0,1,1,draw,draw
+16/09/2012,RCA ,FUS Rabat,3,0,3,3,0,win,lose
+16/09/2012,Moghreb Tétouan,Chabab Rif Al Hoceima,1,1,0,1,1,draw,draw
+16/09/2012,Olympique club de safi,D.H. Eljadida,0,1,-1,0,3,lose,win
+16/09/2012,Hassania Agadir,RSB Berkane,3,2,1,3,0,win,lose
+19/09/2012,FAR Rabat,WAC Casablanca,2,0,2,3,0,win,lose
+21/09/2012,FUS Rabat ,Olympique club de safi ,1,1,0,1,1,draw,draw
+22/09/2012,D.H. Eljadida,Hassania Agadir,1,1,0,1,1,draw,draw
+22/09/2012,Maghreb Fès,CODM Meknès ,0,0,0,1,1,draw,draw
+22/09/2012,RSB Berkane,Moghreb Tétouan,0,0,0,1,1,draw,draw
+23/09/2012,WAC Casablanca,OCK Khouribga,2,1,1,3,0,win,lose
+23/09/2012,KAC Kénitra,Wydad Fès,1,1,0,1,1,draw,draw
+23/09/2012,Chabab Rif Al Hoceima,FAR Rabat,0,0,0,1,1,draw,draw
+23/09/2012,Rajaa Beni Mellal,RCA ,0,1,-1,0,3,lose,win
+28/09/2012,Hassania Agadir,FUS Rabat,2,0,2,3,0,win,lose
+29/09/2012,RCA ,KAC Kénitra,4,2,2,3,0,win,lose
+29/09/2012,Olympique club de safi,Rajaa Beni Mellal,4,2,2,3,0,win,lose
+29/09/2012,Moghreb Tétouan,D.H. Eljadida,1,1,0,1,1,draw,draw
+30/09/2012,OCK Khouribga,Chabab Rif Al Hoceima,2,1,1,3,0,win,lose
+30/09/2012,CODM Meknès,Wydad Fès,1,1,0,1,1,draw,draw
+30/09/2012,FAR Rabat,RSB Berkane,2,0,2,3,0,win,lose
+30/09/2012,Maghreb Fès,WAC Casablanca,1,0,1,3,0,win,lose
+06/10/2012,D.H. Eljadida,FAR Rabat,1,2,-1,0,3,lose,win
+06/10/2012,Wydad fes,RCA ,0,2,-2,0,3,lose,win
+06/10/2012,RSB Berkane,OCK Khouribga,3,1,2,3,0,win,lose
+06/10/2012,Rajaa Beni Mellal,Hassania Agadir,1,1,0,1,1,draw,draw
+07/10/2012,KAC Kénitra,Olympique club de safi ,1,2,-1,0,3,lose,win
+07/10/2012,Chabab Rif Al Hoceima,Maghreb Fès,1,1,0,1,1,draw,draw
+07/10/2012,FUS Rabat ,Moghreb Tétouan,3,2,1,3,0,win,lose
+19/10/2012,Olympique club de safi,Wydad Fès,3,1,2,3,0,win,lose
+20/10/2012,Maghreb Fès,RSB Berkane,1,1,0,1,1,draw,draw
+20/10/2012,Hassania Agadir,KAC Kénitra,0,0,0,1,1,draw,draw
+21/10/2012,Moghreb Tétouan,Rajaa Beni Mellal,4,2,2,3,0,win,lose
+21/10/2012,FAR Rabat,FUS Rabat,2,2,0,1,1,draw,draw
+21/10/2012,OCK Khouribga,D.H. Eljadida,2,2,0,1,1,draw,draw
+25/10/2012,WAC Casablanca,CODM Meknès ,3,0,3,3,0,win,lose
+01/11/2012,RSB Berkane,WAC Casablanca,0,1,-1,0,3,lose,win
+02/11/2012,RCA ,Olympique club de safi ,2,2,0,1,1,draw,draw
+02/11/2012,Rajaa Beni Mellal,FAR Rabat,0,1,-1,0,3,lose,win
+03/11/2012,Chabab Rif Al Hoceima,CODM Meknès ,2,1,1,3,0,win,lose
+03/11/2012,FUS Rabat ,OCK Khouribga,0,0,0,1,1,draw,draw
+04/11/2012,D.H. Eljadida,Maghreb Fès,1,2,-1,0,3,lose,win
+04/11/2012,KAC Kénitra,Moghreb Tétouan,1,1,0,1,1,draw,draw
+04/11/2012,Wydad fes,Hassania Agadir,0,0,0,1,1,draw,draw
+09/11/2012,Chabab Rif Al Hoceima,RSB Berkane,1,0,1,3,0,win,lose
+10/11/2012,Moghreb Tétouan,Wydad Fès,2,1,1,3,0,win,lose
+10/11/2012,Maghreb Fès,FUS Rabat,1,0,1,3,0,win,lose
+10/11/2012,WAC Casablanca,D.H. Eljadida,1,0,1,3,0,win,lose
+11/11/2012,OCK Khouribga,Rajaa Beni Mellal,2,2,0,1,1,draw,draw
+11/11/2012,CODM Meknès,Olympique club de safi ,2,0,2,3,0,win,lose
+11/11/2012,Hassania Agadir,RCA ,1,0,1,3,0,win,lose
+11/11/2012,FAR Rabat,KAC Kénitra,1,0,1,3,0,win,lose
+17/11/2012,RSB Berkane,CODM Meknès ,3,4,-1,0,3,lose,win
+17/11/2012,KAC Kénitra,OCK Khouribga,1,0,1,3,0,win,lose
+17/11/2012,WAC Casablanca,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+17/11/2012,Rajaa Beni Mellal,Maghreb Fès,0,1,-1,0,3,lose,win
+19/11/2012,Olympique club de safi,Hassania Agadir,0,0,0,1,1,draw,draw
+20/11/2012,D.H. Eljadida,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+21/11/2012,FUS Rabat ,WAC Casablanca,2,1,1,3,0,win,lose
+21/11/2012,CODM Meknès,RCA ,0,1,-1,0,3,lose,win
+23/11/2012,Maghreb Fès,KAC Kénitra,0,0,0,1,1,draw,draw
+24/11/2012,OCK Khouribga,Wydad Fès,0,0,0,1,1,draw,draw
+25/11/2012,CODM Meknès,Hassania Agadir,0,0,0,1,1,draw,draw
+25/11/2012,RSB Berkane,D.H. Eljadida,0,1,-1,0,3,lose,win
+25/11/2012,WAC Casablanca,Rajaa Beni Mellal,1,0,1,3,0,win,lose
+25/11/2012,Moghreb Tétouan,Olympique club de safi ,4,0,4,3,0,win,lose
+26/11/2012,Chabab Rif Al Hoceima,FUS Rabat,0,0,0,1,1,draw,draw
+30/11/2012,Olympique club de safi,FAR Rabat,1,1,0,1,1,draw,draw
+01/12/2012,Hassania Agadir,Moghreb Tétouan,1,3,-2,0,3,lose,win
+01/12/2012,Wydad fes,Maghreb Fès,1,1,0,1,1,draw,draw
+01/12/2012,RCA ,OCK Khouribga,2,1,1,3,0,win,lose
+02/12/2012,FUS Rabat ,RSB Berkane,3,0,3,3,0,win,lose
+02/12/2012,KAC Kénitra,WAC Casablanca,1,1,0,1,1,draw,draw
+02/12/2012,D.H. Eljadida,CODM Meknès ,1,0,1,3,0,win,lose
+02/12/2012,Rajaa Beni Mellal,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+05/12/2012,RCA ,Moghreb Tétouan,3,1,2,3,0,win,lose
+05/12/2012,Wydad fes,FAR Rabat,1,0,1,3,0,win,lose
+07/12/2012,OCK Khouribga,Olympique club de safi ,2,1,1,3,0,win,lose
+08/12/2012,D.H. Eljadida,FUS Rabat,1,1,0,1,1,draw,draw
+08/12/2012,RSB Berkane,Rajaa Beni Mellal,0,0,0,1,1,draw,draw
+09/12/2012,Maghreb Fès,RCA ,0,0,0,1,1,draw,draw
+09/12/2012,WAC Casablanca,Wydad Fès,1,0,1,3,0,win,lose
+09/12/2012,FAR Rabat,Hassania Agadir,1,0,1,3,0,win,lose
+09/12/2012,Chabab Rif Al Hoceima,KAC Kénitra,2,1,1,3,0,win,lose
+10/12/2012,CODM Meknès,Moghreb Tétouan,1,1,0,1,1,draw,draw
+14/12/2012,Wydad fes,Chabab Rif Al Hoceima,1,1,0,1,1,draw,draw
+15/12/2012,KAC Kénitra,RSB Berkane,1,2,-1,0,3,lose,win
+15/12/2012,Rajaa Beni Mellal,D.H. Eljadida,2,1,1,3,0,win,lose
+15/12/2012,FUS Rabat ,CODM Meknès ,2,0,2,3,0,win,lose
+15/12/2012,Olympique club de safi,Maghreb Fès,4,1,3,3,0,win,lose
+16/12/2012,Moghreb Tétouan,FAR Rabat,1,1,0,1,1,draw,draw
+16/12/2012,Hassania Agadir,OCK Khouribga,1,1,0,1,1,draw,draw
+16/12/2012,RCA ,WAC Casablanca,1,1,0,1,1,draw,draw
+20/12/2012,FAR Rabat,RCA ,1,1,0,1,1,draw,draw
+21/12/2012,FUS Rabat ,Rajaa Beni Mellal,1,0,1,3,0,win,lose
+22/12/2012,WAC Casablanca,Olympique club de safi ,4,1,3,3,0,win,lose
+22/12/2012,Maghreb Fès,Hassania Agadir,1,1,0,1,1,draw,draw
+23/12/2012,D.H. Eljadida,KAC Kénitra,2,0,2,3,0,win,lose
+23/12/2012,RSB Berkane,Wydad Fès,1,2,-1,0,3,lose,win
+23/12/2012,OCK Khouribga,Moghreb Tétouan,0,0,0,1,1,draw,draw
+24/12/2012,CODM Meknès,FAR Rabat,1,2,-1,0,3,lose,win
+25/12/2012,Chabab Rif Al Hoceima,RCA ,1,1,0,1,1,draw,draw
+28/12/2012,FAR Rabat,OCK Khouribga,2,1,1,3,0,win,lose
+28/12/2012,Moghreb Tétouan,Maghreb Fès,1,1,0,1,1,draw,draw
+29/12/2012,Wydad fes,D.H. Eljadida,1,1,0,1,1,draw,draw
+29/12/2012,Hassania Agadir,WAC Casablanca,1,1,0,1,1,draw,draw
+30/12/2012,RCA ,RSB Berkane,3,2,1,3,0,win,lose
+30/12/2012,Olympique club de safi,Chabab Rif Al Hoceima,1,3,-2,0,3,lose,win
+30/12/2012,KAC Kénitra,FUS Rabat,0,1,-1,0,3,lose,win
+30/12/2012,CODM Meknès,Rajaa Beni Mellal,0,0,0,1,1,draw,draw
+01/01/2013,Maghreb Fès,FAR Rabat,2,0,2,3,0,win,lose
+04/01/2013,FUS Rabat ,Wydad Fès,4,0,4,3,0,win,lose
+05/01/2013,RSB Berkane,Olympique club de safi ,1,0,1,3,0,win,lose
+05/01/2013,Rajaa Beni Mellal,KAC Kénitra,1,1,0,1,1,draw,draw
+05/01/2013,OCK Khouribga,CODM Meknès ,3,1,2,3,0,win,lose
+06/01/2013,Chabab Rif Al Hoceima,Hassania Agadir,0,0,0,1,1,draw,draw
+06/01/2013,D.H. Eljadida,RCA ,1,4,-3,0,3,lose,win
+06/01/2013,WAC Casablanca,Moghreb Tétouan,2,0,2,3,0,win,lose
+08/02/2013,Moghreb Tétouan,RSB Berkane,1,1,0,1,1,draw,draw
+09/02/2013,Wydad fes,KAC Kénitra,0,0,0,1,1,draw,draw
+09/02/2013,Olympique club de safi,FUS Rabat,0,0,0,1,1,draw,draw
+09/02/2013,FAR Rabat,Chabab Rif Al Hoceima,2,1,1,3,0,win,lose
+10/02/2013,Hassania Agadir,D.H. Eljadida,1,0,1,3,0,win,lose
+10/02/2013,CODM Meknès,Maghreb Fès,1,2,-1,0,3,lose,win
+11/02/2013,OCK Khouribga,WAC Casablanca,0,0,0,1,1,draw,draw
+16/02/2013,RSB Berkane,FAR Rabat,0,1,-1,0,3,lose,win
+16/02/2013,KAC Kénitra,RCA ,1,1,0,1,1,draw,draw
+16/02/2013,Wydad fes,CODM Meknès ,1,2,-1,0,3,lose,win
+17/02/2013,WAC Casablanca,Maghreb Fès,0,0,0,1,1,draw,draw
+17/02/2013,Chabab Rif Al Hoceima,OCK Khouribga,2,0,2,3,0,win,lose
+17/02/2013,Rajaa Beni Mellal,Olympique club de safi ,1,1,0,1,1,draw,draw
+19/02/2013,FUS Rabat ,Hassania Agadir,1,2,-1,0,3,lose,win
+20/02/2013,RCA ,Rajaa Beni Mellal,3,0,3,3,0,win,lose
+20/02/2013,D.H. Eljadida,Moghreb Tétouan,1,3,-2,0,3,lose,win
+22/02/2013,Maghreb Fès,Chabab Rif Al Hoceima,4,1,3,3,0,win,lose
+23/02/2013,OCK Khouribga,RSB Berkane,0,0,0,1,1,draw,draw
+23/02/2013,Olympique club de safi,KAC Kénitra,2,0,2,3,0,win,lose
+23/02/2013,CODM Meknès,WAC Casablanca,0,1,-1,0,3,lose,win
+24/02/2013,Hassania Agadir,Rajaa Beni Mellal,0,0,0,1,1,draw,draw
+24/02/2013,FAR Rabat,D.H. Eljadida,1,0,1,3,0,win,lose
+24/02/2013,RCA ,Wydad Fès,2,1,1,3,0,win,lose
+25/02/2013,Moghreb Tétouan,FUS Rabat,1,0,1,3,0,win,lose
+01/03/2013,D.H. Eljadida,OCK Khouribga,1,0,1,3,0,win,lose
+02/03/2013,RSB Berkane,Maghreb Fès,1,1,0,1,1,draw,draw
+02/03/2013,Wydad fes,Olympique club de safi ,2,0,2,3,0,win,lose
+03/03/2013,Chabab Rif Al Hoceima,WAC Casablanca,0,1,-1,0,3,lose,win
+03/03/2013,KAC Kénitra,Hassania Agadir,1,0,1,3,0,win,lose
+03/03/2013,RCA ,CODM Meknès ,3,0,3,3,0,win,lose
+09/03/2013,Maghreb Fès,D.H. Eljadida,1,0,1,3,0,win,lose
+09/03/2013,Moghreb Tétouan,KAC Kénitra,2,0,2,3,0,win,lose
+09/03/2013,OCK Khouribga,FUS Rabat,2,1,1,3,0,win,lose
+09/03/2013,FAR Rabat,Rajaa Beni Mellal,2,1,1,3,0,win,lose
+10/03/2013,Hassania Agadir,Wydad Fès,0,0,0,1,1,draw,draw
+10/03/2013,CODM Meknès,Chabab Rif Al Hoceima,2,0,2,3,0,win,lose
+10/03/2013,WAC Casablanca,RSB Berkane,0,1,-1,0,3,lose,win
+12/03/2013,FUS Rabat ,FAR Rabat,0,1,-1,0,3,lose,win
+13/03/2013,Rajaa Beni Mellal,Moghreb Tétouan,0,0,0,1,1,draw,draw
+16/03/2013,Olympique club de safi,CODM Meknès ,3,2,1,3,0,win,lose
+17/03/2013,Rajaa Beni Mellal,OCK Khouribga,0,0,0,1,1,draw,draw
+17/03/2013,RSB Berkane,Chabab Rif Al Hoceima,2,1,1,3,0,win,lose
+17/03/2013,Wydad fes,Moghreb Tétouan,2,1,1,3,0,win,lose
+18/03/2013,RCA ,Hassania Agadir,2,0,2,3,0,win,lose
+23/03/2013,Olympique club de safi,RCA ,1,2,-1,0,3,lose,win
+28/03/2013,D.H. Eljadida,WAC Casablanca,1,1,0,1,1,draw,draw
+28/03/2013,FUS Rabat ,Maghreb Fès,2,1,1,3,0,win,lose
+29/03/2013,KAC Kénitra,FAR Rabat,0,0,0,1,1,draw,draw
+30/03/2013,Moghreb Tétouan,RCA ,1,0,1,3,0,win,lose
+30/03/2013,Hassania Agadir,Olympique club de safi ,2,2,0,1,1,draw,draw
+31/03/2013,CODM Meknès,RSB Berkane,0,0,0,1,1,draw,draw
+01/04/2013,WAC Casablanca,FUS Rabat,1,0,1,3,0,win,lose
+02/04/2013,OCK Khouribga,KAC Kénitra,3,0,3,3,0,win,lose
+03/04/2013,Chabab Rif Al Hoceima,D.H. Eljadida,1,0,1,3,0,win,lose
+03/04/2013,Maghreb Fès,Rajaa Beni Mellal,2,2,0,1,1,draw,draw
+06/04/2013,Olympique club de safi,Moghreb Tétouan,2,1,1,3,0,win,lose
+07/04/2013,Wydad fes,OCK Khouribga,0,0,0,1,1,draw,draw
+07/04/2013,KAC Kénitra,Maghreb Fès,1,1,0,1,1,draw,draw
+07/04/2013,Hassania Agadir,CODM Meknès ,1,1,0,1,1,draw,draw
+09/04/2013,D.H. Eljadida,RSB Berkane,0,0,0,1,1,draw,draw
+11/04/2013,RCA ,FAR Rabat,1,1,0,1,1,draw,draw
+12/04/2013,Chabab Rif Al Hoceima,Rajaa Beni Mellal,1,0,1,3,0,win,lose
+12/04/2013,WAC Casablanca,KAC Kénitra,1,2,-1,0,3,lose,win
+13/04/2013,RSB Berkane,FUS Rabat,1,0,1,3,0,win,lose
+13/04/2013,Maghreb Fès,Wydad Fès,2,0,2,3,0,win,lose
+14/04/2013,CODM Meknès,D.H. Eljadida,0,1,-1,0,3,lose,win
+14/04/2013,Moghreb Tétouan,Hassania Agadir,2,1,1,3,0,win,lose
+15/04/2013,FAR Rabat,Olympique club de safi ,0,0,0,1,1,draw,draw
+15/04/2013,Rajaa Beni Mellal,WAC Casablanca,3,1,2,3,0,win,lose
+16/04/2013,FUS Rabat ,Chabab Rif Al Hoceima,1,1,0,1,1,draw,draw
+16/04/2013,OCK Khouribga,RCA ,1,3,-2,0,3,lose,win
+19/04/2013,Moghreb Tétouan,CODM Meknès ,2,0,2,3,0,win,lose
+20/04/2013,KAC Kénitra,Chabab Rif Al Hoceima,0,2,-2,0,3,lose,win
+20/04/2013,Rajaa Beni Mellal,RSB Berkane,1,3,-2,0,3,lose,win
+21/04/2013,RCA ,Maghreb Fès,2,1,1,3,0,win,lose
+23/04/2013,Olympique club de safi,OCK Khouribga,0,0,0,1,1,draw,draw
+25/04/2013,CODM Meknès,FUS Rabat,0,0,0,1,1,draw,draw
+25/04/2013,D.H. Eljadida,Rajaa Beni Mellal,0,1,-1,0,3,lose,win
+26/04/2013,FAR Rabat,Moghreb Tétouan,1,0,1,3,0,win,lose
+26/04/2013,Chabab Rif Al Hoceima,Wydad Fès,0,0,0,1,1,draw,draw
+27/04/2013,RSB Berkane,KAC Kénitra,1,0,1,3,0,win,lose
+28/04/2013,WAC Casablanca,RCA ,1,1,0,1,1,draw,draw
+28/04/2013,OCK Khouribga,Hassania Agadir,1,1,0,1,1,draw,draw
+29/04/2013,Maghreb Fès,Olympique club de safi ,3,2,1,3,0,win,lose
+30/04/2013,FAR Rabat,Wydad Fès,1,0,1,3,0,win,lose
+08/05/2013,Wydad fes,WAC Casablanca,1,0,1,3,0,win,lose
+08/05/2013,Hassania Agadir,FAR Rabat,1,1,0,1,1,draw,draw
+10/05/2013,Moghreb Tétouan,OCK Khouribga,0,0,0,1,1,draw,draw
+11/05/2013,KAC Kénitra,D.H. Eljadida,0,0,0,1,1,draw,draw
+11/05/2013,Wydad fes,RSB Berkane,0,1,-1,0,3,lose,win
+11/05/2013,Rajaa Beni Mellal,FUS Rabat,0,2,-2,0,3,lose,win
+12/05/2013,Hassania Agadir,Maghreb Fès,0,0,0,1,1,draw,draw
+12/05/2013,FAR Rabat,CODM Meknès ,2,0,2,3,0,win,lose
+12/05/2013,RCA ,Chabab Rif Al Hoceima,3,1,2,3,0,win,lose
+13/05/2013,Olympique club de safi,WAC Casablanca,0,2,-2,0,3,lose,win
+18/05/2013,WAC Casablanca,Hassania Agadir,1,1,0,1,1,draw,draw
+18/05/2013,D.H. Eljadida,Wydad Fès,3,1,2,3,0,win,lose
+19/05/2013,Maghreb Fès,Moghreb Tétouan,0,2,-2,0,3,lose,win
+19/05/2013,Chabab Rif Al Hoceima,Olympique club de safi ,2,2,0,1,1,draw,draw
+21/05/2013,RSB Berkane,RCA ,1,1,0,1,1,draw,draw
+21/05/2013,OCK Khouribga,FAR Rabat,1,1,0,1,1,draw,draw
+22/05/2013,Rajaa Beni Mellal,CODM Meknès ,0,0,0,1,1,draw,draw
+22/05/2013,FUS Rabat ,KAC Kénitra,1,0,1,3,0,win,lose
+24/05/2013,Moghreb Tétouan,WAC Casablanca,1,1,0,1,1,draw,draw
+25/05/2013,Wydad fes,FUS Rabat,2,0,2,3,0,win,lose
+25/05/2013,FAR Rabat,Maghreb Fès,1,1,0,1,1,draw,draw
+25/05/2013,RCA ,D.H. Eljadida,2,1,1,3,0,win,lose
+26/05/2013,Olympique club de safi,RSB Berkane,1,1,0,1,1,draw,draw
+26/05/2013,CODM Meknès,OCK Khouribga,2,1,1,3,0,win,lose
+26/05/2013,KAC Kénitra,Rajaa Beni Mellal,4,0,4,3,0,win,lose
+27/05/2013,Hassania Agadir,Chabab Rif Al Hoceima,1,1,0,1,1,draw,draw
+29/05/2013,WAC Casablanca,FAR Rabat,0,1,-1,0,3,lose,win
+29/05/2013,FUS Rabat ,RCA ,0,2,-2,0,3,lose,win
+31/05/2013,D.H. Eljadida,Olympique club de safi ,4,0,4,3,0,win,lose
+01/06/2013,RSB Berkane,Hassania Agadir,2,1,1,3,0,win,lose
+01/06/2013,Maghreb Fès,OCK Khouribga,2,0,2,3,0,win,lose
+01/06/2013,Chabab Rif Al Hoceima,Moghreb Tétouan,1,1,0,1,1,draw,draw
+02/06/2013,Rajaa Beni Mellal,Wydad Fès,1,4,-3,0,3,lose,win
+02/06/2013,KAC Kénitra,CODM Meknès ,2,2,0,1,1,draw,draw
+23/08/2013,FAR Rabat,FUS Rabat,0,1,-1,0,3,lose,win
+24/08/2013,AS Salé,Hassania Agadir,2,2,0,1,1,draw,draw
+25/08/2013,RSB Berkane,Moghreb Tétouan,0,1,-1,0,3,lose,win
+25/08/2013,RCA ,Olympique club de safi ,1,1,0,1,1,draw,draw
+25/08/2013,Chabab Rif Al Hoceima,Maghreb Fès,1,2,-1,0,3,lose,win
+26/08/2013,D.H. Eljadida,WAC Casablanca,0,0,0,1,1,draw,draw
+26/08/2013,Wydad fes,KACM Marrakech,1,1,0,1,1,draw,draw
+27/08/2013,KAC Kénitra,OCK Khouribga,1,1,0,1,1,draw,draw
+30/08/2013,Olympique club de safi,RSB Berkane,0,1,-1,0,3,lose,win
+31/08/2013,Maghreb Fès,FAR Rabat,1,1,0,1,1,draw,draw
+31/08/2013,Moghreb Tétouan,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+01/09/2013,WAC Casablanca,KAC Kénitra,3,0,3,3,0,win,lose
+01/09/2013,Hassania Agadir,D.H. Eljadida,1,0,1,3,0,win,lose
+01/09/2013,KACM Marrakech,AS Salé,1,0,1,3,0,win,lose
+01/09/2013,OCK Khouribga,RCA ,1,0,1,3,0,win,lose
+04/09/2013,FUS Rabat ,Wydad Fès,0,0,0,1,1,draw,draw
+20/09/2013,KAC Kénitra,RCA ,1,1,0,1,1,draw,draw
+21/09/2013,Wydad fes,Maghreb Fès,3,4,-1,0,3,lose,win
+21/09/2013,Chabab Rif Al Hoceima,Olympique club de safi ,1,1,0,1,1,draw,draw
+21/09/2013,WAC Casablanca,Hassania Agadir,1,2,-1,0,3,lose,win
+22/09/2013,D.H. Eljadida,KACM Marrakech,3,0,3,3,0,win,lose
+22/09/2013,RSB Berkane,OCK Khouribga,1,1,0,1,1,draw,draw
+22/09/2013,FAR Rabat,Moghreb Tétouan,1,3,-2,0,3,lose,win
+27/09/2013,Maghreb Fès,AS Salé,0,2,-2,0,3,lose,win
+28/09/2013,Moghreb Tétouan,Wydad Fès,1,0,1,3,0,win,lose
+28/09/2013,Olympique club de safi,FAR Rabat,1,2,-1,0,3,lose,win
+29/09/2013,RCA ,RSB Berkane,0,0,0,1,1,draw,draw
+29/09/2013,OCK Khouribga,Chabab Rif Al Hoceima,0,0,0,1,1,draw,draw
+29/09/2013,Hassania Agadir,KAC Kénitra,2,2,0,1,1,draw,draw
+29/09/2013,KACM Marrakech,WAC Casablanca,2,0,2,3,0,win,lose
+30/09/2013,FUS Rabat ,D.H. Eljadida,1,1,0,1,1,draw,draw
+04/10/2013,Hassania Agadir,KACM Marrakech,3,4,-1,0,3,lose,win
+05/10/2013,FAR Rabat,OCK Khouribga,0,0,0,1,1,draw,draw
+05/10/2013,Wydad fes,Olympique club de safi ,1,3,-2,0,3,lose,win
+05/10/2013,KAC Kénitra,RSB Berkane,2,0,2,3,0,win,lose
+06/10/2013,AS Salé,Moghreb Tétouan,0,1,-1,0,3,lose,win
+06/10/2013,Chabab Rif Al Hoceima,RCA ,0,2,-2,0,3,lose,win
+07/10/2013,D.H. Eljadida,Maghreb Fès,1,0,1,3,0,win,lose
+13/10/2013,AS Salé,FUS Rabat,1,1,0,1,1,draw,draw
+23/10/2013,WAC Casablanca,FUS Rabat,2,0,2,3,0,win,lose
+25/10/2013,OCK Khouribga,Wydad Fès,2,1,1,3,0,win,lose
+26/10/2013,RSB Berkane,Chabab Rif Al Hoceima,0,2,-2,0,3,lose,win
+27/10/2013,Moghreb Tétouan,D.H. Eljadida,0,0,0,1,1,draw,draw
+27/10/2013,KACM Marrakech,KAC Kénitra,1,0,1,3,0,win,lose
+27/10/2013,RCA ,FAR Rabat,1,0,1,3,0,win,lose
+27/10/2013,Maghreb Fès,WAC Casablanca,0,1,-1,0,3,lose,win
+27/10/2013,Olympique club de safi,AS Salé,1,1,0,1,1,draw,draw
+28/10/2013,FUS Rabat ,RSB Berkane,0,0,0,1,1,draw,draw
+01/11/2013,FAR Rabat,RSB Berkane,0,0,0,1,1,draw,draw
+02/11/2013,AS Salé,OCK Khouribga,0,0,0,1,1,draw,draw
+02/11/2013,KACM Marrakech,FUS Rabat,1,1,0,1,1,draw,draw
+02/11/2013,WAC Casablanca,Moghreb Tétouan,2,2,0,1,1,draw,draw
+03/11/2013,Wydad fes,RCA ,0,1,-1,0,3,lose,win
+03/11/2013,KAC Kénitra,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+03/11/2013,D.H. Eljadida,Olympique club de safi ,1,1,0,1,1,draw,draw
+03/11/2013,Hassania Agadir,Maghreb Fès,2,1,1,3,0,win,lose
+08/11/2013,Maghreb Fès,KACM Marrakech,1,1,0,1,1,draw,draw
+09/11/2013,RCA ,AS Salé,2,1,1,3,0,win,lose
+09/11/2013,RSB Berkane,Wydad Fès,2,0,2,3,0,win,lose
+09/11/2013,Olympique club de safi,WAC Casablanca,2,2,0,1,1,draw,draw
+09/11/2013,FUS Rabat ,KAC Kénitra,1,1,0,1,1,draw,draw
+10/11/2013,Chabab Rif Al Hoceima,FAR Rabat,2,1,1,3,0,win,lose
+10/11/2013,OCK Khouribga,D.H. Eljadida,1,1,0,1,1,draw,draw
+10/11/2013,Moghreb Tétouan,Hassania Agadir,1,1,0,1,1,draw,draw
+15/11/2013,Wydad fes,Chabab Rif Al Hoceima,0,0,0,1,1,draw,draw
+16/11/2013,Hassania Agadir,Olympique club de safi ,2,1,1,3,0,win,lose
+17/11/2013,WAC Casablanca,OCK Khouribga,3,1,2,3,0,win,lose
+17/11/2013,KACM Marrakech,Moghreb Tétouan,2,1,1,3,0,win,lose
+17/11/2013,AS Salé,RSB Berkane,1,2,-1,0,3,lose,win
+17/11/2013,KAC Kénitra,FAR Rabat,0,0,0,1,1,draw,draw
+20/11/2013,FUS Rabat ,Maghreb Fès,3,0,3,3,0,win,lose
+22/11/2013,Chabab Rif Al Hoceima,AS Salé,1,0,1,3,0,win,lose
+23/11/2013,Olympique club de safi,KACM Marrakech,1,0,1,3,0,win,lose
+23/11/2013,OCK Khouribga,Hassania Agadir,0,0,0,1,1,draw,draw
+23/11/2013,FAR Rabat,Wydad Fès,0,1,-1,0,3,lose,win
+24/11/2013,RCA ,WAC Casablanca,1,1,0,1,1,draw,draw
+24/11/2013,Maghreb Fès,KAC Kénitra,0,1,-1,0,3,lose,win
+24/11/2013,RSB Berkane,D.H. Eljadida,0,0,0,1,1,draw,draw
+25/11/2013,Moghreb Tétouan,FUS Rabat,0,0,0,1,1,draw,draw
+28/11/2013,D.H. Eljadida,RCA ,1,0,1,3,0,win,lose
+29/11/2013,WAC Casablanca,RSB Berkane,3,2,1,3,0,win,lose
+30/11/2013,FUS Rabat ,Olympique club de safi ,1,0,1,3,0,win,lose
+30/11/2013,AS Salé,FAR Rabat,1,2,-1,0,3,lose,win
+01/12/2013,Maghreb Fès,Moghreb Tétouan,1,1,0,1,1,draw,draw
+01/12/2013,KAC Kénitra,Wydad Fès,1,0,1,3,0,win,lose
+01/12/2013,KACM Marrakech,OCK Khouribga,0,0,0,1,1,draw,draw
+02/12/2013,D.H. Eljadida,Chabab Rif Al Hoceima,2,1,1,3,0,win,lose
+03/12/2013,Hassania Agadir,RCA ,1,0,1,3,0,win,lose
+06/12/2013,Olympique club de safi,Maghreb Fès,1,1,0,1,1,draw,draw
+07/12/2013,Wydad fes,AS Salé,1,0,1,3,0,win,lose
+07/12/2013,Moghreb Tétouan,KAC Kénitra,0,0,0,1,1,draw,draw
+08/12/2013,Chabab Rif Al Hoceima,WAC Casablanca,2,0,2,3,0,win,lose
+08/12/2013,OCK Khouribga,FUS Rabat,1,1,0,1,1,draw,draw
+08/12/2013,FAR Rabat,D.H. Eljadida,1,0,1,3,0,win,lose
+08/12/2013,RSB Berkane,Hassania Agadir,1,0,1,3,0,win,lose
+13/12/2013,KAC Kénitra,AS Salé,1,1,0,1,1,draw,draw
+15/12/2013,D.H. Eljadida,Wydad Fès,4,1,3,3,0,win,lose
+15/12/2013,Moghreb Tétouan,Olympique club de safi ,2,1,1,3,0,win,lose
+15/12/2013,WAC Casablanca,FAR Rabat,2,1,1,3,0,win,lose
+15/12/2013,KACM Marrakech,RSB Berkane,0,0,0,1,1,draw,draw
+16/12/2013,Maghreb Fès,OCK Khouribga,3,1,2,3,0,win,lose
+21/12/2013,Chabab Rif Al Hoceima,KACM Marrakech,0,1,-1,0,3,lose,win
+22/12/2013,FAR Rabat,Hassania Agadir,3,0,3,3,0,win,lose
+22/12/2013,KAC Kénitra,Olympique club de safi ,1,1,0,1,1,draw,draw
+22/12/2013,RSB Berkane,FUS Rabat,1,1,0,1,1,draw,draw
+22/12/2013,AS Salé,D.H. Eljadida,1,0,1,3,0,win,lose
+23/12/2013,OCK Khouribga,Moghreb Tétouan,1,2,-1,0,3,lose,win
+23/12/2013,Wydad fes,WAC Casablanca,0,2,-2,0,3,lose,win
+27/12/2013,FUS Rabat ,Chabab Rif Al Hoceima,2,0,2,3,0,win,lose
+28/12/2013,Hassania Agadir,Wydad Fès,4,3,1,3,0,win,lose
+28/12/2013,Maghreb Fès,RSB Berkane,1,4,-3,0,3,lose,win
+28/12/2013,Moghreb Tétouan,RCA ,1,0,1,3,0,win,lose
+29/12/2013,Olympique club de safi,OCK Khouribga,2,0,2,3,0,win,lose
+29/12/2013,D.H. Eljadida,KAC Kénitra,2,1,1,3,0,win,lose
+29/12/2013,WAC Casablanca,AS Salé,1,1,0,1,1,draw,draw
+29/12/2013,KACM Marrakech,FAR Rabat,1,0,1,3,0,win,lose
+02/01/2014,Hassania Agadir,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+02/01/2014,RCA ,KACM Marrakech,0,0,0,1,1,draw,draw
+01/02/2014,FUS Rabat ,RCA ,1,0,1,3,0,win,lose
+08/02/2014,Wydad fes,FUS Rabat,0,1,-1,0,3,lose,win
+08/02/2014,RSB Berkane,Olympique club de safi ,0,0,0,1,1,draw,draw
+09/02/2014,Chabab Rif Al Hoceima,Moghreb Tétouan,2,1,1,3,0,win,lose
+09/02/2014,KAC Kénitra,WAC Casablanca,1,1,0,1,1,draw,draw
+09/02/2014,AS Salé,KACM Marrakech,0,3,-3,0,3,lose,win
+15/02/2014,Hassania Agadir,WAC Casablanca,1,0,1,3,0,win,lose
+15/02/2014,Maghreb Fès,Wydad Fès,0,0,0,1,1,draw,draw
+16/02/2014,Olympique club de safi,Chabab Rif Al Hoceima,1,2,-1,0,3,lose,win
+16/02/2014,OCK Khouribga,RSB Berkane,1,0,1,3,0,win,lose
+16/02/2014,FUS Rabat ,AS Salé,1,0,1,3,0,win,lose
+19/02/2014,RCA ,Maghreb Fès,1,0,1,3,0,win,lose
+21/02/2014,Wydad fes,Moghreb Tétouan,1,2,-1,0,3,lose,win
+22/02/2014,Chabab Rif Al Hoceima,OCK Khouribga,1,0,1,3,0,win,lose
+22/02/2014,WAC Casablanca,KACM Marrakech,0,0,0,1,1,draw,draw
+22/02/2014,KAC Kénitra,Hassania Agadir,0,0,0,1,1,draw,draw
+23/02/2014,FAR Rabat,Olympique club de safi ,3,2,1,3,0,win,lose
+23/02/2014,RSB Berkane,RCA ,1,1,0,1,1,draw,draw
+23/02/2014,D.H. Eljadida,FUS Rabat,1,0,1,3,0,win,lose
+23/02/2014,AS Salé,Maghreb Fès,1,0,1,3,0,win,lose
+01/03/2014,Moghreb Tétouan,AS Salé,2,1,1,3,0,win,lose
+01/03/2014,KACM Marrakech,Hassania Agadir,2,0,2,3,0,win,lose
+02/03/2014,OCK Khouribga,FAR Rabat,0,1,-1,0,3,lose,win
+02/03/2014,Olympique club de safi,Wydad Fès,0,1,-1,0,3,lose,win
+02/03/2014,FUS Rabat ,WAC Casablanca,0,0,0,1,1,draw,draw
+02/03/2014,RSB Berkane,KAC Kénitra,0,0,0,1,1,draw,draw
+07/03/2014,Wydad fes,OCK Khouribga,0,1,-1,0,3,lose,win
+08/03/2014,Hassania Agadir,FUS Rabat,2,1,1,3,0,win,lose
+08/03/2014,KAC Kénitra,KACM Marrakech,0,0,0,1,1,draw,draw
+09/03/2014,Chabab Rif Al Hoceima,RSB Berkane,1,0,1,3,0,win,lose
+09/03/2014,AS Salé,Olympique club de safi ,0,0,0,1,1,draw,draw
+12/03/2014,RCA ,OCK Khouribga,1,0,1,3,0,win,lose
+12/03/2014,D.H. Eljadida,Hassania Agadir,1,0,1,3,0,win,lose
+13/03/2014,FAR Rabat,Maghreb Fès,2,1,1,3,0,win,lose
+14/03/2014,Moghreb Tétouan,WAC Casablanca,1,0,1,3,0,win,lose
+15/03/2014,FUS Rabat ,KACM Marrakech,0,0,0,1,1,draw,draw
+15/03/2014,Chabab Rif Al Hoceima,KAC Kénitra,0,1,-1,0,3,lose,win
+16/03/2014,Olympique club de safi,D.H. Eljadida,1,1,0,1,1,draw,draw
+16/03/2014,OCK Khouribga,AS Salé,1,1,0,1,1,draw,draw
+16/03/2014,RSB Berkane,FAR Rabat,1,1,0,1,1,draw,draw
+16/03/2014,RCA ,Wydad Fès,4,0,4,3,0,win,lose
+17/03/2014,Maghreb Fès,Hassania Agadir,3,1,2,3,0,win,lose
+19/03/2014,RCA ,KAC Kénitra,5,0,5,3,0,win,lose
+22/03/2014,WAC Casablanca,Olympique club de safi ,1,0,1,3,0,win,lose
+22/03/2014,FAR Rabat,Chabab Rif Al Hoceima,1,1,0,1,1,draw,draw
+22/03/2014,Wydad fes,RSB Berkane,0,0,0,1,1,draw,draw
+23/03/2014,KAC Kénitra,FUS Rabat,2,3,-1,0,3,lose,win
+23/03/2014,Hassania Agadir,Moghreb Tétouan,1,2,-1,0,3,lose,win
+23/03/2014,KACM Marrakech,Maghreb Fès,1,0,1,3,0,win,lose
+23/03/2014,AS Salé,RCA ,1,0,1,3,0,win,lose
+27/03/2014,RCA ,Chabab Rif Al Hoceima,3,1,2,3,0,win,lose
+29/03/2014,Moghreb Tétouan,KACM Marrakech,2,0,2,3,0,win,lose
+29/03/2014,Maghreb Fès,FUS Rabat,1,1,0,1,1,draw,draw
+30/03/2014,RSB Berkane,AS Salé,2,2,0,1,1,draw,draw
+30/03/2014,Olympique club de safi,Hassania Agadir,1,0,1,3,0,win,lose
+30/03/2014,OCK Khouribga,WAC Casablanca,0,2,-2,0,3,lose,win
+30/03/2014,FAR Rabat,KAC Kénitra,0,0,0,1,1,draw,draw
+01/04/2014,Chabab Rif Al Hoceima,Wydad Fès,1,1,0,1,1,draw,draw
+02/04/2014,Moghreb Tétouan,FAR Rabat,1,1,0,1,1,draw,draw
+02/04/2014,KACM Marrakech,D.H. Eljadida,0,0,0,1,1,draw,draw
+05/04/2014,Hassania Agadir,OCK Khouribga,0,1,-1,0,3,lose,win
+05/04/2014,KAC Kénitra,Maghreb Fès,0,1,-1,0,3,lose,win
+06/04/2014,FUS Rabat ,Moghreb Tétouan,1,0,1,3,0,win,lose
+06/04/2014,AS Salé,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+06/04/2014,WAC Casablanca,RCA ,0,2,-2,0,3,lose,win
+06/04/2014,D.H. Eljadida,RSB Berkane,0,0,0,1,1,draw,draw
+07/04/2014,KACM Marrakech,Olympique club de safi ,1,1,0,1,1,draw,draw
+07/04/2014,Wydad fes,FAR Rabat,1,1,0,1,1,draw,draw
+09/04/2014,Maghreb Fès,D.H. Eljadida,2,2,0,1,1,draw,draw
+12/04/2014,RSB Berkane,WAC Casablanca,3,0,3,3,0,win,lose
+12/04/2014,FAR Rabat,AS Salé,1,0,1,3,0,win,lose
+12/04/2014,RCA ,Hassania Agadir,3,1,2,3,0,win,lose
+13/04/2014,Chabab Rif Al Hoceima,D.H. Eljadida,1,0,1,3,0,win,lose
+13/04/2014,Olympique club de safi,FUS Rabat,1,0,1,3,0,win,lose
+13/04/2014,Wydad fes,KAC Kénitra,2,3,-1,0,3,lose,win
+13/04/2014,OCK Khouribga,KACM Marrakech,0,4,-4,0,3,lose,win
+14/04/2014,Moghreb Tétouan,Maghreb Fès,1,1,0,1,1,draw,draw
+16/04/2014,FAR Rabat,RCA ,1,3,-2,0,3,lose,win
+19/04/2014,WAC Casablanca,Chabab Rif Al Hoceima,2,0,2,3,0,win,lose
+19/04/2014,Maghreb Fès,Olympique club de safi ,1,0,1,3,0,win,lose
+19/04/2014,AS Salé,Wydad Fès,0,0,0,1,1,draw,draw
+20/04/2014,KACM Marrakech,RCA ,0,0,0,1,1,draw,draw
+20/04/2014,KAC Kénitra,Moghreb Tétouan,0,1,-1,0,3,lose,win
+20/04/2014,FUS Rabat ,OCK Khouribga,0,2,-2,0,3,lose,win
+21/04/2014,Hassania Agadir,RSB Berkane,2,2,0,1,1,draw,draw
+23/04/2014,WAC Casablanca,Maghreb Fès,0,0,0,1,1,draw,draw
+26/04/2014,RCA ,FUS Rabat,1,0,1,3,0,win,lose
+26/04/2014,Chabab Rif Al Hoceima,Hassania Agadir,1,1,0,1,1,draw,draw
+26/04/2014,Olympique club de safi,Moghreb Tétouan,1,1,0,1,1,draw,draw
+27/04/2014,AS Salé,KAC Kénitra,1,0,1,3,0,win,lose
+27/04/2014,RSB Berkane,KACM Marrakech,0,0,0,1,1,draw,draw
+27/04/2014,OCK Khouribga,Maghreb Fès,2,1,1,3,0,win,lose
+27/04/2014,FAR Rabat,WAC Casablanca,1,1,0,1,1,draw,draw
+30/04/2014,D.H. Eljadida,Moghreb Tétouan,1,1,0,1,1,draw,draw
+03/05/2014,Olympique club de safi,KAC Kénitra,1,0,1,3,0,win,lose
+03/05/2014,FUS Rabat ,RSB Berkane,0,0,0,1,1,draw,draw
+03/05/2014,WAC Casablanca,Wydad Fès,1,1,0,1,1,draw,draw
+04/05/2014,Moghreb Tétouan,OCK Khouribga,2,0,2,3,0,win,lose
+04/05/2014,Maghreb Fès,RCA ,0,1,-1,0,3,lose,win
+04/05/2014,D.H. Eljadida,AS Salé,3,2,1,3,0,win,lose
+04/05/2014,Hassania Agadir,FAR Rabat,1,2,-1,0,3,lose,win
+05/05/2014,KACM Marrakech,Chabab Rif Al Hoceima,1,2,-1,0,3,lose,win
+07/05/2014,D.H. Eljadida,OCK Khouribga,1,0,1,3,0,win,lose
+11/05/2014,RCA ,D.H. Eljadida,1,0,1,3,0,win,lose
+14/05/2014,D.H. Eljadida,FAR Rabat,1,1,0,1,1,draw,draw
+17/05/2014,Wydad fes,Hassania Agadir,2,1,1,3,0,win,lose
+17/05/2014,Chabab Rif Al Hoceima,FUS Rabat,1,3,-2,0,3,lose,win
+18/05/2014,RCA ,Moghreb Tétouan,5,0,5,3,0,win,lose
+18/05/2014,OCK Khouribga,Olympique club de safi ,2,1,1,3,0,win,lose
+18/05/2014,AS Salé,WAC Casablanca,2,2,0,1,1,draw,draw
+18/05/2014,KAC Kénitra,D.H. Eljadida,1,1,0,1,1,draw,draw
+18/05/2014,RSB Berkane,Maghreb Fès,0,0,0,1,1,draw,draw
+19/05/2014,FAR Rabat,KACM Marrakech,1,1,0,1,1,draw,draw
+21/05/2014,Wydad fes,D.H. Eljadida,0,0,0,1,1,draw,draw
+25/05/2014,OCK Khouribga,KAC Kénitra,2,0,2,3,0,win,lose
+25/05/2014,Moghreb Tétouan,RSB Berkane,2,1,1,3,0,win,lose
+25/05/2014,KACM Marrakech,Wydad Fès,2,2,0,1,1,draw,draw
+25/05/2014,Hassania Agadir,AS Salé,2,1,1,3,0,win,lose
+25/05/2014,Olympique club de safi,RCA ,1,0,1,3,0,win,lose
+25/05/2014,Maghreb Fès,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+26/05/2014,FUS Rabat ,FAR Rabat,2,1,1,3,0,win,lose
+26/05/2014,WAC Casablanca,D.H. Eljadida,1,1,0,1,1,draw,draw
+22/08/2014,WAC Casablanca,KAC Kénitra,3,1,2,3,0,win,lose
+22/08/2014,FUS Rabat ,OCK Khouribga,0,0,0,1,1,draw,draw
+23/08/2014,Moghreb Tétouan,RCA ,1,1,0,1,1,draw,draw
+23/08/2014,RSB Berkane,D.H. Eljadida,0,0,0,1,1,draw,draw
+23/08/2014,Ittihad Zemmouri Khmissat,Maghreb Fès,1,0,1,3,0,win,lose
+24/08/2014,KACM Marrakech,Hassania Agadir,4,0,4,3,0,win,lose
+24/08/2014,Chabab Rif Al Hoceima,Olympique club de safi ,3,1,2,3,0,win,lose
+24/08/2014,Chabab Atlas Khénifra,FAR Rabat,0,0,0,1,1,draw,draw
+12/09/2014,Olympique club de safi,RSB Berkane,3,3,0,1,1,draw,draw
+13/09/2014,Hassania Agadir,Chabab Rif Al Hoceima,2,2,0,1,1,draw,draw
+13/09/2014,OCK Khouribga,KACM Marrakech,2,1,1,3,0,win,lose
+13/09/2014,FAR Rabat,Moghreb Tétouan,1,1,0,1,1,draw,draw
+14/09/2014,RCA ,Ittihad Zemmouri Khmissat,1,0,1,3,0,win,lose
+14/09/2014,D.H. Eljadida,Chabab Atlas Khénifra,1,1,0,1,1,draw,draw
+14/09/2014,KAC Kénitra,FUS Rabat,0,0,0,1,1,draw,draw
+14/09/2014,Maghreb Fès,WAC Casablanca,0,0,0,1,1,draw,draw
+19/09/2014,KACM Marrakech,KAC Kénitra,2,0,2,3,0,win,lose
+20/09/2014,FUS Rabat ,Maghreb Fès,2,1,1,3,0,win,lose
+20/09/2014,Chabab Atlas Khénifra,Olympique club de safi ,1,0,1,3,0,win,lose
+20/09/2014,Chabab Rif Al Hoceima,OCK Khouribga,0,2,-2,0,3,lose,win
+21/09/2014,Moghreb Tétouan,D.H. Eljadida,5,1,4,3,0,win,lose
+21/09/2014,RCA ,FAR Rabat,2,1,1,3,0,win,lose
+21/09/2014,RSB Berkane,Hassania Agadir,1,1,0,1,1,draw,draw
+21/09/2014,Ittihad Zemmouri Khmissat,WAC Casablanca,1,1,0,1,1,draw,draw
+26/09/2014,Maghreb Fès,KACM Marrakech,1,2,-1,0,3,lose,win
+27/09/2014,D.H. Eljadida,RCA ,3,0,3,3,0,win,lose
+27/09/2014,KAC Kénitra,Chabab Rif Al Hoceima,2,0,2,3,0,win,lose
+27/09/2014,Olympique club de safi,Moghreb Tétouan,0,2,-2,0,3,lose,win
+28/09/2014,WAC Casablanca,FUS Rabat,4,2,2,3,0,win,lose
+28/09/2014,Hassania Agadir,Chabab Atlas Khénifra,4,2,2,3,0,win,lose
+28/09/2014,FAR Rabat,Ittihad Zemmouri Khmissat,2,0,2,3,0,win,lose
+28/09/2014,OCK Khouribga,RSB Berkane,0,1,-1,0,3,lose,win
+17/10/2014,Chabab Rif Al Hoceima,Maghreb Fès,1,1,0,1,1,draw,draw
+18/10/2014,Moghreb Tétouan,Hassania Agadir,1,1,0,1,1,draw,draw
+18/10/2014,KACM Marrakech,WAC Casablanca,0,0,0,1,1,draw,draw
+18/10/2014,Chabab Atlas Khénifra,OCK Khouribga,0,1,-1,0,3,lose,win
+19/10/2014,RSB Berkane,KAC Kénitra,3,1,2,3,0,win,lose
+19/10/2014,RCA ,Olympique club de safi ,2,0,2,3,0,win,lose
+19/10/2014,Ittihad Zemmouri Khmissat,FUS Rabat,1,1,0,1,1,draw,draw
+19/10/2014,FAR Rabat,D.H. Eljadida,0,1,-1,0,3,lose,win
+24/10/2014,OCK Khouribga,Moghreb Tétouan,0,1,-1,0,3,lose,win
+25/10/2014,Hassania Agadir,RCA ,5,3,2,3,0,win,lose
+25/10/2014,WAC Casablanca,Chabab Rif Al Hoceima,3,0,3,3,0,win,lose
+25/10/2014,KAC Kénitra,Chabab Atlas Khénifra,3,0,3,3,0,win,lose
+26/10/2014,FUS Rabat ,KACM Marrakech,2,1,1,3,0,win,lose
+26/10/2014,Maghreb Fès,RSB Berkane,1,1,0,1,1,draw,draw
+26/10/2014,Olympique club de safi,FAR Rabat,1,1,0,1,1,draw,draw
+26/10/2014,D.H. Eljadida,Ittihad Zemmouri Khmissat,0,1,-1,0,3,lose,win
+31/10/2014,RCA ,OCK Khouribga,0,0,0,1,1,draw,draw
+01/11/2014,D.H. Eljadida,Olympique club de safi ,3,0,3,3,0,win,lose
+01/11/2014,Moghreb Tétouan,KAC Kénitra,0,1,-1,0,3,lose,win
+01/11/2014,Ittihad Zemmouri Khmissat,KACM Marrakech,0,1,-1,0,3,lose,win
+02/11/2014,FAR Rabat,Hassania Agadir,2,1,1,3,0,win,lose
+02/11/2014,Chabab Atlas Khénifra,Maghreb Fès,2,1,1,3,0,win,lose
+02/11/2014,Chabab Rif Al Hoceima,FUS Rabat,1,0,1,3,0,win,lose
+02/11/2014,RSB Berkane,WAC Casablanca,1,1,0,1,1,draw,draw
+07/11/2014,WAC Casablanca,Chabab Atlas Khénifra,2,0,2,3,0,win,lose
+08/11/2014,Maghreb Fès,Moghreb Tétouan,2,0,2,3,0,win,lose
+08/11/2014,Olympique club de safi,Ittihad Zemmouri Khmissat,2,1,1,3,0,win,lose
+08/11/2014,KAC Kénitra,RCA ,1,0,1,3,0,win,lose
+09/11/2014,OCK Khouribga,FAR Rabat,2,1,1,3,0,win,lose
+09/11/2014,Hassania Agadir,D.H. Eljadida,1,0,1,3,0,win,lose
+09/11/2014,KACM Marrakech,Chabab Rif Al Hoceima,1,1,0,1,1,draw,draw
+09/11/2014,FUS Rabat ,RSB Berkane,1,1,0,1,1,draw,draw
+21/11/2014,Olympique club de safi,Hassania Agadir,1,0,1,3,0,win,lose
+22/11/2014,Ittihad Zemmouri Khmissat,Chabab Rif Al Hoceima,2,2,0,1,1,draw,draw
+22/11/2014,Moghreb Tétouan,WAC Casablanca,0,0,0,1,1,draw,draw
+22/11/2014,D.H. Eljadida,OCK Khouribga,0,0,0,1,1,draw,draw
+23/11/2014,RCA ,Maghreb Fès,1,1,0,1,1,draw,draw
+23/11/2014,Chabab Atlas Khénifra,FUS Rabat,1,2,-1,0,3,lose,win
+23/11/2014,FAR Rabat,KAC Kénitra,1,1,0,1,1,draw,draw
+23/11/2014,RSB Berkane,KACM Marrakech,1,1,0,1,1,draw,draw
+28/11/2014,Hassania Agadir,Ittihad Zemmouri Khmissat,2,2,0,1,1,draw,draw
+29/11/2014,FUS Rabat ,Moghreb Tétouan,2,2,0,1,1,draw,draw
+29/11/2014,OCK Khouribga,Olympique club de safi ,1,1,0,1,1,draw,draw
+29/11/2014,KAC Kénitra,D.H. Eljadida,1,1,0,1,1,draw,draw
+30/11/2014,WAC Casablanca,RCA ,2,1,1,3,0,win,lose
+30/11/2014,Maghreb Fès,FAR Rabat,1,1,0,1,1,draw,draw
+30/11/2014,Chabab Rif Al Hoceima,RSB Berkane,1,0,1,3,0,win,lose
+30/11/2014,KACM Marrakech,Chabab Atlas Khénifra,1,0,1,3,0,win,lose
+04/12/2014,Moghreb Tétouan,KACM Marrakech,0,2,-2,0,3,lose,win
+06/12/2014,D.H. Eljadida,Maghreb Fès,4,0,4,3,0,win,lose
+06/12/2014,Olympique club de safi,KAC Kénitra,1,0,1,3,0,win,lose
+06/12/2014,Ittihad Zemmouri Khmissat,RSB Berkane,1,1,0,1,1,draw,draw
+07/12/2014,Hassania Agadir,OCK Khouribga,3,2,1,3,0,win,lose
+07/12/2014,RCA ,FUS Rabat,1,0,1,3,0,win,lose
+07/12/2014,FAR Rabat,WAC Casablanca,1,2,-1,0,3,lose,win
+07/12/2014,Chabab Atlas Khénifra,Chabab Rif Al Hoceima,0,1,-1,0,3,lose,win
+12/12/2014,RSB Berkane,Chabab Atlas Khénifra,1,0,1,3,0,win,lose
+13/12/2014,OCK Khouribga,Ittihad Zemmouri Khmissat,1,0,1,3,0,win,lose
+14/12/2014,FUS Rabat ,FAR Rabat,2,1,1,3,0,win,lose
+14/12/2014,WAC Casablanca,D.H. Eljadida,1,1,0,1,1,draw,draw
+14/12/2014,Maghreb Fès,Olympique club de safi ,1,1,0,1,1,draw,draw
+14/12/2014,KAC Kénitra,Hassania Agadir,1,2,-1,0,3,lose,win
+14/12/2014,KACM Marrakech,RCA ,1,2,-1,0,3,lose,win
+15/12/2014,Chabab Rif Al Hoceima,Moghreb Tétouan,1,1,0,1,1,draw,draw
+19/12/2014,RCA ,Chabab Rif Al Hoceima,4,1,3,3,0,win,lose
+20/12/2014,D.H. Eljadida,FUS Rabat,0,0,0,1,1,draw,draw
+21/12/2014,Olympique club de safi,WAC Casablanca,2,0,2,3,0,win,lose
+21/12/2014,Moghreb Tétouan,RSB Berkane,2,1,1,3,0,win,lose
+21/12/2014,FAR Rabat,KACM Marrakech,2,0,2,3,0,win,lose
+21/12/2014,OCK Khouribga,KAC Kénitra,1,0,1,3,0,win,lose
+21/12/2014,Ittihad Zemmouri Khmissat,Chabab Atlas Khénifra,0,1,-1,0,3,lose,win
+22/12/2014,Hassania Agadir,Maghreb Fès,2,2,0,1,1,draw,draw
+26/12/2014,KACM Marrakech,D.H. Eljadida,1,0,1,3,0,win,lose
+27/12/2014,FUS Rabat ,Olympique club de safi ,4,0,4,3,0,win,lose
+27/12/2014,WAC Casablanca,Hassania Agadir,2,2,0,1,1,draw,draw
+27/12/2014,Chabab Rif Al Hoceima,FAR Rabat,0,4,-4,0,3,lose,win
+28/12/2014,Ittihad Zemmouri Khmissat,KAC Kénitra,3,4,-1,0,3,lose,win
+28/12/2014,Chabab Atlas Khénifra,Moghreb Tétouan,2,4,-2,0,3,lose,win
+28/12/2014,RSB Berkane,RCA ,1,1,0,1,1,draw,draw
+28/12/2014,Maghreb Fès,OCK Khouribga,0,0,0,1,1,draw,draw
+02/01/2015,FAR Rabat,RSB Berkane,0,0,0,1,1,draw,draw
+03/01/2015,RCA ,Chabab Atlas Khénifra,3,0,3,3,0,win,lose
+03/01/2015,Hassania Agadir,FUS Rabat,2,1,1,3,0,win,lose
+03/01/2015,KAC Kénitra,Maghreb Fès,0,1,-1,0,3,lose,win
+04/01/2015,Olympique club de safi,KACM Marrakech,1,0,1,3,0,win,lose
+04/01/2015,D.H. Eljadida,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+04/01/2015,Moghreb Tétouan,Ittihad Zemmouri Khmissat,0,0,0,1,1,draw,draw
+04/01/2015,OCK Khouribga,WAC Casablanca,0,0,0,1,1,draw,draw
+23/01/2015,Maghreb Fès,Ittihad Zemmouri Khmissat,1,2,-1,0,3,lose,win
+24/01/2015,FAR Rabat,Chabab Atlas Khénifra,3,1,2,3,0,win,lose
+24/01/2015,Olympique club de safi,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+24/01/2015,OCK Khouribga,FUS Rabat,0,1,-1,0,3,lose,win
+25/01/2015,D.H. Eljadida,RSB Berkane,1,0,1,3,0,win,lose
+25/01/2015,Hassania Agadir,KACM Marrakech,0,1,-1,0,3,lose,win
+25/01/2015,RCA ,Moghreb Tétouan,0,1,-1,0,3,lose,win
+25/01/2015,KAC Kénitra,WAC Casablanca,0,1,-1,0,3,lose,win
+30/01/2015,RSB Berkane,Olympique club de safi ,2,0,2,3,0,win,lose
+31/01/2015,Chabab Rif Al Hoceima,Hassania Agadir,2,2,0,1,1,draw,draw
+31/01/2015,Moghreb Tétouan,FAR Rabat,1,0,1,3,0,win,lose
+31/01/2015,Chabab Atlas Khénifra,D.H. Eljadida,1,0,1,3,0,win,lose
+01/02/2015,WAC Casablanca,Maghreb Fès,1,1,0,1,1,draw,draw
+01/02/2015,FUS Rabat ,KAC Kénitra,1,0,1,3,0,win,lose
+01/02/2015,Ittihad Zemmouri Khmissat,RCA ,0,3,-3,0,3,lose,win
+01/02/2015,KACM Marrakech,OCK Khouribga,0,1,-1,0,3,lose,win
+06/02/2015,Hassania Agadir,RSB Berkane,2,1,1,3,0,win,lose
+07/02/2015,Maghreb Fès,FUS Rabat,3,0,3,3,0,win,lose
+07/02/2015,D.H. Eljadida,Moghreb Tétouan,2,0,2,3,0,win,lose
+07/02/2015,FAR Rabat,RCA ,1,1,0,1,1,draw,draw
+07/02/2015,Olympique club de safi,Chabab Atlas Khénifra,0,0,0,1,1,draw,draw
+08/02/2015,WAC Casablanca,Ittihad Zemmouri Khmissat,3,0,3,3,0,win,lose
+08/02/2015,OCK Khouribga,Chabab Rif Al Hoceima,2,0,2,3,0,win,lose
+08/02/2015,KAC Kénitra,KACM Marrakech,0,1,-1,0,3,lose,win
+14/02/2015,KACM Marrakech,Maghreb Fès,2,1,1,3,0,win,lose
+14/02/2015,Chabab Atlas Khénifra,Hassania Agadir,1,0,1,3,0,win,lose
+15/02/2015,FUS Rabat ,WAC Casablanca,3,1,2,3,0,win,lose
+15/02/2015,Ittihad Zemmouri Khmissat,FAR Rabat,2,2,0,1,1,draw,draw
+15/02/2015,Chabab Rif Al Hoceima,KAC Kénitra,0,0,0,1,1,draw,draw
+17/02/2015,RSB Berkane,OCK Khouribga,0,0,0,1,1,draw,draw
+18/02/2015,RCA ,D.H. Eljadida,0,1,-1,0,3,lose,win
+20/02/2015,WAC Casablanca,KACM Marrakech,4,0,4,3,0,win,lose
+21/02/2015,KAC Kénitra,RSB Berkane,1,0,1,3,0,win,lose
+21/02/2015,Hassania Agadir,Moghreb Tétouan,1,2,-1,0,3,lose,win
+21/02/2015,D.H. Eljadida,FAR Rabat,0,0,0,1,1,draw,draw
+22/02/2015,Maghreb Fès,Chabab Rif Al Hoceima,2,1,1,3,0,win,lose
+22/02/2015,OCK Khouribga,Chabab Atlas Khénifra,2,1,1,3,0,win,lose
+22/02/2015,Olympique club de safi,RCA ,1,1,0,1,1,draw,draw
+22/02/2015,FUS Rabat ,Ittihad Zemmouri Khmissat,1,0,1,3,0,win,lose
+25/02/2015,Moghreb Tétouan,Olympique club de safi ,0,1,-1,0,3,lose,win
+28/02/2015,Chabab Atlas Khénifra,KAC Kénitra,2,1,1,3,0,win,lose
+28/02/2015,Ittihad Zemmouri Khmissat,D.H. Eljadida,1,0,1,3,0,win,lose
+28/02/2015,Chabab Rif Al Hoceima,WAC Casablanca,1,2,-1,0,3,lose,win
+01/03/2015,FAR Rabat,Olympique club de safi ,1,1,0,1,1,draw,draw
+01/03/2015,KACM Marrakech,FUS Rabat,0,0,0,1,1,draw,draw
+04/03/2015,Moghreb Tétouan,OCK Khouribga,1,1,0,1,1,draw,draw
+06/03/2015,FUS Rabat ,Chabab Rif Al Hoceima,1,1,0,1,1,draw,draw
+07/03/2015,WAC Casablanca,RSB Berkane,2,0,2,3,0,win,lose
+07/03/2015,KAC Kénitra,Moghreb Tétouan,2,2,0,1,1,draw,draw
+07/03/2015,Hassania Agadir,FAR Rabat,1,0,1,3,0,win,lose
+07/03/2015,OCK Khouribga,RCA ,0,1,-1,0,3,lose,win
+08/03/2015,KACM Marrakech,Ittihad Zemmouri Khmissat,2,0,2,3,0,win,lose
+08/03/2015,Maghreb Fès,Chabab Atlas Khénifra,1,1,0,1,1,draw,draw
+08/03/2015,Olympique club de safi,D.H. Eljadida,1,0,1,3,0,win,lose
+11/03/2015,RSB Berkane,Maghreb Fès,0,0,0,1,1,draw,draw
+14/03/2015,Chabab Atlas Khénifra,WAC Casablanca,0,1,-1,0,3,lose,win
+15/03/2015,Moghreb Tétouan,Maghreb Fès,3,2,1,3,0,win,lose
+15/03/2015,D.H. Eljadida,Hassania Agadir,2,1,1,3,0,win,lose
+15/03/2015,Ittihad Zemmouri Khmissat,Olympique club de safi ,1,1,0,1,1,draw,draw
+15/03/2015,Chabab Rif Al Hoceima,KACM Marrakech,0,0,0,1,1,draw,draw
+15/03/2015,FAR Rabat,OCK Khouribga,0,1,-1,0,3,lose,win
+18/03/2015,RSB Berkane,FUS Rabat,1,1,0,1,1,draw,draw
+20/03/2015,OCK Khouribga,D.H. Eljadida,1,0,1,3,0,win,lose
+21/03/2015,KAC Kénitra,FAR Rabat,0,0,0,1,1,draw,draw
+21/03/2015,Hassania Agadir,Olympique club de safi ,0,0,0,1,1,draw,draw
+22/03/2015,Chabab Rif Al Hoceima,Ittihad Zemmouri Khmissat,3,2,1,3,0,win,lose
+22/03/2015,Maghreb Fès,RCA ,2,1,1,3,0,win,lose
+22/03/2015,FUS Rabat ,Chabab Atlas Khénifra,1,0,1,3,0,win,lose
+22/03/2015,KACM Marrakech,RSB Berkane,0,0,0,1,1,draw,draw
+25/03/2015,RCA ,Hassania Agadir,1,2,-1,0,3,lose,win
+10/04/2015,Chabab Atlas Khénifra,KACM Marrakech,1,0,1,3,0,win,lose
+11/04/2015,RCA ,WAC Casablanca,2,2,0,1,1,draw,draw
+11/04/2015,RSB Berkane,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+11/04/2015,Moghreb Tétouan,FUS Rabat,1,0,1,3,0,win,lose
+11/04/2015,D.H. Eljadida,KAC Kénitra,0,0,0,1,1,draw,draw
+12/04/2015,FAR Rabat,Maghreb Fès,1,0,1,3,0,win,lose
+12/04/2015,Olympique club de safi,OCK Khouribga,0,2,-2,0,3,lose,win
+12/04/2015,Ittihad Zemmouri Khmissat,Hassania Agadir,0,0,0,1,1,draw,draw
+14/04/2015,RCA ,KAC Kénitra,0,0,0,1,1,draw,draw
+15/04/2015,WAC Casablanca,Moghreb Tétouan,1,1,0,1,1,draw,draw
+17/04/2015,Maghreb Fès,D.H. Eljadida,0,0,0,1,1,draw,draw
+18/04/2015,WAC Casablanca,FAR Rabat,2,0,2,3,0,win,lose
+18/04/2015,OCK Khouribga,Hassania Agadir,2,1,1,3,0,win,lose
+18/04/2015,RSB Berkane,Ittihad Zemmouri Khmissat,0,0,0,1,1,draw,draw
+19/04/2015,Chabab Rif Al Hoceima,Chabab Atlas Khénifra,1,1,0,1,1,draw,draw
+19/04/2015,KAC Kénitra,Olympique club de safi ,1,0,1,3,0,win,lose
+22/04/2015,KACM Marrakech,Moghreb Tétouan,1,3,-2,0,3,lose,win
+24/04/2015,Olympique club de safi,Maghreb Fès,0,1,-1,0,3,lose,win
+25/04/2015,RCA ,KACM Marrakech,1,1,0,1,1,draw,draw
+25/04/2015,Hassania Agadir,KAC Kénitra,1,0,1,3,0,win,lose
+25/04/2015,Ittihad Zemmouri Khmissat,OCK Khouribga,0,1,-1,0,3,lose,win
+25/04/2015,FAR Rabat,FUS Rabat,0,0,0,1,1,draw,draw
+26/04/2015,Moghreb Tétouan,Chabab Rif Al Hoceima,0,0,0,1,1,draw,draw
+26/04/2015,D.H. Eljadida,WAC Casablanca,0,2,-2,0,3,lose,win
+03/05/2015,Chabab Atlas Khénifra,RSB Berkane,1,1,0,1,1,draw,draw
+07/05/2015,FUS Rabat ,RCA ,2,2,0,1,1,draw,draw
+09/05/2015,WAC Casablanca,Olympique club de safi ,2,0,2,3,0,win,lose
+09/05/2015,RSB Berkane,Moghreb Tétouan,1,0,1,3,0,win,lose
+10/05/2015,Maghreb Fès,Hassania Agadir,3,1,2,3,0,win,lose
+10/05/2015,KAC Kénitra,OCK Khouribga,2,0,2,3,0,win,lose
+10/05/2015,Chabab Rif Al Hoceima,RCA ,2,1,1,3,0,win,lose
+10/05/2015,Chabab Atlas Khénifra,Ittihad Zemmouri Khmissat,2,2,0,1,1,draw,draw
+10/05/2015,KACM Marrakech,FAR Rabat,1,0,1,3,0,win,lose
+10/05/2015,FUS Rabat ,D.H. Eljadida,0,1,-1,0,3,lose,win
+15/05/2015,Olympique club de safi,FUS Rabat,0,2,-2,0,3,lose,win
+16/05/2015,OCK Khouribga,Maghreb Fès,3,2,1,3,0,win,lose
+16/05/2015,Moghreb Tétouan,Chabab Atlas Khénifra,0,0,0,1,1,draw,draw
+16/05/2015,KAC Kénitra,Ittihad Zemmouri Khmissat,1,1,0,1,1,draw,draw
+16/05/2015,Hassania Agadir,WAC Casablanca,0,3,-3,0,3,lose,win
+16/05/2015,FAR Rabat,Chabab Rif Al Hoceima,4,0,4,3,0,win,lose
+17/05/2015,D.H. Eljadida,KACM Marrakech,3,4,-1,0,3,lose,win
+19/05/2015,RCA ,RSB Berkane,1,1,0,1,1,draw,draw
+23/05/2015,Ittihad Zemmouri Khmissat,Moghreb Tétouan,2,1,1,3,0,win,lose
+23/05/2015,Maghreb Fès,KAC Kénitra,2,1,1,3,0,win,lose
+23/05/2015,RSB Berkane,FAR Rabat,1,1,0,1,1,draw,draw
+23/05/2015,Chabab Rif Al Hoceima,D.H. Eljadida,1,0,1,3,0,win,lose
+23/05/2015,Chabab Atlas Khénifra,RCA ,1,0,1,3,0,win,lose
+24/05/2015,FUS Rabat ,Hassania Agadir,2,2,0,1,1,draw,draw
+24/05/2015,WAC Casablanca,OCK Khouribga,0,1,-1,0,3,lose,win
+24/05/2015,KACM Marrakech,Olympique club de safi ,0,0,0,1,1,draw,draw
+05/09/2015,Itthad Tanger,Maghreb Fès,2,0,2,3,0,win,lose
+05/09/2015,Hassania Agadir,Chabab Rif Al Hoceima,2,1,1,3,0,win,lose
+06/09/2015,WAC Casablanca,FAR Rabat,4,2,2,3,0,win,lose
+06/09/2015,RSB Berkane,OCK Khouribga,0,0,0,1,1,draw,draw
+06/09/2015,KACM Marrakech,MCO Oujda,2,0,2,3,0,win,lose
+06/09/2015,KAC Kénitra,D.H. Eljadida,0,0,0,1,1,draw,draw
+06/09/2015,FUS Rabat ,RCA ,2,0,2,3,0,win,lose
+12/09/2015,RCA ,KACM Marrakech,1,1,0,1,1,draw,draw
+12/09/2015,FAR Rabat,Olympique club de safi ,1,1,0,1,1,draw,draw
+12/09/2015,Chabab Rif Al Hoceima,Ittihad Tanger,1,0,1,3,0,win,lose
+13/09/2015,OCK Khouribga,WAC Casablanca,1,3,-2,0,3,lose,win
+13/09/2015,MCO Oujda,KAC Kénitra,1,0,1,3,0,win,lose
+13/09/2015,Maghreb Fès,FUS Rabat,1,1,0,1,1,draw,draw
+13/09/2015,D.H. Eljadida,RSB Berkane,0,1,-1,0,3,lose,win
+18/09/2015,Olympique club de safi,Moghreb Tétouan,1,0,1,3,0,win,lose
+22/09/2015,Moghreb Tétouan,Hassania Agadir,2,4,-2,0,3,lose,win
+02/10/2015,Olympique club de safi,OCK Khouribga,0,1,-1,0,3,lose,win
+03/10/2015,KACM Marrakech,Maghreb Fès,0,0,0,1,1,draw,draw
+03/10/2015,Ittihad Tanger,Moghreb Tétouan,2,2,0,1,1,draw,draw
+03/10/2015,FUS Rabat ,Chabab Rif Al Hoceima,1,1,0,1,1,draw,draw
+04/10/2015,WAC Casablanca,D.H. Eljadida,2,1,1,3,0,win,lose
+04/10/2015,MCO Oujda,RCA ,0,1,-1,0,3,lose,win
+04/10/2015,KAC Kénitra,RSB Berkane,1,2,-1,0,3,lose,win
+05/10/2015,Hassania Agadir,FAR Rabat,1,0,1,3,0,win,lose
+09/10/2015,Moghreb Tétouan,FUS Rabat,0,3,-3,0,3,lose,win
+10/10/2015,Maghreb Fès,MCO Oujda,1,2,-1,0,3,lose,win
+10/10/2015,Chabab Rif Al Hoceima,KACM Marrakech,1,0,1,3,0,win,lose
+10/10/2015,RCA ,KAC Kénitra,0,1,-1,0,3,lose,win
+11/10/2015,OCK Khouribga,Hassania Agadir,2,1,1,3,0,win,lose
+11/10/2015,FAR Rabat,Ittihad Tanger,1,2,-1,0,3,lose,win
+11/10/2015,RSB Berkane,WAC Casablanca,0,0,0,1,1,draw,draw
+11/10/2015,D.H. Eljadida,Olympique club de safi ,0,0,0,1,1,draw,draw
+30/10/2015,Ittihad Tanger,OCK Khouribga,2,1,1,3,0,win,lose
+31/10/2015,RCA ,Maghreb Fès,3,0,3,3,0,win,lose
+31/10/2015,KACM Marrakech,Moghreb Tétouan,2,1,1,3,0,win,lose
+31/10/2015,FUS Rabat ,FAR Rabat,2,3,-1,0,3,lose,win
+01/11/2015,Olympique club de safi,RSB Berkane,1,0,1,3,0,win,lose
+01/11/2015,MCO Oujda,Chabab Rif Al Hoceima,2,3,-1,0,3,lose,win
+01/11/2015,KAC Kénitra,WAC Casablanca,0,1,-1,0,3,lose,win
+01/11/2015,Hassania Agadir,D.H. Eljadida,1,1,0,1,1,draw,draw
+06/11/2015,RSB Berkane,Hassania Agadir,1,1,0,1,1,draw,draw
+07/11/2015,FAR Rabat,KACM Marrakech,1,0,1,3,0,win,lose
+07/11/2015,D.H. Eljadida,Ittihad Tanger,1,1,0,1,1,draw,draw
+08/11/2015,WAC Casablanca,Olympique club de safi ,2,0,2,3,0,win,lose
+08/11/2015,OCK Khouribga,FUS Rabat,1,2,-1,0,3,lose,win
+08/11/2015,Maghreb Fès,KAC Kénitra,0,0,0,1,1,draw,draw
+08/11/2015,Chabab Rif Al Hoceima,RCA ,0,2,-2,0,3,lose,win
+09/11/2015,Moghreb Tétouan,MCO Oujda,1,1,0,1,1,draw,draw
+13/11/2015,KACM Marrakech,OCK Khouribga,1,0,1,3,0,win,lose
+13/11/2015,Ittihad Tanger,RSB Berkane,1,0,1,3,0,win,lose
+13/11/2015,FUS Rabat ,D.H. Eljadida,0,0,0,1,1,draw,draw
+14/11/2015,MCO Oujda,FAR Rabat,0,0,0,1,1,draw,draw
+14/11/2015,Maghreb Fès,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+14/11/2015,KAC Kénitra,Olympique club de safi ,2,1,1,3,0,win,lose
+17/11/2015,RCA ,Moghreb Tétouan,2,3,-1,0,3,lose,win
+20/11/2015,Chabab Rif Al Hoceima,KAC Kénitra,1,2,-1,0,3,lose,win
+21/11/2015,WAC Casablanca,Ittihad Tanger,2,2,0,1,1,draw,draw
+21/11/2015,Olympique club de safi,Hassania Agadir,2,4,-2,0,3,lose,win
+21/11/2015,D.H. Eljadida,KACM Marrakech,1,0,1,3,0,win,lose
+22/11/2015,Moghreb Tétouan,Maghreb Fès,1,0,1,3,0,win,lose
+22/11/2015,FAR Rabat,RCA ,1,0,1,3,0,win,lose
+23/11/2015,RSB Berkane,FUS Rabat,0,1,-1,0,3,lose,win
+23/11/2015,OCK Khouribga,MCO Oujda,1,2,-1,0,3,lose,win
+25/11/2015,Hassania Agadir,WAC Casablanca,0,1,-1,0,3,lose,win
+28/11/2015,KACM Marrakech,RSB Berkane,0,0,0,1,1,draw,draw
+28/11/2015,Ittihad Tanger,Olympique club de safi ,0,1,-1,0,3,lose,win
+28/11/2015,Chabab Rif Al Hoceima,Moghreb Tétouan,1,2,-1,0,3,lose,win
+29/11/2015,RCA ,OCK Khouribga,1,2,-1,0,3,lose,win
+29/11/2015,Maghreb Fès,FAR Rabat,0,1,-1,0,3,lose,win
+29/11/2015,KAC Kénitra,Hassania Agadir,3,1,2,3,0,win,lose
+29/11/2015,FUS Rabat ,WAC Casablanca,1,0,1,3,0,win,lose
+30/11/2015,MCO Oujda,D.H. Eljadida,1,0,1,3,0,win,lose
+04/12/2015,Hassania Agadir,Ittihad Tanger,1,3,-2,0,3,lose,win
+05/12/2015,WAC Casablanca,KACM Marrakech,2,0,2,3,0,win,lose
+05/12/2015,FAR Rabat,Chabab Rif Al Hoceima,2,2,0,1,1,draw,draw
+06/12/2015,RSB Berkane,MCO Oujda,2,1,1,3,0,win,lose
+06/12/2015,OCK Khouribga,Maghreb Fès,0,3,-3,0,3,lose,win
+06/12/2015,Moghreb Tétouan,KAC Kénitra,1,0,1,3,0,win,lose
+06/12/2015,D.H. Eljadida,RCA ,1,1,0,1,1,draw,draw
+07/12/2015,Olympique club de safi,FUS Rabat,0,1,-1,0,3,lose,win
+11/12/2015,Maghreb Fès,D.H. Eljadida,0,0,0,1,1,draw,draw
+12/12/2015,RCA ,RSB Berkane,1,0,1,3,0,win,lose
+12/12/2015,MCO Oujda,WAC Casablanca,1,1,0,1,1,draw,draw
+12/12/2015,Moghreb Tétouan,FAR Rabat,1,1,0,1,1,draw,draw
+13/12/2015,KACM Marrakech,Olympique club de safi ,1,2,-1,0,3,lose,win
+13/12/2015,KAC Kénitra,Ittihad Tanger,0,0,0,1,1,draw,draw
+13/12/2015,FUS Rabat ,Hassania Agadir,2,0,2,3,0,win,lose
+13/12/2015,Chabab Rif Al Hoceima,OCK Khouribga,1,0,1,3,0,win,lose
+18/12/2015,RSB Berkane,Maghreb Fès,2,1,1,3,0,win,lose
+19/12/2015,OCK Khouribga,Moghreb Tétouan,0,1,-1,0,3,lose,win
+19/12/2015,Hassania Agadir,KACM Marrakech,1,1,0,1,1,draw,draw
+19/12/2015,FAR Rabat,KAC Kénitra,2,1,1,3,0,win,lose
+19/12/2015,D.H. Eljadida,Chabab Rif Al Hoceima,3,0,3,3,0,win,lose
+20/12/2015,WAC Casablanca,RCA ,0,0,0,1,1,draw,draw
+20/12/2015,Ittihad Tanger,FUS Rabat,0,1,-1,0,3,lose,win
+21/12/2015,Olympique club de safi,MCO Oujda,0,0,0,1,1,draw,draw
+25/12/2015,KACM Marrakech,Ittihad Tanger,0,1,-1,0,3,lose,win
+25/12/2015,FAR Rabat,OCK Khouribga,0,0,0,1,1,draw,draw
+26/12/2015,RCA ,Olympique club de safi ,0,0,0,1,1,draw,draw
+26/12/2015,KAC Kénitra,FUS Rabat,2,1,1,3,0,win,lose
+26/12/2015,Chabab Rif Al Hoceima,RSB Berkane,1,2,-1,0,3,lose,win
+27/12/2015,MCO Oujda,Hassania Agadir,2,3,-1,0,3,lose,win
+27/12/2015,Moghreb Tétouan,D.H. Eljadida,1,1,0,1,1,draw,draw
+27/12/2015,Maghreb Fès,WAC Casablanca,0,0,0,1,1,draw,draw
+31/12/2015,RSB Berkane,Moghreb Tétouan,0,0,0,1,1,draw,draw
+01/01/2016,Olympique club de safi,Maghreb Fès,2,2,0,1,1,draw,draw
+01/01/2016,Ittihad Tanger,MCO Oujda,3,0,3,3,0,win,lose
+01/01/2016,Hassania Agadir,RCA ,1,1,0,1,1,draw,draw
+01/01/2016,FUS Rabat ,KACM Marrakech,1,1,0,1,1,draw,draw
+02/01/2016,WAC Casablanca,Chabab Rif Al Hoceima,0,0,0,1,1,draw,draw
+02/01/2016,KAC Kénitra,OCK Khouribga,2,2,0,1,1,draw,draw
+02/01/2016,D.H. Eljadida,FAR Rabat,2,3,-1,0,3,lose,win
+05/01/2016,FAR Rabat,RSB Berkane,0,0,0,1,1,draw,draw
+06/01/2016,OCK Khouribga,D.H. Eljadida,1,1,0,1,1,draw,draw
+06/01/2016,Moghreb Tétouan,WAC Casablanca,0,0,0,1,1,draw,draw
+06/01/2016,Maghreb Fès,Hassania Agadir,2,0,2,3,0,win,lose
+07/01/2016,RCA ,Ittihad Tanger,2,2,0,1,1,draw,draw
+07/01/2016,MCO Oujda,FUS Rabat,2,1,1,3,0,win,lose
+07/01/2016,KACM Marrakech,KAC Kénitra,1,2,-1,0,3,lose,win
+07/01/2016,Chabab Rif Al Hoceima,Olympique club de safi ,3,2,1,3,0,win,lose
+12/01/2016,RCA ,FUS Rabat,1,1,0,1,1,draw,draw
+13/02/2016,Maghreb Fès,Ittihad Tanger,0,0,0,1,1,draw,draw
+13/02/2016,D.H. Eljadida,KAC Kénitra,0,1,-1,0,3,lose,win
+13/02/2016,Chabab Rif Al Hoceima,Hassania Agadir,0,1,-1,0,3,lose,win
+14/02/2016,Moghreb Tétouan,Olympique club de safi ,0,0,0,1,1,draw,draw
+16/02/2016,OCK Khouribga,RSB Berkane,2,2,0,1,1,draw,draw
+17/02/2016,MCO Oujda,KACM Marrakech,1,1,0,1,1,draw,draw
+17/02/2016,FAR Rabat,WAC Casablanca,0,2,-2,0,3,lose,win
+19/02/2016,FUS Rabat ,Maghreb Fès,0,0,0,1,1,draw,draw
+20/02/2016,RSB Berkane,D.H. Eljadida,3,1,2,3,0,win,lose
+20/02/2016,Hassania Agadir,Moghreb Tétouan,0,1,-1,0,3,lose,win
+21/02/2016,WAC Casablanca,OCK Khouribga,1,0,1,3,0,win,lose
+21/02/2016,KACM Marrakech,RCA ,0,2,-2,0,3,lose,win
+21/02/2016,KAC Kénitra,MCO Oujda,0,1,-1,0,3,lose,win
+21/02/2016,Ittihad Tanger,Chabab Rif Al Hoceima,0,2,-2,0,3,lose,win
+22/02/2016,Olympique club de safi,FAR Rabat,2,1,1,3,0,win,lose
+26/02/2016,RSB Berkane,KAC Kénitra,1,0,1,3,0,win,lose
+27/02/2016,Chabab Rif Al Hoceima,FUS Rabat,2,1,1,3,0,win,lose
+28/02/2016,RCA ,MCO Oujda,4,0,4,3,0,win,lose
+28/02/2016,Moghreb Tétouan,Ittihad Tanger,1,0,1,3,0,win,lose
+28/02/2016,FAR Rabat,Hassania Agadir,1,4,-3,0,3,lose,win
+01/03/2016,D.H. Eljadida,WAC Casablanca,0,0,0,1,1,draw,draw
+04/03/2016,KACM Marrakech,Chabab Rif Al Hoceima,2,0,2,3,0,win,lose
+04/03/2016,FUS Rabat ,Moghreb Tétouan,2,0,2,3,0,win,lose
+05/03/2016,KAC Kénitra,RCA ,0,3,-3,0,3,lose,win
+05/03/2016,Hassania Agadir,OCK Khouribga,2,0,2,3,0,win,lose
+06/03/2016,Olympique club de safi,D.H. Eljadida,0,1,-1,0,3,lose,win
+06/03/2016,MCO Oujda,Maghreb Fès,0,0,0,1,1,draw,draw
+06/03/2016,Ittihad Tanger,FAR Rabat,1,0,1,3,0,win,lose
+09/03/2016,OCK Khouribga,Olympique club de safi ,0,0,0,1,1,draw,draw
+09/03/2016,Maghreb Fès,KACM Marrakech,1,1,0,1,1,draw,draw
+12/03/2016,Chabab Rif Al Hoceima,MCO Oujda,1,0,1,3,0,win,lose
+13/03/2016,RSB Berkane,Olympique club de safi ,1,0,1,3,0,win,lose
+13/03/2016,D.H. Eljadida,Hassania Agadir,1,1,0,1,1,draw,draw
+18/03/2016,Hassania Agadir,RSB Berkane,0,0,0,1,1,draw,draw
+19/03/2016,RCA ,Chabab Rif Al Hoceima,2,1,1,3,0,win,lose
+19/03/2016,MCO Oujda,Moghreb Tétouan,1,2,-1,0,3,lose,win
+19/03/2016,Ittihad Tanger,D.H. Eljadida,1,0,1,3,0,win,lose
+20/03/2016,KAC Kénitra,Maghreb Fès,1,0,1,3,0,win,lose
+24/03/2016,OCK Khouribga,Ittihad Tanger,1,0,1,3,0,win,lose
+24/03/2016,FAR Rabat,FUS Rabat,1,1,0,1,1,draw,draw
+26/03/2016,WAC Casablanca,KAC Kénitra,2,0,2,3,0,win,lose
+27/03/2016,Moghreb Tétouan,KACM Marrakech,1,0,1,3,0,win,lose
+27/03/2016,Maghreb Fès,RCA ,0,3,-3,0,3,lose,win
+29/03/2016,FUS Rabat ,OCK Khouribga,1,0,1,3,0,win,lose
+30/03/2016,Olympique club de safi,WAC Casablanca,0,1,-1,0,3,lose,win
+31/03/2016,KACM Marrakech,FAR Rabat,3,0,3,3,0,win,lose
+01/04/2016,Chabab Rif Al Hoceima,Maghreb Fès,1,1,0,1,1,draw,draw
+02/04/2016,RSB Berkane,Ittihad Tanger,0,0,0,1,1,draw,draw
+02/04/2016,D.H. Eljadida,FUS Rabat,0,0,0,1,1,draw,draw
+03/04/2016,WAC Casablanca,Hassania Agadir,1,2,-1,0,3,lose,win
+03/04/2016,Olympique club de safi,KAC Kénitra,1,2,-1,0,3,lose,win
+03/04/2016,Moghreb Tétouan,RCA ,2,5,-3,0,3,lose,win
+04/04/2016,OCK Khouribga,KACM Marrakech,2,1,1,3,0,win,lose
+04/04/2016,FAR Rabat,MCO Oujda,1,0,1,3,0,win,lose
+09/04/2016,Maghreb Fès,Moghreb Tétouan,2,0,2,3,0,win,lose
+10/04/2016,MCO Oujda,OCK Khouribga,1,0,1,3,0,win,lose
+10/04/2016,KAC Kénitra,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+10/04/2016,Hassania Agadir,Olympique club de safi ,0,0,0,1,1,draw,draw
+11/04/2016,RCA ,FAR Rabat,1,4,-3,0,3,lose,win
+12/04/2016,FUS Rabat ,RSB Berkane,0,0,0,1,1,draw,draw
+13/04/2016,Ittihad Tanger,WAC Casablanca,3,0,3,3,0,win,lose
+15/04/2016,D.H. Eljadida,MCO Oujda,3,2,1,3,0,win,lose
+16/04/2016,RSB Berkane,KACM Marrakech,2,0,2,3,0,win,lose
+16/04/2016,Hassania Agadir,KAC Kénitra,5,1,4,3,0,win,lose
+17/04/2016,Olympique club de safi,Ittihad Tanger,2,0,2,3,0,win,lose
+17/04/2016,OCK Khouribga,RCA ,1,3,-2,0,3,lose,win
+17/04/2016,Moghreb Tétouan,Chabab Rif Al Hoceima,1,2,-1,0,3,lose,win
+17/04/2016,FAR Rabat,Maghreb Fès,1,0,1,3,0,win,lose
+23/04/2016,MCO Oujda,RSB Berkane,0,0,0,1,1,draw,draw
+23/04/2016,KAC Kénitra,Moghreb Tétouan,3,4,-1,0,3,lose,win
+24/04/2016,RCA ,D.H. Eljadida,0,1,-1,0,3,lose,win
+24/04/2016,Maghreb Fès,OCK Khouribga,1,1,0,1,1,draw,draw
+24/04/2016,Ittihad Tanger,Hassania Agadir,3,1,2,3,0,win,lose
+24/04/2016,Chabab Rif Al Hoceima,FAR Rabat,1,1,0,1,1,draw,draw
+27/04/2016,FUS Rabat ,Olympique club de safi ,3,1,2,3,0,win,lose
+27/04/2016,KACM Marrakech,WAC Casablanca,1,0,1,3,0,win,lose
+29/04/2016,FAR Rabat,Moghreb Tétouan,5,2,3,3,0,win,lose
+30/04/2016,D.H. Eljadida,Maghreb Fès,2,1,1,3,0,win,lose
+30/04/2016,RSB Berkane,RCA ,1,1,0,1,1,draw,draw
+30/04/2016,OCK Khouribga,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+30/04/2016,Ittihad Tanger,KAC Kénitra,1,0,1,3,0,win,lose
+01/05/2016,WAC Casablanca,MCO Oujda,2,1,1,3,0,win,lose
+01/05/2016,Olympique club de safi,KACM Marrakech,1,0,1,3,0,win,lose
+01/05/2016,Hassania Agadir,FUS Rabat,1,1,0,1,1,draw,draw
+04/05/2016,WAC Casablanca,RSB Berkane,1,0,1,3,0,win,lose
+07/05/2016,MCO Oujda,Olympique club de safi ,1,1,0,1,1,draw,draw
+07/05/2016,KAC Kénitra,FAR Rabat,0,2,-2,0,3,lose,win
+08/05/2016,RCA ,WAC Casablanca,3,0,3,3,0,win,lose
+08/05/2016,Moghreb Tétouan,OCK Khouribga,1,2,-1,0,3,lose,win
+08/05/2016,Maghreb Fès,RSB Berkane,2,2,0,1,1,draw,draw
+08/05/2016,Chabab Rif Al Hoceima,D.H. Eljadida,0,0,0,1,1,draw,draw
+13/05/2016,KACM Marrakech,D.H. Eljadida,1,3,-2,0,3,lose,win
+14/05/2016,WAC Casablanca,FUS Rabat,0,1,-1,0,3,lose,win
+22/05/2016,WAC Casablanca,Maghreb Fès,3,0,3,3,0,win,lose
+22/05/2016,RSB Berkane,Chabab Rif Al Hoceima,0,1,-1,0,3,lose,win
+22/05/2016,Ittihad Tanger,KACM Marrakech,0,0,0,1,1,draw,draw
+22/05/2016,FUS Rabat ,KAC Kénitra,2,1,1,3,0,win,lose
+22/05/2016,D.H. Eljadida,Moghreb Tétouan,1,2,-1,0,3,lose,win
+22/05/2016,Olympique club de safi,RCA ,1,0,1,3,0,win,lose
+22/05/2016,Hassania Agadir,MCO Oujda,1,0,1,3,0,win,lose
+22/05/2016,OCK Khouribga,FAR Rabat,0,1,-1,0,3,lose,win
+25/05/2016,KACM Marrakech,Hassania Agadir,3,2,1,3,0,win,lose
+25/05/2016,FUS Rabat ,Ittihad Tanger,2,1,1,3,0,win,lose
+29/05/2016,RCA ,Hassania Agadir,5,1,4,3,0,win,lose
+29/05/2016,OCK Khouribga,KAC Kénitra,1,0,1,3,0,win,lose
+29/05/2016,MCO Oujda,Ittihad Tanger,1,2,-1,0,3,lose,win
+29/05/2016,Moghreb Tétouan,RSB Berkane,1,0,1,3,0,win,lose
+29/05/2016,Maghreb Fès,Olympique club de safi ,0,0,0,1,1,draw,draw
+29/05/2016,KACM Marrakech,FUS Rabat,0,1,-1,0,3,lose,win
+29/05/2016,FAR Rabat,D.H. Eljadida,3,0,3,3,0,win,lose
+29/05/2016,Chabab Rif Al Hoceima,WAC Casablanca,0,1,-1,0,3,lose,win
+04/06/2016,WAC Casablanca,Moghreb Tétouan,2,0,2,3,0,win,lose
+04/06/2016,RSB Berkane,FAR Rabat,2,1,1,3,0,win,lose
+04/06/2016,Olympique club de safi,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+04/06/2016,KAC Kénitra,KACM Marrakech,0,0,0,1,1,draw,draw
+04/06/2016,Ittihad Tanger,RCA ,3,0,3,3,0,win,lose
+04/06/2016,Hassania Agadir,Maghreb Fès,2,5,-3,0,3,lose,win
+04/06/2016,FUS Rabat ,MCO Oujda,4,2,2,3,0,win,lose
+04/06/2016,D.H. Eljadida,OCK Khouribga,1,3,-2,0,3,lose,win
+26/08/2016,Hassania Agadir,FAR Rabat,1,1,0,1,1,draw,draw
+27/08/2016,Ittihad Tanger,D.H. Eljadida,4,1,3,3,0,win,lose
+27/08/2016,Olympique club de safi,Chabab Rif Al Hoceima,2,1,1,3,0,win,lose
+27/08/2016,Chabab Atlas Khénifra,JSK Chabab Kasbat Tadla,0,0,0,1,1,draw,draw
+28/08/2016,RCA ,KAC Kénitra,4,0,4,3,0,win,lose
+28/08/2016,KACM Marrakech,Moghreb Tétouan,2,2,0,1,1,draw,draw
+17/09/2016,Moghreb Tétouan,OCK Khouribga,1,0,1,3,0,win,lose
+17/09/2016,KAC Kénitra,Ittihad Tanger,0,2,-2,0,3,lose,win
+17/09/2016,D.H. Eljadida,Hassania Agadir,3,0,3,3,0,win,lose
+18/09/2016,JSK Chabab Kasbat Tadla,RCA ,0,2,-2,0,3,lose,win
+18/09/2016,FAR Rabat,Olympique club de safi ,2,0,2,3,0,win,lose
+18/09/2016,RSB Berkane,KACM Marrakech,3,0,3,3,0,win,lose
+24/09/2016,OCK Khouribga,RSB Berkane,0,1,-1,0,3,lose,win
+24/09/2016,Ittihad Tanger,JSK Chabab Kasbat Tadla,2,1,1,3,0,win,lose
+24/09/2016,Hassania Agadir,KAC Kénitra,3,2,1,3,0,win,lose
+25/09/2016,Olympique club de safi,D.H. Eljadida,1,2,-1,0,3,lose,win
+25/09/2016,KACM Marrakech,Chabab Rif Al Hoceima,1,2,-1,0,3,lose,win
+25/09/2016,Chabab Atlas Khénifra,RCA ,1,1,0,1,1,draw,draw
+01/10/2016,OCK Khouribga,WAC Casablanca,2,3,-1,0,3,lose,win
+08/10/2016,Moghreb Tétouan,Chabab Atlas Khénifra,0,0,0,1,1,draw,draw
+09/10/2016,KAC Kénitra,Olympique club de safi ,2,1,1,3,0,win,lose
+09/10/2016,FAR Rabat,KACM Marrakech,1,2,-1,0,3,lose,win
+09/10/2016,Chabab Rif Al Hoceima,OCK Khouribga,1,4,-3,0,3,lose,win
+14/10/2016,Olympique club de safi,JSK Chabab Kasbat Tadla,1,0,1,3,0,win,lose
+14/10/2016,KACM Marrakech,D.H. Eljadida,0,0,0,1,1,draw,draw
+15/10/2016,WAC Casablanca,Chabab Rif Al Hoceima,2,1,1,3,0,win,lose
+15/10/2016,Chabab Atlas Khénifra,Ittihad Tanger,0,0,0,1,1,draw,draw
+16/10/2016,Moghreb Tétouan,RSB Berkane,1,0,1,3,0,win,lose
+16/10/2016,Hassania Agadir,RCA ,2,2,0,1,1,draw,draw
+17/10/2016,OCK Khouribga,FAR Rabat,1,2,-1,0,3,lose,win
+20/10/2016,WAC Casablanca,Chabab Atlas Khénifra,3,1,2,3,0,win,lose
+21/10/2016,Chabab Rif Al Hoceima,Moghreb Tétouan,2,1,1,3,0,win,lose
+22/10/2016,KAC Kénitra,KACM Marrakech,1,1,0,1,1,draw,draw
+22/10/2016,JSK Chabab Kasbat Tadla,FUS Rabat,1,0,1,3,0,win,lose
+22/10/2016,Ittihad Tanger,Hassania Agadir,0,0,0,1,1,draw,draw
+23/10/2016,RSB Berkane,Chabab Atlas Khénifra,0,1,-1,0,3,lose,win
+23/10/2016,RCA ,Olympique club de safi ,1,0,1,3,0,win,lose
+23/10/2016,FAR Rabat,WAC Casablanca,0,5,-5,0,3,lose,win
+23/10/2016,D.H. Eljadida,OCK Khouribga,3,0,3,3,0,win,lose
+26/10/2016,FUS Rabat ,RSB Berkane,1,0,1,3,0,win,lose
+28/10/2016,WAC Casablanca,D.H. Eljadida,1,1,0,1,1,draw,draw
+28/10/2016,KACM Marrakech,JSK Chabab Kasbat Tadla,1,0,1,3,0,win,lose
+28/10/2016,Chabab Atlas Khénifra,Hassania Agadir,2,1,1,3,0,win,lose
+29/10/2016,Olympique club de safi,Ittihad Tanger,1,2,-1,0,3,lose,win
+29/10/2016,Moghreb Tétouan,FAR Rabat,3,1,2,3,0,win,lose
+30/10/2016,RSB Berkane,Chabab Rif Al Hoceima,3,0,3,3,0,win,lose
+30/10/2016,OCK Khouribga,KAC Kénitra,3,1,2,3,0,win,lose
+30/10/2016,FUS Rabat ,RCA ,2,2,0,1,1,draw,draw
+01/11/2016,WAC Casablanca,Moghreb Tétouan,2,1,1,3,0,win,lose
+01/11/2016,JSK Chabab Kasbat Tadla,Hassania Agadir,2,1,1,3,0,win,lose
+03/11/2016,RCA ,KACM Marrakech,2,1,1,3,0,win,lose
+03/11/2016,Chabab Rif Al Hoceima,Chabab Atlas Khénifra,1,0,1,3,0,win,lose
+04/11/2016,JSK Chabab Kasbat Tadla,OCK Khouribga,1,0,1,3,0,win,lose
+04/11/2016,FAR Rabat,RSB Berkane,0,1,-1,0,3,lose,win
+05/11/2016,KAC Kénitra,WAC Casablanca,0,1,-1,0,3,lose,win
+05/11/2016,Ittihad Tanger,FUS Rabat,1,1,0,1,1,draw,draw
+06/11/2016,Hassania Agadir,Olympique club de safi ,3,2,1,3,0,win,lose
+06/11/2016,D.H. Eljadida,Moghreb Tétouan,1,0,1,3,0,win,lose
+16/11/2016,Chabab Rif Al Hoceima,FUS Rabat,0,0,0,1,1,draw,draw
+19/11/2016,WAC Casablanca,JSK Chabab Kasbat Tadla,1,0,1,3,0,win,lose
+19/11/2016,RSB Berkane,D.H. Eljadida,1,1,0,1,1,draw,draw
+19/11/2016,KACM Marrakech,Ittihad Tanger,2,1,1,3,0,win,lose
+20/11/2016,OCK Khouribga,RCA ,0,0,0,1,1,draw,draw
+20/11/2016,Moghreb Tétouan,KAC Kénitra,4,1,3,3,0,win,lose
+20/11/2016,FUS Rabat ,Hassania Agadir,1,2,-1,0,3,lose,win
+20/11/2016,Chabab Rif Al Hoceima,FAR Rabat,0,0,0,1,1,draw,draw
+23/11/2016,FUS Rabat ,FAR Rabat,1,1,0,1,1,draw,draw
+23/11/2016,Chabab Atlas Khénifra,Olympique club de safi ,1,0,1,3,0,win,lose
+25/11/2016,Hassania Agadir,KACM Marrakech,1,0,1,3,0,win,lose
+26/11/2016,KAC Kénitra,RSB Berkane,1,0,1,3,0,win,lose
+26/11/2016,JSK Chabab Kasbat Tadla,Moghreb Tétouan,0,1,-1,0,3,lose,win
+26/11/2016,Ittihad Tanger,OCK Khouribga,1,0,1,3,0,win,lose
+26/11/2016,D.H. Eljadida,Chabab Rif Al Hoceima,3,1,2,3,0,win,lose
+27/11/2016,RCA ,WAC Casablanca,0,0,0,1,1,draw,draw
+27/11/2016,Olympique club de safi,FUS Rabat,1,0,1,3,0,win,lose
+27/11/2016,FAR Rabat,Chabab Atlas Khénifra,1,0,1,3,0,win,lose
+02/12/2016,FAR Rabat,D.H. Eljadida,2,4,-2,0,3,lose,win
+02/12/2016,Chabab Atlas Khénifra,FUS Rabat,1,3,-2,0,3,lose,win
+03/12/2016,WAC Casablanca,Ittihad Tanger,2,2,0,1,1,draw,draw
+03/12/2016,RSB Berkane,JSK Chabab Kasbat Tadla,3,0,3,3,0,win,lose
+03/12/2016,Moghreb Tétouan,RCA ,0,1,-1,0,3,lose,win
+04/12/2016,OCK Khouribga,Hassania Agadir,1,1,0,1,1,draw,draw
+04/12/2016,KACM Marrakech,Olympique club de safi ,0,1,-1,0,3,lose,win
+04/12/2016,Chabab Rif Al Hoceima,KAC Kénitra,0,0,0,1,1,draw,draw
+06/12/2016,D.H. Eljadida,FUS Rabat,1,0,1,3,0,win,lose
+07/12/2016,RSB Berkane,WAC Casablanca,1,1,0,1,1,draw,draw
+07/12/2016,RCA ,Ittihad Tanger,0,1,-1,0,3,lose,win
+09/12/2016,Olympique club de safi,OCK Khouribga,1,0,1,3,0,win,lose
+10/12/2016,KAC Kénitra,FAR Rabat,1,2,-1,0,3,lose,win
+10/12/2016,FUS Rabat ,KACM Marrakech,3,2,1,3,0,win,lose
+10/12/2016,D.H. Eljadida,Chabab Atlas Khénifra,2,1,1,3,0,win,lose
+11/12/2016,JSK Chabab Kasbat Tadla,Chabab Rif Al Hoceima,1,1,0,1,1,draw,draw
+11/12/2016,Ittihad Tanger,Moghreb Tétouan,0,1,-1,0,3,lose,win
+11/12/2016,Hassania Agadir,WAC Casablanca,1,1,0,1,1,draw,draw
+12/12/2016,RCA ,RSB Berkane,1,1,0,1,1,draw,draw
+14/12/2016,FUS Rabat ,KAC Kénitra,1,0,1,3,0,win,lose
+16/12/2016,FAR Rabat,JSK Chabab Kasbat Tadla,2,2,0,1,1,draw,draw
+17/12/2016,Moghreb Tétouan,Hassania Agadir,0,1,-1,0,3,lose,win
+17/12/2016,Chabab Rif Al Hoceima,RCA ,1,2,-1,0,3,lose,win
+17/12/2016,Chabab Atlas Khénifra,KACM Marrakech,3,0,3,3,0,win,lose
+18/12/2016,WAC Casablanca,Olympique club de safi ,1,1,0,1,1,draw,draw
+18/12/2016,RSB Berkane,Ittihad Tanger,0,0,0,1,1,draw,draw
+18/12/2016,OCK Khouribga,FUS Rabat,1,0,1,3,0,win,lose
+18/12/2016,D.H. Eljadida,KAC Kénitra,0,0,0,1,1,draw,draw
+23/12/2016,RCA ,FAR Rabat,1,1,0,1,1,draw,draw
+24/12/2016,Hassania Agadir,RSB Berkane,1,2,-1,0,3,lose,win
+24/12/2016,FUS Rabat ,WAC Casablanca,1,2,-1,0,3,lose,win
+24/12/2016,Chabab Atlas Khénifra,KAC Kénitra,4,0,4,3,0,win,lose
+25/12/2016,Olympique club de safi,Moghreb Tétouan,1,1,0,1,1,draw,draw
+25/12/2016,KACM Marrakech,OCK Khouribga,1,2,-1,0,3,lose,win
+25/12/2016,JSK Chabab Kasbat Tadla,D.H. Eljadida,0,0,0,1,1,draw,draw
+25/12/2016,Ittihad Tanger,Chabab Rif Al Hoceima,4,1,3,3,0,win,lose
+30/12/2016,WAC Casablanca,KACM Marrakech,2,3,-1,0,3,lose,win
+30/12/2016,RSB Berkane,Olympique club de safi ,1,0,1,3,0,win,lose
+30/12/2016,Chabab Rif Al Hoceima,Hassania Agadir,1,0,1,3,0,win,lose
+31/12/2016,OCK Khouribga,Chabab Atlas Khénifra,1,0,1,3,0,win,lose
+31/12/2016,D.H. Eljadida,RCA ,0,0,0,1,1,draw,draw
+01/01/2017,Moghreb Tétouan,FUS Rabat,1,1,0,1,1,draw,draw
+01/01/2017,KAC Kénitra,JSK Chabab Kasbat Tadla,3,2,1,3,0,win,lose
+01/01/2017,FAR Rabat,Ittihad Tanger,0,0,0,1,1,draw,draw
+03/02/2017,RSB Berkane,FUS Rabat,1,0,1,3,0,win,lose
+03/02/2017,FAR Rabat,Hassania Agadir,2,0,2,3,0,win,lose
+04/02/2017,KAC Kénitra,RCA ,0,2,-2,0,3,lose,win
+04/02/2017,D.H. Eljadida,Ittihad Tanger,4,1,3,3,0,win,lose
+04/02/2017,Chabab Rif Al Hoceima,Olympique club de safi ,0,0,0,1,1,draw,draw
+05/02/2017,WAC Casablanca,OCK Khouribga,4,1,3,3,0,win,lose
+05/02/2017,Moghreb Tétouan,KACM Marrakech,1,2,-1,0,3,lose,win
+05/02/2017,JSK Chabab Kasbat Tadla,Chabab Atlas Khénifra,1,1,0,1,1,draw,draw
+10/02/2017,OCK Khouribga,Moghreb Tétouan,4,1,3,3,0,win,lose
+11/02/2017,Olympique club de safi,FAR Rabat,1,1,0,1,1,draw,draw
+11/02/2017,Hassania Agadir,D.H. Eljadida,0,1,-1,0,3,lose,win
+12/02/2017,RCA ,JSK Chabab Kasbat Tadla,3,0,3,3,0,win,lose
+12/02/2017,KACM Marrakech,RSB Berkane,1,2,-1,0,3,lose,win
+12/02/2017,Chabab Atlas Khénifra,WAC Casablanca,1,1,0,1,1,draw,draw
+17/02/2017,RCA ,Chabab Atlas Khénifra,1,0,1,3,0,win,lose
+18/02/2017,RSB Berkane,OCK Khouribga,2,0,2,3,0,win,lose
+18/02/2017,Moghreb Tétouan,WAC Casablanca,0,1,-1,0,3,lose,win
+19/02/2017,KAC Kénitra,Hassania Agadir,2,2,0,1,1,draw,draw
+19/02/2017,D.H. Eljadida,Olympique club de safi ,1,1,0,1,1,draw,draw
+19/02/2017,Chabab Rif Al Hoceima,KACM Marrakech,1,0,1,3,0,win,lose
+22/02/2017,FUS Rabat ,Chabab Rif Al Hoceima,2,0,2,3,0,win,lose
+22/02/2017,Ittihad Tanger,KAC Kénitra,1,0,1,3,0,win,lose
+24/02/2017,Hassania Agadir,JSK Chabab Kasbat Tadla,2,1,1,3,0,win,lose
+25/02/2017,WAC Casablanca,RSB Berkane,1,0,1,3,0,win,lose
+25/02/2017,KACM Marrakech,FAR Rabat,1,2,-1,0,3,lose,win
+25/02/2017,Chabab Atlas Khénifra,Moghreb Tétouan,0,0,0,1,1,draw,draw
+26/02/2017,Olympique club de safi,KAC Kénitra,2,1,1,3,0,win,lose
+26/02/2017,OCK Khouribga,Chabab Rif Al Hoceima,1,1,0,1,1,draw,draw
+26/02/2017,Ittihad Tanger,RCA ,1,2,-1,0,3,lose,win
+26/02/2017,FUS Rabat ,D.H. Eljadida,1,0,1,3,0,win,lose
+01/03/2017,JSK Chabab Kasbat Tadla,Ittihad Tanger,1,1,0,1,1,draw,draw
+01/03/2017,FAR Rabat,FUS Rabat,2,1,1,3,0,win,lose
+03/03/2017,RCA ,Hassania Agadir,1,0,1,3,0,win,lose
+03/03/2017,Chabab Rif Al Hoceima,WAC Casablanca,1,2,-1,0,3,lose,win
+04/03/2017,RSB Berkane,Moghreb Tétouan,1,0,1,3,0,win,lose
+04/03/2017,D.H. Eljadida,KACM Marrakech,1,0,1,3,0,win,lose
+05/03/2017,Ittihad Tanger,Chabab Atlas Khénifra,0,0,0,1,1,draw,draw
+05/03/2017,JSK Chabab Kasbat Tadla,Olympique club de safi ,1,3,-2,0,3,lose,win
+05/03/2017,KAC Kénitra,FUS Rabat,2,2,0,1,1,draw,draw
+05/03/2017,FAR Rabat,OCK Khouribga,4,2,2,3,0,win,lose
+10/03/2017,KACM Marrakech,KAC Kénitra,1,1,0,1,1,draw,draw
+11/03/2017,Moghreb Tétouan,Chabab Rif Al Hoceima,2,1,1,3,0,win,lose
+11/03/2017,Chabab Atlas Khénifra,RSB Berkane,0,0,0,1,1,draw,draw
+12/03/2017,Olympique club de safi,RCA ,0,0,0,1,1,draw,draw
+12/03/2017,OCK Khouribga,D.H. Eljadida,0,0,0,1,1,draw,draw
+18/03/2017,Chabab Rif Al Hoceima,RSB Berkane,1,1,0,1,1,draw,draw
+19/03/2017,KAC Kénitra,OCK Khouribga,2,1,1,3,0,win,lose
+19/03/2017,JSK Chabab Kasbat Tadla,KACM Marrakech,3,2,1,3,0,win,lose
+19/03/2017,Hassania Agadir,Chabab Atlas Khénifra,1,1,0,1,1,draw,draw
+19/03/2017,FAR Rabat,Moghreb Tétouan,2,2,0,1,1,draw,draw
+01/04/2017,FUS Rabat ,JSK Chabab Kasbat Tadla,2,1,1,3,0,win,lose
+02/04/2017,Hassania Agadir,Ittihad Tanger,0,4,-4,0,3,lose,win
+03/04/2017,WAC Casablanca,FAR Rabat,1,1,0,1,1,draw,draw
+05/04/2017,RCA ,FUS Rabat,2,0,2,3,0,win,lose
+07/04/2017,OCK Khouribga,JSK Chabab Kasbat Tadla,0,1,-1,0,3,lose,win
+08/04/2017,WAC Casablanca,KAC Kénitra,1,0,1,3,0,win,lose
+08/04/2017,RSB Berkane,FAR Rabat,0,2,-2,0,3,lose,win
+08/04/2017,Moghreb Tétouan,D.H. Eljadida,0,2,-2,0,3,lose,win
+09/04/2017,Olympique club de safi,Hassania Agadir,1,0,1,3,0,win,lose
+09/04/2017,Chabab Atlas Khénifra,Chabab Rif Al Hoceima,3,0,3,3,0,win,lose
+11/04/2017,KACM Marrakech,RCA ,0,0,0,1,1,draw,draw
+12/04/2017,D.H. Eljadida,WAC Casablanca,0,0,0,1,1,draw,draw
+14/04/2017,KAC Kénitra,Moghreb Tétouan,3,0,3,3,0,win,lose
+15/04/2017,RCA ,OCK Khouribga,0,1,-1,0,3,lose,win
+15/04/2017,Olympique club de safi,Chabab Atlas Khénifra,1,0,1,3,0,win,lose
+16/04/2017,JSK Chabab Kasbat Tadla,WAC Casablanca,0,2,-2,0,3,lose,win
+16/04/2017,FAR Rabat,Chabab Rif Al Hoceima,4,1,3,3,0,win,lose
+16/04/2017,D.H. Eljadida,RSB Berkane,0,0,0,1,1,draw,draw
+19/04/2017,Ittihad Tanger,Olympique club de safi ,1,0,1,3,0,win,lose
+21/04/2017,KACM Marrakech,Hassania Agadir,1,1,0,1,1,draw,draw
+21/04/2017,Chabab Rif Al Hoceima,D.H. Eljadida,0,1,-1,0,3,lose,win
+22/04/2017,RSB Berkane,KAC Kénitra,3,0,3,3,0,win,lose
+22/04/2017,Moghreb Tétouan,JSK Chabab Kasbat Tadla,4,0,4,3,0,win,lose
+22/04/2017,Chabab Atlas Khénifra,FAR Rabat,0,0,0,1,1,draw,draw
+23/04/2017,WAC Casablanca,RCA ,1,0,1,3,0,win,lose
+23/04/2017,OCK Khouribga,Ittihad Tanger,2,1,1,3,0,win,lose
+23/04/2017,FUS Rabat ,Olympique club de safi ,1,0,1,3,0,win,lose
+26/04/2017,FUS Rabat ,Ittihad Tanger,1,0,1,3,0,win,lose
+28/04/2017,Olympique club de safi,KACM Marrakech,2,1,1,3,0,win,lose
+28/04/2017,D.H. Eljadida,FAR Rabat,2,1,1,3,0,win,lose
+29/04/2017,RCA ,Moghreb Tétouan,4,0,4,3,0,win,lose
+29/04/2017,JSK Chabab Kasbat Tadla,RSB Berkane,2,0,2,3,0,win,lose
+29/04/2017,Hassania Agadir,OCK Khouribga,1,0,1,3,0,win,lose
+30/04/2017,KAC Kénitra,Chabab Rif Al Hoceima,1,2,-1,0,3,lose,win
+30/04/2017,Ittihad Tanger,WAC Casablanca,0,1,-1,0,3,lose,win
+30/04/2017,FUS Rabat ,Chabab Atlas Khénifra,2,0,2,3,0,win,lose
+03/05/2017,Ittihad Tanger,KACM Marrakech,0,2,-2,0,3,lose,win
+03/05/2017,Hassania Agadir,FUS Rabat,2,1,1,3,0,win,lose
+07/05/2017,WAC Casablanca,Hassania Agadir,2,0,2,3,0,win,lose
+07/05/2017,RSB Berkane,RCA ,1,1,0,1,1,draw,draw
+07/05/2017,OCK Khouribga,Olympique club de safi ,4,0,4,3,0,win,lose
+07/05/2017,Moghreb Tétouan,Ittihad Tanger,0,1,-1,0,3,lose,win
+07/05/2017,KACM Marrakech,FUS Rabat,1,0,1,3,0,win,lose
+07/05/2017,FAR Rabat,KAC Kénitra,2,1,1,3,0,win,lose
+07/05/2017,Chabab Rif Al Hoceima,JSK Chabab Kasbat Tadla,2,1,1,3,0,win,lose
+07/05/2017,Chabab Atlas Khénifra,D.H. Eljadida,2,2,0,1,1,draw,draw
+14/05/2017,RCA ,Chabab Rif Al Hoceima,2,1,1,3,0,win,lose
+14/05/2017,KACM Marrakech,Chabab Atlas Khénifra,2,1,1,3,0,win,lose
+14/05/2017,KAC Kénitra,D.H. Eljadida,1,2,-1,0,3,lose,win
+14/05/2017,JSK Chabab Kasbat Tadla,FAR Rabat,2,1,1,3,0,win,lose
+14/05/2017,Ittihad Tanger,RSB Berkane,0,0,0,1,1,draw,draw
+14/05/2017,Hassania Agadir,Moghreb Tétouan,2,1,1,3,0,win,lose
+17/05/2017,Olympique club de safi,WAC Casablanca,1,2,-1,0,3,lose,win
+17/05/2017,FUS Rabat ,OCK Khouribga,1,3,-2,0,3,lose,win
+21/05/2017,RSB Berkane,Hassania Agadir,1,0,1,3,0,win,lose
+21/05/2017,OCK Khouribga,KACM Marrakech,0,4,-4,0,3,lose,win
+21/05/2017,Moghreb Tétouan,Olympique club de safi ,1,0,1,3,0,win,lose
+21/05/2017,KAC Kénitra,Chabab Atlas Khénifra,1,1,0,1,1,draw,draw
+21/05/2017,FAR Rabat,RCA ,1,1,0,1,1,draw,draw
+21/05/2017,D.H. Eljadida,JSK Chabab Kasbat Tadla,6,1,5,3,0,win,lose
+21/05/2017,Chabab Rif Al Hoceima,Ittihad Tanger,1,0,1,3,0,win,lose
+25/05/2017,Chabab Atlas Khénifra,OCK Khouribga,1,0,1,3,0,win,lose
+25/05/2017,Ittihad Tanger,FAR Rabat,2,1,1,3,0,win,lose
+26/05/2017,Olympique club de safi,RSB Berkane,0,1,-1,0,3,lose,win
+26/05/2017,JSK Chabab Kasbat Tadla,KAC Kénitra,0,0,0,1,1,draw,draw
+26/05/2017,Hassania Agadir,Chabab Rif Al Hoceima,3,1,2,3,0,win,lose
+26/05/2017,RCA ,D.H. Eljadida,4,1,3,3,0,win,lose
+29/05/2017,FUS Rabat ,Moghreb Tétouan,1,1,0,1,1,draw,draw
+29/05/2017,KACM Marrakech,WAC Casablanca,2,3,-1,0,3,lose,win
+13/06/2017,WAC Casablanca,FUS Rabat,1,2,-1,0,3,lose,win
+08/09/2017,Racing de Casablanca,KACM Marrakech,1,2,-1,0,3,lose,win
+08/09/2017,FAR Rabat,Rapide club oued zem,0,0,0,1,1,draw,draw
+09/09/2017,RSB Berkane,Ittihad Tanger,0,3,-3,0,3,lose,win
+09/09/2017,D.H. Eljadida,Chabab Atlas Khénifra,0,0,0,1,1,draw,draw
+09/09/2017,Chabab Rif Al Hoceima,Hassania Agadir,1,1,0,1,1,draw,draw
+10/09/2017,WAC Casablanca,FUS Rabat,1,3,-2,0,3,lose,win
+10/09/2017,OCK Khouribga,RCA ,1,1,0,1,1,draw,draw
+10/09/2017,Moghreb Tétouan,Olympique club de safi ,2,2,0,1,1,draw,draw
+16/09/2017,RCA ,FAR Rabat,2,0,2,3,0,win,lose
+16/09/2017,Chabab Atlas Khénifra,Moghreb Tétouan,2,0,2,3,0,win,lose
+17/09/2017,Olympique club de safi,Chabab Rif Al Hoceima,2,1,1,3,0,win,lose
+17/09/2017,KACM Marrakech,OCK Khouribga,2,1,1,3,0,win,lose
+17/09/2017,Ittihad Tanger,Racing de Casablanca,1,1,0,1,1,draw,draw
+17/09/2017,Hassania Agadir,RSB Berkane,3,0,3,3,0,win,lose
+23/09/2017,RSB Berkane,Olympique club de safi ,1,0,1,3,0,win,lose
+23/09/2017,RCA ,KACM Marrakech,4,0,4,3,0,win,lose
+28/10/2017,Hassania Agadir,KACM Marrakech,1,1,0,1,1,draw,draw
+28/10/2017,FUS Rabat ,Racing de Casablanca,2,0,2,3,0,win,lose
+28/10/2017,Chabab Atlas Khénifra,OCK Khouribga,0,1,-1,0,3,lose,win
+29/10/2017,Rapide club oued zem,RSB Berkane,1,1,0,1,1,draw,draw
+29/10/2017,Olympique club de safi,RCA ,2,0,2,3,0,win,lose
+29/10/2017,Ittihad Tanger,FAR Rabat,0,1,-1,0,3,lose,win
+29/10/2017,D.H. Eljadida,Moghreb Tétouan,3,0,3,3,0,win,lose
+01/11/2017,Moghreb Tétouan,FUS Rabat,0,2,-2,0,3,lose,win
+03/11/2017,Racing de Casablanca,Rapide club oued zem,3,1,2,3,0,win,lose
+04/11/2017,KACM Marrakech,Olympique club de safi ,1,1,0,1,1,draw,draw
+04/11/2017,Ittihad Tanger,Hassania Agadir,2,2,0,1,1,draw,draw
+05/11/2017,RCA ,Chabab Atlas Khénifra,1,2,-1,0,3,lose,win
+05/11/2017,OCK Khouribga,FUS Rabat,2,1,1,3,0,win,lose
+05/11/2017,FAR Rabat,Moghreb Tétouan,2,0,2,3,0,win,lose
+05/11/2017,Chabab Rif Al Hoceima,D.H. Eljadida,2,2,0,1,1,draw,draw
+10/11/2017,Rapide club oued zem,WAC Casablanca,1,1,0,1,1,draw,draw
+15/11/2017,FAR Rabat,WAC Casablanca,0,0,0,1,1,draw,draw
+17/11/2017,Olympique club de safi,Ittihad Tanger,1,0,1,3,0,win,lose
+17/11/2017,Moghreb Tétouan,Chabab Rif Al Hoceima,0,2,-2,0,3,lose,win
+19/11/2017,WAC Casablanca,Racing de Casablanca,0,0,0,1,1,draw,draw
+19/11/2017,Rapide club oued zem,OCK Khouribga,1,0,1,3,0,win,lose
+19/11/2017,Hassania Agadir,FAR Rabat,2,2,0,1,1,draw,draw
+19/11/2017,Chabab Atlas Khénifra,KACM Marrakech,0,0,0,1,1,draw,draw
+22/11/2017,WAC Casablanca,D.H. Eljadida,2,1,1,3,0,win,lose
+23/11/2017,FUS Rabat ,RCA ,0,0,0,1,1,draw,draw
+24/11/2017,Hassania Agadir,Olympique club de safi ,1,0,1,3,0,win,lose
+25/11/2017,RSB Berkane,Moghreb Tétouan,1,2,-1,0,3,lose,win
+25/11/2017,Ittihad Tanger,Chabab Atlas Khénifra,1,0,1,3,0,win,lose
+26/11/2017,Racing de Casablanca,D.H. Eljadida,0,3,-3,0,3,lose,win
+26/11/2017,OCK Khouribga,WAC Casablanca,0,5,-5,0,3,lose,win
+26/11/2017,KACM Marrakech,FUS Rabat,2,1,1,3,0,win,lose
+26/11/2017,FAR Rabat,Chabab Rif Al Hoceima,2,2,0,1,1,draw,draw
+27/11/2017,RCA ,Rapide club oued zem,3,1,2,3,0,win,lose
+29/11/2017,Moghreb Tétouan,WAC Casablanca,1,2,-1,0,3,lose,win
+29/11/2017,FUS Rabat ,D.H. Eljadida,1,0,1,3,0,win,lose
+02/12/2017,Olympique club de safi,FAR Rabat,1,1,0,1,1,draw,draw
+02/12/2017,Chabab Rif Al Hoceima,RSB Berkane,1,1,0,1,1,draw,draw
+02/12/2017,Chabab Atlas Khénifra,Hassania Agadir,1,5,-4,0,3,lose,win
+03/12/2017,FUS Rabat ,Ittihad Tanger,0,0,0,1,1,draw,draw
+03/12/2017,D.H. Eljadida,OCK Khouribga,4,1,3,3,0,win,lose
+04/12/2017,Rapide club oued zem,KACM Marrakech,1,2,-1,0,3,lose,win
+04/12/2017,Moghreb Tétouan,Racing de Casablanca,1,1,0,1,1,draw,draw
+06/12/2017,FUS Rabat ,Chabab Rif Al Hoceima,0,2,-2,0,3,lose,win
+06/12/2017,D.H. Eljadida,RSB Berkane,1,2,-1,0,3,lose,win
+08/12/2017,OCK Khouribga,Moghreb Tétouan,1,0,1,3,0,win,lose
+09/12/2017,Olympique club de safi,Chabab Atlas Khénifra,1,1,0,1,1,draw,draw
+09/12/2017,Ittihad Tanger,Rapide club oued zem,1,0,1,3,0,win,lose
+10/12/2017,Racing de Casablanca,Chabab Rif Al Hoceima,0,1,-1,0,3,lose,win
+10/12/2017,Hassania Agadir,FUS Rabat,2,1,1,3,0,win,lose
+11/12/2017,FAR Rabat,RSB Berkane,1,3,-2,0,3,lose,win
+12/12/2017,RCA ,D.H. Eljadida,3,2,1,3,0,win,lose
+16/12/2017,RSB Berkane,Racing de Casablanca,4,0,4,3,0,win,lose
+16/12/2017,Rapide club oued zem,Hassania Agadir,0,0,0,1,1,draw,draw
+16/12/2017,FUS Rabat ,Olympique club de safi ,0,0,0,1,1,draw,draw
+17/12/2017,D.H. Eljadida,KACM Marrakech,1,0,1,3,0,win,lose
+17/12/2017,Chabab Rif Al Hoceima,OCK Khouribga,1,1,0,1,1,draw,draw
+17/12/2017,Chabab Atlas Khénifra,FAR Rabat,0,0,0,1,1,draw,draw
+18/12/2017,WAC Casablanca,Ittihad Tanger,0,1,-1,0,3,lose,win
+19/12/2017,Moghreb Tétouan,RCA ,1,3,-2,0,3,lose,win
+20/12/2017,RSB Berkane,FUS Rabat,0,1,-1,0,3,lose,win
+21/12/2017,WAC Casablanca,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+22/12/2017,Olympique club de safi,Rapide club oued zem,0,0,0,1,1,draw,draw
+23/12/2017,Ittihad Tanger,D.H. Eljadida,1,0,1,3,0,win,lose
+23/12/2017,FAR Rabat,Racing de Casablanca,2,0,2,3,0,win,lose
+23/12/2017,Chabab Atlas Khénifra,FUS Rabat,1,1,0,1,1,draw,draw
+24/12/2017,RCA ,Chabab Rif Al Hoceima,1,1,0,1,1,draw,draw
+24/12/2017,OCK Khouribga,RSB Berkane,1,0,1,3,0,win,lose
+24/12/2017,KACM Marrakech,Moghreb Tétouan,0,0,0,1,1,draw,draw
+25/12/2017,Hassania Agadir,WAC Casablanca,1,0,1,3,0,win,lose
+27/12/2017,RSB Berkane,RCA ,1,0,1,3,0,win,lose
+27/12/2017,Rapide club oued zem,Chabab Atlas Khénifra,1,0,1,3,0,win,lose
+27/12/2017,Racing de Casablanca,OCK Khouribga,2,1,1,3,0,win,lose
+27/12/2017,Moghreb Tétouan,Ittihad Tanger,0,1,-1,0,3,lose,win
+27/12/2017,FAR Rabat,FUS Rabat,0,0,0,1,1,draw,draw
+27/12/2017,Chabab Rif Al Hoceima,KACM Marrakech,1,0,1,3,0,win,lose
+28/12/2017,WAC Casablanca,Olympique club de safi ,0,1,-1,0,3,lose,win
+28/12/2017,D.H. Eljadida,Hassania Agadir,1,0,1,3,0,win,lose
+30/12/2017,RCA ,Racing de Casablanca,2,0,2,3,0,win,lose
+30/12/2017,OCK Khouribga,FAR Rabat,1,2,-1,0,3,lose,win
+30/12/2017,KACM Marrakech,RSB Berkane,0,2,-2,0,3,lose,win
+30/12/2017,Ittihad Tanger,Chabab Rif Al Hoceima,3,0,3,3,0,win,lose
+30/12/2017,FUS Rabat ,Rapide club oued zem,1,0,1,3,0,win,lose
+31/12/2017,Olympique club de safi,D.H. Eljadida,2,2,0,1,1,draw,draw
+31/12/2017,Hassania Agadir,Moghreb Tétouan,2,1,1,3,0,win,lose
+31/12/2017,Chabab Atlas Khénifra,WAC Casablanca,0,0,0,1,1,draw,draw
+04/01/2018,RSB Berkane,WAC Casablanca,2,1,1,3,0,win,lose
+08/01/2018,KACM Marrakech,WAC Casablanca,2,1,1,3,0,win,lose
+10/02/2018,WAC Casablanca,RCA ,1,2,-1,0,3,lose,win
+10/02/2018,Hassania Agadir,Chabab Rif Al Hoceima,0,0,0,1,1,draw,draw
+11/02/2018,Rapide club oued zem,FAR Rabat,0,1,-1,0,3,lose,win
+11/02/2018,Olympique club de safi,Moghreb Tétouan,0,0,0,1,1,draw,draw
+11/02/2018,KACM Marrakech,Racing de Casablanca,0,0,0,1,1,draw,draw
+14/02/2018,Ittihad Tanger,RSB Berkane,2,1,1,3,0,win,lose
+14/02/2018,RCA ,OCK Khouribga,4,3,1,3,0,win,lose
+14/02/2018,Chabab Atlas Khénifra,D.H. Eljadida,3,3,0,1,1,draw,draw
+14/02/2018,FUS Rabat ,WAC Casablanca,2,4,-2,0,3,lose,win
+17/02/2018,Chabab Rif Al Hoceima,Olympique club de safi ,2,1,1,3,0,win,lose
+18/02/2018,OCK Khouribga,KACM Marrakech,3,0,3,3,0,win,lose
+18/02/2018,WAC Casablanca,Rapide club oued zem,3,1,2,3,0,win,lose
+18/02/2018,FAR Rabat,RCA ,2,1,1,3,0,win,lose
+18/02/2018,Moghreb Tétouan,Chabab Atlas Khénifra,4,3,1,3,0,win,lose
+19/02/2018,Racing de Casablanca,Ittihad Tanger,1,2,-1,0,3,lose,win
+24/02/2018,Olympique club de safi,RSB Berkane,1,0,1,3,0,win,lose
+24/02/2018,FUS Rabat ,Moghreb Tétouan,2,0,2,3,0,win,lose
+24/02/2018,Chabab Atlas Khénifra,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+25/02/2018,Rapide club oued zem,D.H. Eljadida,0,0,0,1,1,draw,draw
+25/02/2018,KACM Marrakech,RCA ,0,3,-3,0,3,lose,win
+25/02/2018,Ittihad Tanger,OCK Khouribga,2,0,2,3,0,win,lose
+25/02/2018,Hassania Agadir,Racing de Casablanca,2,1,1,3,0,win,lose
+28/02/2018,WAC Casablanca,FAR Rabat,3,1,2,3,0,win,lose
+28/02/2018,RSB Berkane,Hassania Agadir,1,1,0,1,1,draw,draw
+28/02/2018,D.H. Eljadida,FUS Rabat,3,0,3,3,0,win,lose
+02/03/2018,RCA ,Ittihad Tanger,1,1,0,1,1,draw,draw
+03/03/2018,RSB Berkane,Chabab Atlas Khénifra,2,1,1,3,0,win,lose
+03/03/2018,Moghreb Tétouan,Rapide club oued zem,1,0,1,3,0,win,lose
+04/03/2018,Racing de Casablanca,Olympique club de safi ,1,2,-1,0,3,lose,win
+04/03/2018,OCK Khouribga,Hassania Agadir,2,1,1,3,0,win,lose
+04/03/2018,FAR Rabat,KACM Marrakech,2,3,-1,0,3,lose,win
+04/03/2018,D.H. Eljadida,WAC Casablanca,0,1,-1,0,3,lose,win
+04/03/2018,Chabab Rif Al Hoceima,FUS Rabat,0,0,0,1,1,draw,draw
+09/03/2018,Rapide club oued zem,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+10/03/2018,Ittihad Tanger,KACM Marrakech,1,0,1,3,0,win,lose
+10/03/2018,Hassania Agadir,RCA ,1,0,1,3,0,win,lose
+10/03/2018,Chabab Atlas Khénifra,Racing de Casablanca,2,0,2,3,0,win,lose
+11/03/2018,WAC Casablanca,Moghreb Tétouan,0,0,0,1,1,draw,draw
+11/03/2018,Olympique club de safi,OCK Khouribga,2,0,2,3,0,win,lose
+11/03/2018,FUS Rabat ,RSB Berkane,0,0,0,1,1,draw,draw
+11/03/2018,D.H. Eljadida,FAR Rabat,1,0,1,3,0,win,lose
+17/03/2018,KACM Marrakech,Hassania Agadir,0,0,0,1,1,draw,draw
+18/03/2018,Racing de Casablanca,FUS Rabat,2,2,0,1,1,draw,draw
+18/03/2018,OCK Khouribga,Chabab Atlas Khénifra,1,0,1,3,0,win,lose
+18/03/2018,FAR Rabat,Ittihad Tanger,2,1,1,3,0,win,lose
+24/03/2018,Moghreb Tétouan,FAR Rabat,1,0,1,3,0,win,lose
+24/03/2018,FUS Rabat ,OCK Khouribga,0,0,0,1,1,draw,draw
+24/03/2018,D.H. Eljadida,Chabab Rif Al Hoceima,3,1,2,3,0,win,lose
+25/03/2018,Rapide club oued zem,Racing de Casablanca,2,1,1,3,0,win,lose
+25/03/2018,Olympique club de safi,KACM Marrakech,2,1,1,3,0,win,lose
+25/03/2018,Hassania Agadir,Ittihad Tanger,1,1,0,1,1,draw,draw
+28/03/2018,Moghreb Tétouan,D.H. Eljadida,1,0,1,3,0,win,lose
+29/03/2018,RSB Berkane,Rapide club oued zem,0,0,0,1,1,draw,draw
+29/03/2018,RCA ,Olympique club de safi ,0,0,0,1,1,draw,draw
+29/03/2018,Chabab Rif Al Hoceima,WAC Casablanca,0,0,0,1,1,draw,draw
+31/03/2018,FAR Rabat,Hassania Agadir,0,0,0,1,1,draw,draw
+31/03/2018,KACM Marrakech,Chabab Atlas Khénifra,1,1,0,1,1,draw,draw
+01/04/2018,RCA ,FUS Rabat,1,2,-1,0,3,lose,win
+01/04/2018,OCK Khouribga,Rapide club oued zem,1,0,1,3,0,win,lose
+01/04/2018,Ittihad Tanger,Olympique club de safi ,1,0,1,3,0,win,lose
+02/04/2018,RSB Berkane,D.H. Eljadida,0,0,0,1,1,draw,draw
+02/04/2018,Racing de Casablanca,WAC Casablanca,0,1,-1,0,3,lose,win
+02/04/2018,Chabab Rif Al Hoceima,Moghreb Tétouan,0,2,-2,0,3,lose,win
+07/04/2018,Olympique club de safi,Hassania Agadir,1,1,0,1,1,draw,draw
+07/04/2018,Chabab Atlas Khénifra,Ittihad Tanger,0,1,-1,0,3,lose,win
+08/04/2018,WAC Casablanca,OCK Khouribga,5,2,3,3,0,win,lose
+08/04/2018,FUS Rabat ,KACM Marrakech,2,1,1,3,0,win,lose
+08/04/2018,D.H. Eljadida,Racing de Casablanca,1,1,0,1,1,draw,draw
+08/04/2018,Chabab Rif Al Hoceima,FAR Rabat,1,1,0,1,1,draw,draw
+14/04/2018,RSB Berkane,Chabab Rif Al Hoceima,2,1,1,3,0,win,lose
+14/04/2018,RCA ,WAC Casablanca,1,1,0,1,1,draw,draw
+14/04/2018,FAR Rabat,Olympique club de safi ,3,4,-1,0,3,lose,win
+15/04/2018,Racing de Casablanca,Moghreb Tétouan,0,2,-2,0,3,lose,win
+15/04/2018,OCK Khouribga,D.H. Eljadida,3,3,0,1,1,draw,draw
+15/04/2018,Ittihad Tanger,FUS Rabat,1,2,-1,0,3,lose,win
+16/04/2018,Hassania Agadir,Chabab Atlas Khénifra,0,0,0,1,1,draw,draw
+18/04/2018,KACM Marrakech,Rapide club oued zem,3,2,1,3,0,win,lose
+20/04/2018,Chabab Rif Al Hoceima,Racing de Casablanca,1,2,-1,0,3,lose,win
+21/04/2018,WAC Casablanca,KACM Marrakech,4,1,3,3,0,win,lose
+21/04/2018,Chabab Atlas Khénifra,Olympique club de safi ,2,0,2,3,0,win,lose
+22/04/2018,RSB Berkane,FAR Rabat,2,3,-1,0,3,lose,win
+22/04/2018,Moghreb Tétouan,OCK Khouribga,2,1,1,3,0,win,lose
+22/04/2018,FUS Rabat ,Hassania Agadir,2,1,1,3,0,win,lose
+22/04/2018,D.H. Eljadida,RCA ,2,1,1,3,0,win,lose
+23/04/2018,Rapide club oued zem,Ittihad Tanger,2,0,2,3,0,win,lose
+25/04/2018,WAC Casablanca,RSB Berkane,2,1,1,3,0,win,lose
+25/04/2018,Chabab Atlas Khénifra,RCA ,2,3,-1,0,3,lose,win
+27/04/2018,Olympique club de safi,FUS Rabat,1,0,1,3,0,win,lose
+28/04/2018,RCA ,Moghreb Tétouan,0,0,0,1,1,draw,draw
+28/04/2018,OCK Khouribga,Chabab Rif Al Hoceima,1,1,0,1,1,draw,draw
+28/04/2018,KACM Marrakech,D.H. Eljadida,2,5,-3,0,3,lose,win
+29/04/2018,Racing de Casablanca,RSB Berkane,1,3,-2,0,3,lose,win
+29/04/2018,Ittihad Tanger,WAC Casablanca,0,0,0,1,1,draw,draw
+29/04/2018,Hassania Agadir,Rapide club oued zem,1,0,1,3,0,win,lose
+29/04/2018,FAR Rabat,Chabab Atlas Khénifra,1,2,-1,0,3,lose,win
+02/05/2018,Rapide club oued zem,RCA ,3,1,2,3,0,win,lose
+02/05/2018,Moghreb Tétouan,RSB Berkane,1,0,1,3,0,win,lose
+05/05/2018,Rapide club oued zem,Olympique club de safi ,1,0,1,3,0,win,lose
+05/05/2018,Racing de Casablanca,FAR Rabat,1,2,-1,0,3,lose,win
+05/05/2018,Moghreb Tétouan,KACM Marrakech,1,0,1,3,0,win,lose
+05/05/2018,FUS Rabat ,Chabab Atlas Khénifra,4,1,3,3,0,win,lose
+09/05/2018,Chabab Rif Al Hoceima,RCA ,0,0,0,1,1,draw,draw
+09/05/2018,D.H. Eljadida,Ittihad Tanger,1,1,0,1,1,draw,draw
+09/05/2018,RSB Berkane,OCK Khouribga,1,1,0,1,1,draw,draw
+09/05/2018,WAC Casablanca,Hassania Agadir,1,0,1,3,0,win,lose
+11/05/2018,FUS Rabat ,FAR Rabat,1,1,0,1,1,draw,draw
+12/05/2018,Hassania Agadir,D.H. Eljadida,3,1,2,3,0,win,lose
+12/05/2018,Ittihad Tanger,Moghreb Tétouan,2,1,1,3,0,win,lose
+12/05/2018,Olympique club de safi,WAC Casablanca,1,1,0,1,1,draw,draw
+12/05/2018,RCA ,RSB Berkane,2,1,1,3,0,win,lose
+13/05/2018,Chabab Atlas Khénifra,Rapide club oued zem,2,3,-1,0,3,lose,win
+13/05/2018,KACM Marrakech,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+13/05/2018,OCK Khouribga,Racing de Casablanca,5,0,5,3,0,win,lose
+19/05/2018,FAR Rabat,OCK Khouribga,1,0,1,3,0,win,lose
+21/05/2018,WAC Casablanca,Chabab Atlas Khénifra,3,1,2,3,0,win,lose
+21/05/2018,Rapide club oued zem,FUS Rabat,0,1,-1,0,3,lose,win
+21/05/2018,Racing de Casablanca,RCA ,1,2,-1,0,3,lose,win
+21/05/2018,Moghreb Tétouan,Hassania Agadir,0,1,-1,0,3,lose,win
+21/05/2018,D.H. Eljadida,Olympique club de safi ,1,0,1,3,0,win,lose
+21/05/2018,Chabab Rif Al Hoceima,Ittihad Tanger,2,0,2,3,0,win,lose
+22/05/2018,RSB Berkane,KACM Marrakech,3,2,1,3,0,win,lose
+26/08/2018,OCK Khouribga,Moghreb Tétouan,2,1,1,3,0,win,lose
+26/08/2018,Youssoufia Berrechid,Hassania Agadir,1,0,1,3,0,win,lose
+27/08/2018,KACM Marrakech,FUS Rabat,1,1,0,1,1,draw,draw
+27/08/2018,Ittihad Tanger,Rapide club oued zem,1,1,0,1,1,draw,draw
+07/09/2018,Olympique club de safi,WAC Casablanca,2,1,1,3,0,win,lose
+09/09/2018,FAR Rabat,D.H. Eljadida,0,1,-1,0,3,lose,win
+15/09/2018,Chabab Rif Al Hoceima,FAR Rabat,1,4,-3,0,3,lose,win
+16/09/2018,Rapide club oued zem,KACM Marrakech,1,0,1,3,0,win,lose
+16/09/2018,MCO Oujda,Ittihad Tanger,1,1,0,1,1,draw,draw
+17/09/2018,FUS Rabat ,Olympique club de safi ,3,0,3,3,0,win,lose
+17/09/2018,D.H. Eljadida,OCK Khouribga,2,1,1,3,0,win,lose
+22/09/2018,KACM Marrakech,MCO Oujda,3,1,2,3,0,win,lose
+22/09/2018,Olympique club de safi,Rapide club oued zem,1,0,1,3,0,win,lose
+22/09/2018,Ittihad Tanger,Moghreb Tétouan,1,1,0,1,1,draw,draw
+23/09/2018,OCK Khouribga,Chabab Rif Al Hoceima,2,1,1,3,0,win,lose
+24/09/2018,FAR Rabat,Hassania Agadir,0,1,-1,0,3,lose,win
+28/09/2018,Moghreb Tétouan,KACM Marrakech,1,4,-3,0,3,lose,win
+29/09/2018,D.H. Eljadida,Ittihad Tanger,1,0,1,3,0,win,lose
+30/09/2018,Hassania Agadir,OCK Khouribga,1,0,1,3,0,win,lose
+30/09/2018,FUS Rabat ,Youssoufia Berrechid,1,1,0,1,1,draw,draw
+01/10/2018,MCO Oujda,Olympique club de safi ,0,0,0,1,1,draw,draw
+01/10/2018,Chabab Rif Al Hoceima,RSB Berkane,0,1,-1,0,3,lose,win
+20/10/2018,KACM Marrakech,D.H. Eljadida,2,1,1,3,0,win,lose
+20/10/2018,Ittihad Tanger,Chabab Rif Al Hoceima,1,1,0,1,1,draw,draw
+20/10/2018,OCK Khouribga,RCA ,1,1,0,1,1,draw,draw
+21/10/2018,WAC Casablanca,MCO Oujda,2,0,2,3,0,win,lose
+21/10/2018,RSB Berkane,Hassania Agadir,0,0,0,1,1,draw,draw
+21/10/2018,Youssoufia Berrechid,FAR Rabat,0,0,0,1,1,draw,draw
+22/10/2018,Olympique club de safi,Moghreb Tétouan,1,0,1,3,0,win,lose
+22/10/2018,FUS Rabat ,Rapide club oued zem,1,1,0,1,1,draw,draw
+26/10/2018,Moghreb Tétouan,RSB Berkane,1,0,1,3,0,win,lose
+26/10/2018,D.H. Eljadida,Olympique club de safi ,0,0,0,1,1,draw,draw
+27/10/2018,Rapide club oued zem,Youssoufia Berrechid,2,0,2,3,0,win,lose
+27/10/2018,FAR Rabat,OCK Khouribga,3,2,1,3,0,win,lose
+27/10/2018,Chabab Rif Al Hoceima,KACM Marrakech,1,0,1,3,0,win,lose
+28/10/2018,MCO Oujda,FUS Rabat,3,2,1,3,0,win,lose
+28/10/2018,Hassania Agadir,Ittihad Tanger,0,1,-1,0,3,lose,win
+03/11/2018,KACM Marrakech,Hassania Agadir,0,2,-2,0,3,lose,win
+03/11/2018,FUS Rabat ,Moghreb Tétouan,0,1,-1,0,3,lose,win
+04/11/2018,Youssoufia Berrechid,OCK Khouribga,2,0,2,3,0,win,lose
+04/11/2018,Rapide club oued zem,MCO Oujda,1,1,0,1,1,draw,draw
+04/11/2018,Olympique club de safi,Chabab Rif Al Hoceima,1,1,0,1,1,draw,draw
+06/11/2018,RSB Berkane,FAR Rabat,2,1,1,3,0,win,lose
+07/11/2018,Ittihad Tanger,RCA ,1,1,0,1,1,draw,draw
+09/11/2018,Hassania Agadir,Olympique club de safi ,3,0,3,3,0,win,lose
+10/11/2018,Moghreb Tétouan,Rapide club oued zem,1,1,0,1,1,draw,draw
+10/11/2018,D.H. Eljadida,FUS Rabat,1,2,-1,0,3,lose,win
+10/11/2018,MCO Oujda,Youssoufia Berrechid,0,1,-1,0,3,lose,win
+11/11/2018,OCK Khouribga,RSB Berkane,2,2,0,1,1,draw,draw
+11/11/2018,Chabab Rif Al Hoceima,WAC Casablanca,2,1,1,3,0,win,lose
+11/11/2018,FAR Rabat,Ittihad Tanger,0,0,0,1,1,draw,draw
+11/11/2018,RCA ,KACM Marrakech,2,0,2,3,0,win,lose
+17/11/2018,Hassania Agadir,RCA ,0,0,0,1,1,draw,draw
+22/11/2018,WAC Casablanca,Youssoufia Berrechid,3,2,1,3,0,win,lose
+23/11/2018,Ittihad Tanger,OCK Khouribga,0,0,0,1,1,draw,draw
+24/11/2018,KACM Marrakech,FAR Rabat,0,0,0,1,1,draw,draw
+25/11/2018,MCO Oujda,Moghreb Tétouan,1,0,1,3,0,win,lose
+25/11/2018,Youssoufia Berrechid,RSB Berkane,1,0,1,3,0,win,lose
+25/11/2018,Rapide club oued zem,D.H. Eljadida,1,1,0,1,1,draw,draw
+26/11/2018,WAC Casablanca,FUS Rabat,3,0,3,3,0,win,lose
+28/11/2018,Moghreb Tétouan,Youssoufia Berrechid,2,0,2,3,0,win,lose
+29/11/2018,FUS Rabat ,Chabab Rif Al Hoceima,0,0,0,1,1,draw,draw
+29/11/2018,Rapide club oued zem,WAC Casablanca,0,0,0,1,1,draw,draw
+01/12/2018,FAR Rabat,Olympique club de safi ,2,3,-1,0,3,lose,win
+01/12/2018,OCK Khouribga,KACM Marrakech,1,0,1,3,0,win,lose
+02/12/2018,D.H. Eljadida,MCO Oujda,1,0,1,3,0,win,lose
+02/12/2018,Moghreb Tétouan,WAC Casablanca,1,1,0,1,1,draw,draw
+04/12/2018,Chabab Rif Al Hoceima,Rapide club oued zem,2,2,0,1,1,draw,draw
+05/12/2018,WAC Casablanca,D.H. Eljadida,3,0,3,3,0,win,lose
+07/12/2018,FUS Rabat ,RCA ,1,0,1,3,0,win,lose
+08/12/2018,Olympique club de safi,OCK Khouribga,1,1,0,1,1,draw,draw
+08/12/2018,KACM Marrakech,RSB Berkane,0,0,0,1,1,draw,draw
+09/12/2018,WAC Casablanca,FAR Rabat,1,0,1,3,0,win,lose
+09/12/2018,Youssoufia Berrechid,Ittihad Tanger,1,2,-1,0,3,lose,win
+09/12/2018,Rapide club oued zem,Hassania Agadir,0,1,-1,0,3,lose,win
+10/12/2018,MCO Oujda,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+10/12/2018,Moghreb Tétouan,D.H. Eljadida,0,0,0,1,1,draw,draw
+15/12/2018,Chabab Rif Al Hoceima,Moghreb Tétouan,1,4,-3,0,3,lose,win
+16/12/2018,FAR Rabat,FUS Rabat,2,0,2,3,0,win,lose
+16/12/2018,D.H. Eljadida,Youssoufia Berrechid,0,1,-1,0,3,lose,win
+18/12/2018,RSB Berkane,Olympique club de safi ,3,2,1,3,0,win,lose
+18/12/2018,Hassania Agadir,MCO Oujda,1,0,1,3,0,win,lose
+19/12/2018,RCA ,Rapide club oued zem,3,2,1,3,0,win,lose
+19/12/2018,Ittihad Tanger,KACM Marrakech,1,1,0,1,1,draw,draw
+19/12/2018,OCK Khouribga,WAC Casablanca,0,1,-1,0,3,lose,win
+22/12/2018,D.H. Eljadida,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+23/12/2018,FUS Rabat ,OCK Khouribga,2,1,1,3,0,win,lose
+23/12/2018,Youssoufia Berrechid,KACM Marrakech,2,0,2,3,0,win,lose
+24/12/2018,Rapide club oued zem,FAR Rabat,1,1,0,1,1,draw,draw
+26/12/2018,WAC Casablanca,Hassania Agadir,2,1,1,3,0,win,lose
+26/12/2018,Olympique club de safi,Ittihad Tanger,1,0,1,3,0,win,lose
+26/12/2018,Youssoufia Berrechid,RCA ,1,2,-1,0,3,lose,win
+26/12/2018,RSB Berkane,D.H. Eljadida,1,1,0,1,1,draw,draw
+30/12/2018,RCA ,RSB Berkane,1,1,0,1,1,draw,draw
+30/12/2018,Hassania Agadir,FUS Rabat,0,0,0,1,1,draw,draw
+02/01/2019,Moghreb Tétouan,Hassania Agadir,1,2,-1,0,3,lose,win
+02/01/2019,MCO Oujda,RCA ,1,1,0,1,1,draw,draw
+02/01/2019,WAC Casablanca,RSB Berkane,0,0,0,1,1,draw,draw
+06/01/2019,RCA ,WAC Casablanca,0,1,-1,0,3,lose,win
+07/01/2019,RSB Berkane,Ittihad Tanger,2,0,2,3,0,win,lose
+12/01/2019,OCK Khouribga,Rapide club oued zem,2,2,0,1,1,draw,draw
+12/01/2019,Youssoufia Berrechid,Chabab Rif Al Hoceima,1,2,-1,0,3,lose,win
+13/01/2019,KACM Marrakech,Olympique club de safi ,1,2,-1,0,3,lose,win
+14/01/2019,FAR Rabat,MCO Oujda,1,1,0,1,1,draw,draw
+17/01/2019,RCA ,Moghreb Tétouan,1,1,0,1,1,draw,draw
+23/01/2019,RCA ,FAR Rabat,2,1,1,3,0,win,lose
+23/01/2019,Hassania Agadir,D.H. Eljadida,0,0,0,1,1,draw,draw
+23/01/2019,RSB Berkane,FUS Rabat,0,0,0,1,1,draw,draw
+24/01/2019,Ittihad Tanger,WAC Casablanca,1,0,1,3,0,win,lose
+26/01/2019,Olympique club de safi,Youssoufia Berrechid,0,3,-3,0,3,lose,win
+26/01/2019,MCO Oujda,OCK Khouribga,1,0,1,3,0,win,lose
+27/01/2019,WAC Casablanca,KACM Marrakech,3,1,2,3,0,win,lose
+27/01/2019,Moghreb Tétouan,FAR Rabat,0,0,0,1,1,draw,draw
+27/01/2019,FUS Rabat ,Ittihad Tanger,0,2,-2,0,3,lose,win
+27/01/2019,Rapide club oued zem,RSB Berkane,2,1,1,3,0,win,lose
+28/01/2019,Chabab Rif Al Hoceima,Hassania Agadir,1,0,1,3,0,win,lose
+30/01/2019,D.H. Eljadida,RCA ,2,4,-2,0,3,lose,win
+02/02/2019,Moghreb Tétouan,OCK Khouribga,0,2,-2,0,3,lose,win
+02/02/2019,Rapide club oued zem,Ittihad Tanger,0,1,-1,0,3,lose,win
+02/02/2019,FUS Rabat ,KACM Marrakech,1,0,1,3,0,win,lose
+03/02/2019,D.H. Eljadida,FAR Rabat,1,3,-2,0,3,lose,win
+07/02/2019,WAC Casablanca,Olympique club de safi ,1,0,1,3,0,win,lose
+07/02/2019,Hassania Agadir,Youssoufia Berrechid,1,1,0,1,1,draw,draw
+08/02/2019,RSB Berkane,Moghreb Tétouan,2,0,2,3,0,win,lose
+09/02/2019,FAR Rabat,Chabab Rif Al Hoceima,3,0,3,3,0,win,lose
+09/02/2019,OCK Khouribga,D.H. Eljadida,2,1,1,3,0,win,lose
+09/02/2019,KACM Marrakech,Rapide club oued zem,2,0,2,3,0,win,lose
+10/02/2019,Ittihad Tanger,MCO Oujda,3,2,1,3,0,win,lose
+11/02/2019,Olympique club de safi,FUS Rabat,3,3,0,1,1,draw,draw
+15/02/2019,Rapide club oued zem,Olympique club de safi ,1,1,0,1,1,draw,draw
+16/02/2019,Chabab Rif Al Hoceima,OCK Khouribga,3,1,2,3,0,win,lose
+16/02/2019,MCO Oujda,KACM Marrakech,2,1,1,3,0,win,lose
+16/02/2019,Moghreb Tétouan,Ittihad Tanger,1,1,0,1,1,draw,draw
+17/02/2019,RCA ,Youssoufia Berrechid,3,3,0,1,1,draw,draw
+17/02/2019,FUS Rabat ,WAC Casablanca,0,1,-1,0,3,lose,win
+17/02/2019,D.H. Eljadida,RSB Berkane,1,1,0,1,1,draw,draw
+18/02/2019,Hassania Agadir,FAR Rabat,1,2,-1,0,3,lose,win
+20/02/2019,Olympique club de safi,RCA ,0,1,-1,0,3,lose,win
+20/02/2019,MCO Oujda,RSB Berkane,1,0,1,3,0,win,lose
+20/02/2019,Youssoufia Berrechid,WAC Casablanca,1,2,-1,0,3,lose,win
+23/02/2019,KACM Marrakech,Moghreb Tétouan,1,1,0,1,1,draw,draw
+23/02/2019,Ittihad Tanger,D.H. Eljadida,0,2,-2,0,3,lose,win
+24/02/2019,WAC Casablanca,Rapide club oued zem,3,0,3,3,0,win,lose
+24/02/2019,Olympique club de safi,MCO Oujda,1,3,-2,0,3,lose,win
+25/02/2019,Youssoufia Berrechid,FUS Rabat,0,0,0,1,1,draw,draw
+27/02/2019,RSB Berkane,Chabab Rif Al Hoceima,2,0,2,3,0,win,lose
+27/02/2019,FAR Rabat,RCA ,2,1,1,3,0,win,lose
+27/02/2019,OCK Khouribga,Hassania Agadir,0,0,0,1,1,draw,draw
+28/02/2019,MCO Oujda,WAC Casablanca,2,3,-1,0,3,lose,win
+28/02/2019,Moghreb Tétouan,Olympique club de safi ,0,0,0,1,1,draw,draw
+02/03/2019,D.H. Eljadida,KACM Marrakech,1,1,0,1,1,draw,draw
+02/03/2019,Rapide club oued zem,FUS Rabat,1,0,1,3,0,win,lose
+03/03/2019,FAR Rabat,Youssoufia Berrechid,3,4,-1,0,3,lose,win
+03/03/2019,Chabab Rif Al Hoceima,Ittihad Tanger,2,3,-1,0,3,lose,win
+04/03/2019,WAC Casablanca,Moghreb Tétouan,2,1,1,3,0,win,lose
+06/03/2019,RCA ,OCK Khouribga,2,3,-1,0,3,lose,win
+06/03/2019,Hassania Agadir,RSB Berkane,3,2,1,3,0,win,lose
+08/03/2019,FUS Rabat ,MCO Oujda,0,1,-1,0,3,lose,win
+09/03/2019,Olympique club de safi,D.H. Eljadida,3,2,1,3,0,win,lose
+09/03/2019,KACM Marrakech,Chabab Rif Al Hoceima,1,1,0,1,1,draw,draw
+09/03/2019,Youssoufia Berrechid,Rapide club oued zem,1,1,0,1,1,draw,draw
+10/03/2019,OCK Khouribga,FAR Rabat,1,1,0,1,1,draw,draw
+13/03/2019,Ittihad Tanger,Hassania Agadir,1,0,1,3,0,win,lose
+13/03/2019,RSB Berkane,RCA ,3,7,-4,0,3,lose,win
+16/03/2019,Moghreb Tétouan,FUS Rabat,0,0,0,1,1,draw,draw
+16/03/2019,Chabab Rif Al Hoceima,Olympique club de safi ,1,1,0,1,1,draw,draw
+17/03/2019,MCO Oujda,Rapide club oued zem,0,0,0,1,1,draw,draw
+27/03/2019,OCK Khouribga,Youssoufia Berrechid,1,1,0,1,1,draw,draw
+27/03/2019,Hassania Agadir,KACM Marrakech,5,1,4,3,0,win,lose
+28/03/2019,D.H. Eljadida,WAC Casablanca,1,1,0,1,1,draw,draw
+01/04/2019,WAC Casablanca,Chabab Rif Al Hoceima,6,1,5,3,0,win,lose
+01/04/2019,RSB Berkane,OCK Khouribga,1,1,0,1,1,draw,draw
+02/04/2019,Olympique club de safi,Hassania Agadir,2,1,1,3,0,win,lose
+02/04/2019,Youssoufia Berrechid,MCO Oujda,1,1,0,1,1,draw,draw
+02/04/2019,Rapide club oued zem,Moghreb Tétouan,1,0,1,3,0,win,lose
+02/04/2019,FUS Rabat ,D.H. Eljadida,0,0,0,1,1,draw,draw
+03/04/2019,KACM Marrakech,RCA ,1,2,-1,0,3,lose,win
+03/04/2019,Ittihad Tanger,FAR Rabat,0,0,0,1,1,draw,draw
+06/04/2019,Moghreb Tétouan,MCO Oujda,4,1,3,3,0,win,lose
+06/04/2019,D.H. Eljadida,Rapide club oued zem,2,0,2,3,0,win,lose
+07/04/2019,OCK Khouribga,Ittihad Tanger,1,1,0,1,1,draw,draw
+07/04/2019,RCA ,Olympique club de safi ,1,0,1,3,0,win,lose
+07/04/2019,Chabab Rif Al Hoceima,FUS Rabat,0,0,0,1,1,draw,draw
+08/04/2019,FAR Rabat,KACM Marrakech,0,2,-2,0,3,lose,win
+10/04/2019,Chabab Rif Al Hoceima,RCA ,1,2,-1,0,3,lose,win
+17/04/2019,RCA ,Ittihad Tanger,1,0,1,3,0,win,lose
+17/04/2019,FAR Rabat,RSB Berkane,1,1,0,1,1,draw,draw
+18/04/2019,Hassania Agadir,WAC Casablanca,2,1,1,3,0,win,lose
+19/04/2019,KACM Marrakech,OCK Khouribga,0,1,-1,0,3,lose,win
+20/04/2019,Youssoufia Berrechid,Moghreb Tétouan,2,0,2,3,0,win,lose
+20/04/2019,Rapide club oued zem,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+20/04/2019,MCO Oujda,D.H. Eljadida,1,2,-1,0,3,lose,win
+21/04/2019,WAC Casablanca,RCA ,2,2,0,1,1,draw,draw
+21/04/2019,FUS Rabat ,Hassania Agadir,2,0,2,3,0,win,lose
+21/04/2019,Olympique club de safi,FAR Rabat,1,0,1,3,0,win,lose
+21/04/2019,Ittihad Tanger,RSB Berkane,0,0,0,1,1,draw,draw
+24/04/2019,RCA ,Hassania Agadir,2,1,1,3,0,win,lose
+24/04/2019,RSB Berkane,Youssoufia Berrechid,2,0,2,3,0,win,lose
+27/04/2019,OCK Khouribga,Olympique club de safi ,4,4,0,1,1,draw,draw
+27/04/2019,D.H. Eljadida,Moghreb Tétouan,2,0,2,3,0,win,lose
+27/04/2019,Chabab Rif Al Hoceima,MCO Oujda,1,1,0,1,1,draw,draw
+28/04/2019,Ittihad Tanger,Youssoufia Berrechid,1,0,1,3,0,win,lose
+28/04/2019,RCA ,FUS Rabat,0,0,0,1,1,draw,draw
+29/04/2019,Hassania Agadir,Rapide club oued zem,0,0,0,1,1,draw,draw
+01/05/2019,RSB Berkane,KACM Marrakech,1,1,0,1,1,draw,draw
+04/05/2019,FUS Rabat ,FAR Rabat,1,0,1,3,0,win,lose
+04/05/2019,Rapide club oued zem,RCA ,3,3,0,1,1,draw,draw
+04/05/2019,MCO Oujda,Hassania Agadir,1,1,0,1,1,draw,draw
+05/05/2019,KACM Marrakech,Ittihad Tanger,3,1,2,3,0,win,lose
+05/05/2019,Moghreb Tétouan,Chabab Rif Al Hoceima,2,1,1,3,0,win,lose
+05/05/2019,Youssoufia Berrechid,D.H. Eljadida,1,1,0,1,1,draw,draw
+09/05/2019,Olympique club de safi,RSB Berkane,3,0,3,3,0,win,lose
+10/05/2019,FAR Rabat,WAC Casablanca,1,1,0,1,1,draw,draw
+12/05/2019,RCA ,MCO Oujda,2,1,1,3,0,win,lose
+13/05/2019,Ittihad Tanger,Olympique club de safi ,0,2,-2,0,3,lose,win
+14/05/2019,OCK Khouribga,FUS Rabat,2,2,0,1,1,draw,draw
+14/05/2019,Chabab Rif Al Hoceima,D.H. Eljadida,1,1,0,1,1,draw,draw
+14/05/2019,RSB Berkane,WAC Casablanca,3,2,1,3,0,win,lose
+14/05/2019,KACM Marrakech,Youssoufia Berrechid,4,1,3,3,0,win,lose
+14/05/2019,FAR Rabat,Rapide club oued zem,0,0,0,1,1,draw,draw
+14/05/2019,Hassania Agadir,Moghreb Tétouan,1,0,1,3,0,win,lose
+18/05/2019,WAC Casablanca,Ittihad Tanger,2,2,0,1,1,draw,draw
+19/05/2019,D.H. Eljadida,Hassania Agadir,1,1,0,1,1,draw,draw
+05/06/2019,WAC Casablanca,OCK Khouribga,4,1,3,3,0,win,lose
+05/06/2019,Olympique club de safi,KACM Marrakech,1,0,1,3,0,win,lose
+05/06/2019,MCO Oujda,FAR Rabat,1,1,0,1,1,draw,draw
+05/06/2019,FUS Rabat ,RSB Berkane,0,0,0,1,1,draw,draw
+05/06/2019,Chabab Rif Al Hoceima,Youssoufia Berrechid,2,1,1,3,0,win,lose
+05/06/2019,Moghreb Tétouan,RCA ,3,1,2,3,0,win,lose
+08/06/2019,Rapide club oued zem,OCK Khouribga,1,0,1,3,0,win,lose
+09/06/2019,KACM Marrakech,WAC Casablanca,3,3,0,1,1,draw,draw
+09/06/2019,Ittihad Tanger,FUS Rabat,1,3,-2,0,3,lose,win
+09/06/2019,Youssoufia Berrechid,Olympique club de safi ,2,1,1,3,0,win,lose
+09/06/2019,RCA ,D.H. Eljadida,2,0,2,3,0,win,lose
+09/06/2019,Hassania Agadir,Chabab Rif Al Hoceima,1,0,1,3,0,win,lose
+09/06/2019,FAR Rabat,Moghreb Tétouan,0,2,-2,0,3,lose,win
+11/06/2019,OCK Khouribga,MCO Oujda,3,1,2,3,0,win,lose
+11/06/2019,RSB Berkane,Rapide club oued zem,2,2,0,1,1,draw,draw
+14/09/2019,Moghreb Tétouan,FAR Rabat,2,0,2,3,0,win,lose
+14/09/2019,Olympique club de safi,OCK Khouribga,1,1,0,1,1,draw,draw
+14/09/2019,FUS Rabat ,Ittihad Tanger,1,0,1,3,0,win,lose
+15/09/2019,Youssoufia Berrechid,Renaissance Club Zemamra,1,2,-1,0,3,lose,win
+15/09/2019,Rapide club oued zem,MCO Oujda,0,0,0,1,1,draw,draw
+21/09/2019,MCO Oujda,FUS Rabat,2,1,1,3,0,win,lose
+22/09/2019,Ittihad Tanger,D.H. Eljadida,0,0,0,1,1,draw,draw
+22/09/2019,Raja Beni Mellal,Moghreb Tétouan,0,2,-2,0,3,lose,win
+22/09/2019,OCK Khouribga,Hassania Agadir,0,0,0,1,1,draw,draw
+27/09/2019,D.H. Eljadida,MCO Oujda,0,0,0,1,1,draw,draw
+29/09/2019,Rapide club oued zem,OCK Khouribga,0,1,-1,0,3,lose,win
+29/09/2019,Moghreb Tétouan,Renaissance Club Zemamra,1,0,1,3,0,win,lose
+02/10/2019,FUS Rabat ,RSB Berkane,1,1,0,1,1,draw,draw
+06/10/2019,FAR Rabat,Olympique club de safi ,0,0,0,1,1,draw,draw
+06/10/2019,D.H. Eljadida,WAC Casablanca,0,1,-1,0,3,lose,win
+06/10/2019,Hassania Agadir,RSB Berkane,0,1,-1,0,3,lose,win
+20/10/2019,FAR Rabat,Rapide club oued zem,2,0,2,3,0,win,lose
+20/10/2019,OCK Khouribga,FUS Rabat,1,1,0,1,1,draw,draw
+20/10/2019,Renaissance Club Zemamra,Olympique club de safi ,1,1,0,1,1,draw,draw
+23/10/2019,MCO Oujda,WAC Casablanca,1,1,0,1,1,draw,draw
+24/10/2019,RCA ,Raja Beni Mellal,2,0,2,3,0,win,lose
+26/10/2019,FUS Rabat ,FAR Rabat,2,4,-2,0,3,lose,win
+27/10/2019,Rapide club oued zem,Raja Beni Mellal,3,1,2,3,0,win,lose
+27/10/2019,WAC Casablanca,Youssoufia Berrechid,3,1,2,3,0,win,lose
+27/10/2019,Olympique club de safi,RCA ,0,0,0,1,1,draw,draw
+27/10/2019,Ittihad Tanger,MCO Oujda,0,0,0,1,1,draw,draw
+28/10/2019,D.H. Eljadida,OCK Khouribga,1,0,1,3,0,win,lose
+30/10/2019,Youssoufia Berrechid,Moghreb Tétouan,1,1,0,1,1,draw,draw
+01/11/2019,Renaissance Club Zemamra,Rapide club oued zem,2,0,2,3,0,win,lose
+02/11/2019,Raja Beni Mellal,FUS Rabat,2,2,0,1,1,draw,draw
+03/11/2019,FAR Rabat,D.H. Eljadida,1,3,-2,0,3,lose,win
+04/11/2019,MCO Oujda,Youssoufia Berrechid,3,1,2,3,0,win,lose
+05/11/2019,Renaissance Club Zemamra,RCA ,1,2,-1,0,3,lose,win
+06/11/2019,WAC Casablanca,Ittihad Tanger,4,0,4,3,0,win,lose
+06/11/2019,Hassania Agadir,FAR Rabat,2,1,1,3,0,win,lose
+06/11/2019,Moghreb Tétouan,Olympique club de safi ,1,1,0,1,1,draw,draw
+06/11/2019,RSB Berkane,Rapide club oued zem,2,1,1,3,0,win,lose
+09/11/2019,Youssoufia Berrechid,RCA ,3,2,1,3,0,win,lose
+10/11/2019,Olympique club de safi,Raja Beni Mellal,1,0,1,3,0,win,lose
+10/11/2019,WAC Casablanca,RSB Berkane,0,1,-1,0,3,lose,win
+22/11/2019,D.H. Eljadida,Raja Beni Mellal,1,0,1,3,0,win,lose
+23/11/2019,Ittihad Tanger,Youssoufia Berrechid,2,0,2,3,0,win,lose
+24/11/2019,FUS Rabat ,Renaissance Club Zemamra,1,1,0,1,1,draw,draw
+24/11/2019,MCO Oujda,RSB Berkane,0,1,-1,0,3,lose,win
+26/11/2019,Hassania Agadir,Moghreb Tétouan,1,1,0,1,1,draw,draw
+29/11/2019,FAR Rabat,Ittihad Tanger,4,1,3,3,0,win,lose
+29/11/2019,OCK Khouribga,MCO Oujda,1,4,-3,0,3,lose,win
+01/12/2019,Renaissance Club Zemamra,D.H. Eljadida,1,2,-1,0,3,lose,win
+02/12/2019,Youssoufia Berrechid,Olympique club de safi ,1,0,1,3,0,win,lose
+02/12/2019,Moghreb Tétouan,Rapide club oued zem,1,0,1,3,0,win,lose
+04/12/2019,Ittihad Tanger,OCK Khouribga,1,1,0,1,1,draw,draw
+07/12/2019,Rapide club oued zem,Olympique club de safi ,3,1,2,3,0,win,lose
+07/12/2019,FUS Rabat ,Moghreb Tétouan,1,0,1,3,0,win,lose
+08/12/2019,Ittihad Tanger,Raja Beni Mellal,1,0,1,3,0,win,lose
+08/12/2019,MCO Oujda,FAR Rabat,0,2,-2,0,3,lose,win
+11/12/2019,OCK Khouribga,WAC Casablanca,0,4,-4,0,3,lose,win
+11/12/2019,RCA ,Moghreb Tétouan,1,0,1,3,0,win,lose
+13/12/2019,Raja Beni Mellal,Hassania Agadir,1,3,-2,0,3,lose,win
+14/12/2019,RSB Berkane,D.H. Eljadida,1,1,0,1,1,draw,draw
+15/12/2019,WAC Casablanca,FAR Rabat,1,0,1,3,0,win,lose
+15/12/2019,Rapide club oued zem,RCA ,0,0,0,1,1,draw,draw
+17/12/2019,RSB Berkane,Ittihad Tanger,2,0,2,3,0,win,lose
+18/12/2019,Raja Beni Mellal,WAC Casablanca,1,2,-1,0,3,lose,win
+18/12/2019,RCA ,Hassania Agadir,2,1,1,3,0,win,lose
+21/12/2019,FAR Rabat,RSB Berkane,0,1,-1,0,3,lose,win
+21/12/2019,Moghreb Tétouan,D.H. Eljadida,2,1,1,3,0,win,lose
+21/12/2019,OCK Khouribga,Youssoufia Berrechid,4,1,3,3,0,win,lose
+21/12/2019,Olympique club de safi,FUS Rabat,0,0,0,1,1,draw,draw
+22/12/2019,Hassania Agadir,Rapide club oued zem,0,1,-1,0,3,lose,win
+22/12/2019,Renaissance Club Zemamra,Ittihad Tanger,1,0,1,3,0,win,lose
+22/12/2019,RCA ,WAC Casablanca,1,0,1,3,0,win,lose
+23/12/2019,Raja Beni Mellal,MCO Oujda,1,2,-1,0,3,lose,win
+25/12/2019,RSB Berkane,Youssoufia Berrechid,1,1,0,1,1,draw,draw
+25/12/2019,Hassania Agadir,Renaissance Club Zemamra,1,1,0,1,1,draw,draw
+28/12/2019,D.H. Eljadida,Olympique club de safi ,1,1,0,1,1,draw,draw
+29/12/2019,OCK Khouribga,FAR Rabat,0,1,-1,0,3,lose,win
+29/12/2019,Youssoufia Berrechid,Rapide club oued zem,0,4,-4,0,3,lose,win
+30/12/2019,RCA ,FUS Rabat,0,2,-2,0,3,lose,win
+30/12/2019,MCO Oujda,Renaissance Club Zemamra,2,1,1,3,0,win,lose
+02/01/2020,RSB Berkane,OCK Khouribga,3,1,2,3,0,win,lose
+02/01/2020,WAC Casablanca,Moghreb Tétouan,2,1,1,3,0,win,lose
+02/01/2020,Olympique club de safi,Hassania Agadir,2,0,2,3,0,win,lose
+05/01/2020,WAC Casablanca,Renaissance Club Zemamra,1,1,0,1,1,draw,draw
+05/01/2020,Youssoufia Berrechid,Hassania Agadir,3,1,2,3,0,win,lose
+06/01/2020,RSB Berkane,Raja Beni Mellal,1,0,1,3,0,win,lose
+08/01/2020,FUS Rabat ,Hassania Agadir,1,0,1,3,0,win,lose
+11/01/2020,Raja Beni Mellal,OCK Khouribga,0,0,0,1,1,draw,draw
+11/01/2020,Moghreb Tétouan,Ittihad Tanger,0,0,0,1,1,draw,draw
+12/01/2020,Rapide club oued zem,FUS Rabat,0,0,0,1,1,draw,draw
+12/01/2020,FAR Rabat,Youssoufia Berrechid,0,1,-1,0,3,lose,win
+15/01/2020,Ittihad Tanger,RCA ,1,4,-3,0,3,lose,win
+15/01/2020,Renaissance Club Zemamra,RSB Berkane,5,0,5,3,0,win,lose
+16/01/2020,WAC Casablanca,Hassania Agadir,3,2,1,3,0,win,lose
+17/01/2020,D.H. Eljadida,Rapide club oued zem,1,1,0,1,1,draw,draw
+18/01/2020,FAR Rabat,Raja Beni Mellal,1,0,1,3,0,win,lose
+18/01/2020,Youssoufia Berrechid,FUS Rabat,1,1,0,1,1,draw,draw
+18/01/2020,MCO Oujda,Moghreb Tétouan,1,0,1,3,0,win,lose
+19/01/2020,OCK Khouribga,Renaissance Club Zemamra,1,0,1,3,0,win,lose
+19/01/2020,RSB Berkane,RCA ,2,2,0,1,1,draw,draw
+20/01/2020,Olympique club de safi,WAC Casablanca,1,2,-1,0,3,lose,win
+21/01/2020,Hassania Agadir,D.H. Eljadida,2,1,1,3,0,win,lose
+22/01/2020,RCA ,MCO Oujda,1,1,0,1,1,draw,draw
+23/01/2020,Ittihad Tanger,Olympique club de safi ,1,2,-1,0,3,lose,win
+25/01/2020,Youssoufia Berrechid,Raja Beni Mellal,2,0,2,3,0,win,lose
+26/01/2020,FUS Rabat ,D.H. Eljadida,2,1,1,3,0,win,lose
+26/01/2020,Renaissance Club Zemamra,FAR Rabat,1,2,-1,0,3,lose,win
+27/01/2020,Olympique club de safi,MCO Oujda,2,2,0,1,1,draw,draw
+31/01/2020,Ittihad Tanger,Rapide club oued zem,0,0,0,1,1,draw,draw
+01/02/2020,OCK Khouribga,Moghreb Tétouan,2,2,0,1,1,draw,draw
+01/02/2020,D.H. Eljadida,Youssoufia Berrechid,2,1,1,3,0,win,lose
+02/02/2020,Raja Beni Mellal,Renaissance Club Zemamra,2,2,0,1,1,draw,draw
+05/02/2020,RCA ,OCK Khouribga,2,1,1,3,0,win,lose
+05/02/2020,Hassania Agadir,Ittihad Tanger,2,1,1,3,0,win,lose
+06/02/2020,Rapide club oued zem,WAC Casablanca,1,2,-1,0,3,lose,win
+06/02/2020,Moghreb Tétouan,RSB Berkane,0,0,0,1,1,draw,draw
+09/02/2020,MCO Oujda,Hassania Agadir,2,1,1,3,0,win,lose
+10/02/2020,WAC Casablanca,FUS Rabat,1,1,0,1,1,draw,draw
+10/02/2020,RSB Berkane,Olympique club de safi ,1,1,0,1,1,draw,draw
+12/02/2020,FAR Rabat,RCA ,1,0,1,3,0,win,lose
+14/02/2020,MCO Oujda,Rapide club oued zem,1,0,1,3,0,win,lose
+14/02/2020,Ittihad Tanger,FUS Rabat,2,1,1,3,0,win,lose
+15/02/2020,WAC Casablanca,D.H. Eljadida,0,1,-1,0,3,lose,win
+15/02/2020,RSB Berkane,Hassania Agadir,1,1,0,1,1,draw,draw
+16/02/2020,FAR Rabat,Moghreb Tétouan,2,1,1,3,0,win,lose
+16/02/2020,Renaissance Club Zemamra,Youssoufia Berrechid,3,2,1,3,0,win,lose
+18/02/2020,OCK Khouribga,Olympique club de safi ,1,1,0,1,1,draw,draw
+21/02/2020,Raja Beni Mellal,RCA ,1,2,-1,0,3,lose,win
+22/02/2020,D.H. Eljadida,Ittihad Tanger,1,1,0,1,1,draw,draw
+22/02/2020,FUS Rabat ,MCO Oujda,2,1,1,3,0,win,lose
+22/02/2020,Youssoufia Berrechid,WAC Casablanca,3,2,1,3,0,win,lose
+23/02/2020,Rapide club oued zem,RSB Berkane,0,0,0,1,1,draw,draw
+23/02/2020,Hassania Agadir,OCK Khouribga,1,2,-1,0,3,lose,win
+25/02/2020,Olympique club de safi,FAR Rabat,1,1,0,1,1,draw,draw
+25/02/2020,Moghreb Tétouan,Raja Beni Mellal,0,0,0,1,1,draw,draw
+28/02/2020,OCK Khouribga,Rapide club oued zem,0,0,0,1,1,draw,draw
+29/02/2020,MCO Oujda,D.H. Eljadida,1,1,0,1,1,draw,draw
+01/03/2020,Raja Beni Mellal,Olympique club de safi ,0,0,0,1,1,draw,draw
+01/03/2020,Renaissance Club Zemamra,Moghreb Tétouan,1,2,-1,0,3,lose,win
+02/03/2020,Youssoufia Berrechid,Ittihad Tanger,3,0,3,3,0,win,lose
+03/03/2020,FUS Rabat ,OCK Khouribga,1,0,1,3,0,win,lose
+03/03/2020,Rapide club oued zem,FAR Rabat,2,2,0,1,1,draw,draw
+05/03/2020,Olympique club de safi,Renaissance Club Zemamra,1,3,-2,0,3,lose,win
+06/03/2020,Moghreb Tétouan,Youssoufia Berrechid,2,0,2,3,0,win,lose
+07/03/2020,FAR Rabat,FUS Rabat,1,2,-1,0,3,lose,win
+07/03/2020,MCO Oujda,Ittihad Tanger,1,0,1,3,0,win,lose
+08/03/2020,OCK Khouribga,D.H. Eljadida,1,0,1,3,0,win,lose
+09/03/2020,Raja Beni Mellal,Rapide club oued zem,1,0,1,3,0,win,lose
+12/03/2020,Ittihad Tanger,WAC Casablanca,0,2,-2,0,3,lose,win
+12/03/2020,RSB Berkane,FUS Rabat,0,1,-1,0,3,lose,win
+12/03/2020,FAR Rabat,Hassania Agadir,1,1,0,1,1,draw,draw
+13/03/2020,Rapide club oued zem,Renaissance Club Zemamra,2,1,1,3,0,win,lose
+27/07/2020,Hassania Agadir,Raja Beni Mellal,1,0,1,3,0,win,lose
+27/07/2020,D.H. Eljadida,RCA ,0,0,0,1,1,draw,draw
+28/07/2020,WAC Casablanca,MCO Oujda,1,1,0,1,1,draw,draw
+30/07/2020,D.H. Eljadida,RSB Berkane,0,0,0,1,1,draw,draw
+30/07/2020,RCA ,Renaissance Club Zemamra,3,1,2,3,0,win,lose
+02/08/2020,RCA ,Youssoufia Berrechid,2,0,2,3,0,win,lose
+05/08/2020,Moghreb Tétouan,RCA ,0,0,0,1,1,draw,draw
+06/08/2020,RSB Berkane,WAC Casablanca,2,1,1,3,0,win,lose
+07/08/2020,Renaissance Club Zemamra,Hassania Agadir,2,2,0,1,1,draw,draw
+08/08/2020,RCA ,Olympique club de safi ,2,0,2,3,0,win,lose
+10/08/2020,WAC Casablanca,OCK Khouribga,3,2,1,3,0,win,lose
+10/08/2020,D.H. Eljadida,FAR Rabat,1,1,0,1,1,draw,draw
+11/08/2020,Olympique club de safi,Moghreb Tétouan,0,0,0,1,1,draw,draw
+11/08/2020,Youssoufia Berrechid,MCO Oujda,1,1,0,1,1,draw,draw
+11/08/2020,Hassania Agadir,RCA ,0,2,-2,0,3,lose,win
+14/08/2020,Renaissance Club Zemamra,FUS Rabat,1,1,0,1,1,draw,draw
+15/08/2020,Olympique club de safi,Youssoufia Berrechid,1,0,1,3,0,win,lose
+15/08/2020,RSB Berkane,MCO Oujda,1,0,1,3,0,win,lose
+15/08/2020,Moghreb Tétouan,Hassania Agadir,1,2,-1,0,3,lose,win
+18/08/2020,MCO Oujda,OCK Khouribga,3,0,3,3,0,win,lose
+18/08/2020,D.H. Eljadida,Renaissance Club Zemamra,2,1,1,3,0,win,lose
+19/08/2020,Youssoufia Berrechid,RSB Berkane,0,0,0,1,1,draw,draw
+19/08/2020,FUS Rabat ,RCA ,0,1,-1,0,3,lose,win
+19/08/2020,Rapide club oued zem,Moghreb Tétouan,2,1,1,3,0,win,lose
+19/08/2020,Hassania Agadir,Olympique club de safi ,2,2,0,1,1,draw,draw
+25/08/2020,Youssoufia Berrechid,OCK Khouribga,1,0,1,3,0,win,lose
+27/08/2020,D.H. Eljadida,Moghreb Tétouan,2,0,2,3,0,win,lose
+27/08/2020,MCO Oujda,Raja Beni Mellal,1,1,0,1,1,draw,draw
+29/08/2020,FAR Rabat,OCK Khouribga,1,1,0,1,1,draw,draw
+29/08/2020,Rapide club oued zem,Youssoufia Berrechid,0,0,0,1,1,draw,draw
+08/09/2020,Raja Beni Mellal,D.H. Eljadida,0,0,0,1,1,draw,draw
+08/09/2020,OCK Khouribga,Ittihad Tanger,0,1,-1,0,3,lose,win
+09/09/2020,FAR Rabat,WAC Casablanca,1,1,0,1,1,draw,draw
+13/09/2020,FUS Rabat ,Raja Beni Mellal,1,1,0,1,1,draw,draw
+13/09/2020,Ittihad Tanger,RSB Berkane,1,1,0,1,1,draw,draw
+16/09/2020,WAC Casablanca,Raja Beni Mellal,3,0,3,3,0,win,lose
+16/09/2020,Ittihad Tanger,FAR Rabat,1,1,0,1,1,draw,draw
+19/09/2020,OCK Khouribga,RSB Berkane,0,1,-1,0,3,lose,win
+20/09/2020,RCA ,D.H. Eljadida,3,1,2,3,0,win,lose
+20/09/2020,Renaissance Club Zemamra,WAC Casablanca,1,2,-1,0,3,lose,win
+20/09/2020,Raja Beni Mellal,Ittihad Tanger,0,1,-1,0,3,lose,win
+21/09/2020,FUS Rabat ,Olympique club de safi ,5,2,3,3,0,win,lose
+21/09/2020,Rapide club oued zem,Hassania Agadir,2,1,1,3,0,win,lose
+23/09/2020,RSB Berkane,FAR Rabat,2,1,1,3,0,win,lose
+23/09/2020,Ittihad Tanger,Renaissance Club Zemamra,0,0,0,1,1,draw,draw
+24/09/2020,WAC Casablanca,RCA ,0,0,0,1,1,draw,draw
+26/09/2020,Hassania Agadir,FUS Rabat,2,1,1,3,0,win,lose
+27/09/2020,Moghreb Tétouan,WAC Casablanca,1,1,0,1,1,draw,draw
+27/09/2020,Raja Beni Mellal,RSB Berkane,0,1,-1,0,3,lose,win
+27/09/2020,Renaissance Club Zemamra,MCO Oujda,1,0,1,3,0,win,lose
+27/09/2020,RCA ,Rapide club oued zem,1,0,1,3,0,win,lose
+29/09/2020,Youssoufia Berrechid,FAR Rabat,2,4,-2,0,3,lose,win
+29/09/2020,D.H. Eljadida,Hassania Agadir,1,2,-1,0,3,lose,win
+30/09/2020,WAC Casablanca,Olympique club de safi ,4,1,3,3,0,win,lose
+30/09/2020,OCK Khouribga,Raja Beni Mellal,1,0,1,3,0,win,lose
+30/09/2020,Ittihad Tanger,Moghreb Tétouan,1,0,1,3,0,win,lose
+30/09/2020,FUS Rabat ,Rapide club oued zem,3,1,2,3,0,win,lose
+30/09/2020,RSB Berkane,Renaissance Club Zemamra,1,2,-1,0,3,lose,win
+30/09/2020,MCO Oujda,RCA ,2,2,0,1,1,draw,draw
+03/10/2020,Olympique club de safi,Ittihad Tanger,0,0,0,1,1,draw,draw
+03/10/2020,Renaissance Club Zemamra,OCK Khouribga,0,0,0,1,1,draw,draw
+03/10/2020,Rapide club oued zem,D.H. Eljadida,1,0,1,3,0,win,lose
+03/10/2020,FUS Rabat ,Youssoufia Berrechid,1,0,1,3,0,win,lose
+04/10/2020,Raja Beni Mellal,FAR Rabat,0,3,-3,0,3,lose,win
+04/10/2020,Hassania Agadir,WAC Casablanca,1,1,0,1,1,draw,draw
+04/10/2020,RCA ,RSB Berkane,2,2,0,1,1,draw,draw
+04/10/2020,Moghreb Tétouan,MCO Oujda,4,0,4,3,0,win,lose
+06/10/2020,D.H. Eljadida,FUS Rabat,1,2,-1,0,3,lose,win
+07/10/2020,MCO Oujda,Olympique club de safi ,1,0,1,3,0,win,lose
+07/10/2020,WAC Casablanca,Rapide club oued zem,2,1,1,3,0,win,lose
+07/10/2020,Raja Beni Mellal,Youssoufia Berrechid,0,2,-2,0,3,lose,win
+07/10/2020,OCK Khouribga,RCA ,1,2,-1,0,3,lose,win
+07/10/2020,Ittihad Tanger,Hassania Agadir,0,0,0,1,1,draw,draw
+07/10/2020,FAR Rabat,Renaissance Club Zemamra,5,2,3,3,0,win,lose
+07/10/2020,RSB Berkane,Moghreb Tétouan,4,1,3,3,0,win,lose
+10/10/2020,Youssoufia Berrechid,D.H. Eljadida,1,0,1,3,0,win,lose
+10/10/2020,Renaissance Club Zemamra,Raja Beni Mellal,1,1,0,1,1,draw,draw
+10/10/2020,Rapide club oued zem,Ittihad Tanger,5,3,2,3,0,win,lose
+10/10/2020,Moghreb Tétouan,OCK Khouribga,2,1,1,3,0,win,lose
+11/10/2020,FUS Rabat ,WAC Casablanca,1,2,-1,0,3,lose,win
+11/10/2020,RCA ,FAR Rabat,2,1,1,3,0,win,lose
+11/10/2020,Olympique club de safi,RSB Berkane,0,1,-1,0,3,lose,win
+11/10/2020,Hassania Agadir,MCO Oujda,0,1,-1,0,3,lose,win
+04/12/2020,Moghreb Tétouan,SC Chabab Mohammedia,0,2,-2,0,3,lose,win
+04/12/2020,Maghreb Fès,FAR Rabat,2,1,1,3,0,win,lose
+05/12/2020,Olympique club de safi,D.H. Eljadida,4,3,1,3,0,win,lose
+05/12/2020,Renaissance Club Zemamra,RSB Berkane,0,2,-2,0,3,lose,win
+05/12/2020,Rapide club oued zem,MCO Oujda,1,1,0,1,1,draw,draw
+06/12/2020,FUS Rabat ,RCA ,3,3,0,1,1,draw,draw
+06/12/2020,Hassania Agadir,Ittihad Tanger,0,1,-1,0,3,lose,win
+06/12/2020,WAC Casablanca,Youssoufia Berrechid,2,0,2,3,0,win,lose
+08/12/2020,RSB Berkane,Maghreb Fès,1,1,0,1,1,draw,draw
+08/12/2020,SC Chabab Mohammedia,Renaissance Club Zemamra,1,0,1,3,0,win,lose
+08/12/2020,FAR Rabat,Moghreb Tétouan,2,3,-1,0,3,lose,win
+09/12/2020,D.H. Eljadida,WAC Casablanca,0,1,-1,0,3,lose,win
+09/12/2020,Youssoufia Berrechid,Hassania Agadir,0,0,0,1,1,draw,draw
+09/12/2020,Ittihad Tanger,Olympique club de safi ,1,0,1,3,0,win,lose
+10/12/2020,MCO Oujda,FUS Rabat,0,1,-1,0,3,lose,win
+10/12/2020,RCA ,Rapide club oued zem,3,2,1,3,0,win,lose
+11/12/2020,Renaissance Club Zemamra,FAR Rabat,0,2,-2,0,3,lose,win
+12/12/2020,Hassania Agadir,SC Chabab Mohammedia,0,0,0,1,1,draw,draw
+12/12/2020,Maghreb Fès,Youssoufia Berrechid,1,1,0,1,1,draw,draw
+12/12/2020,Olympique club de safi,WAC Casablanca,2,1,1,3,0,win,lose
+13/12/2020,FUS Rabat ,Ittihad Tanger,0,1,-1,0,3,lose,win
+13/12/2020,Rapide club oued zem,RSB Berkane,1,3,-2,0,3,lose,win
+13/12/2020,Moghreb Tétouan,D.H. Eljadida,2,2,0,1,1,draw,draw
+13/12/2020,RCA ,MCO Oujda,3,0,3,3,0,win,lose
+19/12/2020,WAC Casablanca,Hassania Agadir,3,0,3,3,0,win,lose
+19/12/2020,Olympique club de safi,Youssoufia Berrechid,0,0,0,1,1,draw,draw
+19/12/2020,RSB Berkane,RCA ,0,1,-1,0,3,lose,win
+19/12/2020,SC Chabab Mohammedia,Rapide club oued zem,0,0,0,1,1,draw,draw
+20/12/2020,FAR Rabat,FUS Rabat,0,0,0,1,1,draw,draw
+20/12/2020,D.H. Eljadida,Maghreb Fès,1,2,-1,0,3,lose,win
+20/12/2020,Ittihad Tanger,Moghreb Tétouan,1,1,0,1,1,draw,draw
+20/12/2020,MCO Oujda,Renaissance Club Zemamra,1,2,-1,0,3,lose,win
+25/12/2020,FUS Rabat ,D.H. Eljadida,1,1,0,1,1,draw,draw
+25/12/2020,Moghreb Tétouan,Youssoufia Berrechid,0,0,0,1,1,draw,draw
+26/12/2020,Maghreb Fès,WAC Casablanca,0,1,-1,0,3,lose,win
+26/12/2020,Rapide club oued zem,FAR Rabat,0,0,0,1,1,draw,draw
+26/12/2020,RCA ,SC Chabab Mohammedia,1,0,1,3,0,win,lose
+27/12/2020,Renaissance Club Zemamra,Ittihad Tanger,4,1,3,3,0,win,lose
+27/12/2020,Hassania Agadir,Olympique club de safi ,2,0,2,3,0,win,lose
+27/12/2020,MCO Oujda,RSB Berkane,0,1,-1,0,3,lose,win
+13/02/2021,Ittihad Tanger,Rapide club oued zem,0,1,-1,0,3,lose,win
+13/02/2021,D.H. Eljadida,Renaissance Club Zemamra,1,0,1,3,0,win,lose
+13/02/2021,Hassania Agadir,Moghreb Tétouan,1,1,0,1,1,draw,draw
+14/02/2021,SC Chabab Mohammedia,MCO Oujda,0,1,-1,0,3,lose,win
+14/02/2021,Olympique club de safi,Maghreb Fès,1,1,0,1,1,draw,draw
+14/02/2021,Youssoufia Berrechid,RSB Berkane,1,0,1,3,0,win,lose
+16/02/2021,WAC Casablanca,FUS Rabat,3,2,1,3,0,win,lose
+17/02/2021,FAR Rabat,RCA ,1,1,0,1,1,draw,draw
+19/02/2021,Renaissance Club Zemamra,WAC Casablanca,1,2,-1,0,3,lose,win
+20/02/2021,MCO Oujda,FAR Rabat,1,2,-1,0,3,lose,win
+20/02/2021,Moghreb Tétouan,Olympique club de safi ,1,3,-2,0,3,lose,win
+20/02/2021,FUS Rabat ,Youssoufia Berrechid,1,2,-1,0,3,lose,win
+21/02/2021,Rapide club oued zem,D.H. Eljadida,0,2,-2,0,3,lose,win
+21/02/2021,Maghreb Fès,Hassania Agadir,0,0,0,1,1,draw,draw
+21/02/2021,RSB Berkane,SC Chabab Mohammedia,1,1,0,1,1,draw,draw
+25/02/2021,RCA ,Ittihad Tanger,2,0,2,3,0,win,lose
+26/02/2021,Maghreb Fès,Moghreb Tétouan,0,0,0,1,1,draw,draw
+26/02/2021,FAR Rabat,SC Chabab Mohammedia,1,1,0,1,1,draw,draw
+27/02/2021,Youssoufia Berrechid,Rapide club oued zem,1,1,0,1,1,draw,draw
+27/02/2021,Hassania Agadir,Renaissance Club Zemamra,1,0,1,3,0,win,lose
+28/02/2021,Olympique club de safi,FUS Rabat,0,1,-1,0,3,lose,win
+28/02/2021,Ittihad Tanger,MCO Oujda,1,2,-1,0,3,lose,win
+28/02/2021,D.H. Eljadida,RCA ,0,0,0,1,1,draw,draw
+06/03/2021,RSB Berkane,FAR Rabat,1,2,-1,0,3,lose,win
+07/03/2021,RCA ,Youssoufia Berrechid,1,1,0,1,1,draw,draw
+11/03/2021,Moghreb Tétouan,WAC Casablanca,2,2,0,1,1,draw,draw
+13/03/2021,Renaissance Club Zemamra,Olympique club de safi ,1,2,-1,0,3,lose,win
+13/03/2021,FUS Rabat ,Hassania Agadir,0,0,0,1,1,draw,draw
+14/03/2021,Rapide club oued zem,Maghreb Fès,0,0,0,1,1,draw,draw
+14/03/2021,MCO Oujda,D.H. Eljadida,4,0,4,3,0,win,lose
+14/03/2021,SC Chabab Mohammedia,Ittihad Tanger,1,2,-1,0,3,lose,win
+21/03/2021,WAC Casablanca,RCA ,2,0,2,3,0,win,lose
+21/03/2021,Olympique club de safi,RSB Berkane,0,0,0,1,1,draw,draw
+02/04/2021,Ittihad Tanger,FAR Rabat,1,2,-1,0,3,lose,win
+02/04/2021,Hassania Agadir,Rapide club oued zem,3,1,2,3,0,win,lose
+03/04/2021,D.H. Eljadida,SC Chabab Mohammedia,0,0,0,1,1,draw,draw
+03/04/2021,Youssoufia Berrechid,MCO Oujda,0,1,-1,0,3,lose,win
+03/04/2021,Moghreb Tétouan,Renaissance Club Zemamra,3,0,3,3,0,win,lose
+04/04/2021,Maghreb Fès,FUS Rabat,1,1,0,1,1,draw,draw
+07/04/2021,Rapide club oued zem,WAC Casablanca,0,1,-1,0,3,lose,win
+07/04/2021,RCA ,Hassania Agadir,0,1,-1,0,3,lose,win
+07/04/2021,RSB Berkane,Ittihad Tanger,1,2,-1,0,3,lose,win
+09/04/2021,FAR Rabat,D.H. Eljadida,1,0,1,3,0,win,lose
+10/04/2021,MCO Oujda,Maghreb Fès,3,0,3,3,0,win,lose
+11/04/2021,Renaissance Club Zemamra,Youssoufia Berrechid,0,0,0,1,1,draw,draw
+11/04/2021,FUS Rabat ,Moghreb Tétouan,2,1,1,3,0,win,lose
+11/04/2021,SC Chabab Mohammedia,Olympique club de safi ,3,0,3,3,0,win,lose
+16/04/2021,WAC Casablanca,MCO Oujda,1,1,0,1,1,draw,draw
+17/04/2021,Moghreb Tétouan,RCA ,2,3,-1,0,3,lose,win
+17/04/2021,Hassania Agadir,RSB Berkane,1,2,-1,0,3,lose,win
+18/04/2021,Olympique club de safi,Rapide club oued zem,2,1,1,3,0,win,lose
+18/04/2021,FUS Rabat ,Renaissance Club Zemamra,1,2,-1,0,3,lose,win
+19/04/2021,D.H. Eljadida,Ittihad Tanger,0,0,0,1,1,draw,draw
+19/04/2021,Youssoufia Berrechid,FAR Rabat,1,1,0,1,1,draw,draw
+19/04/2021,Maghreb Fès,SC Chabab Mohammedia,1,1,0,1,1,draw,draw
+24/04/2021,Renaissance Club Zemamra,Maghreb Fès,1,1,0,1,1,draw,draw
+24/04/2021,FAR Rabat,Hassania Agadir,0,2,-2,0,3,lose,win
+25/04/2021,Rapide club oued zem,FUS Rabat,2,1,1,3,0,win,lose
+25/04/2021,MCO Oujda,Moghreb Tétouan,1,2,-1,0,3,lose,win
+25/04/2021,SC Chabab Mohammedia,Youssoufia Berrechid,0,1,-1,0,3,lose,win
+26/04/2021,Ittihad Tanger,WAC Casablanca,3,2,1,3,0,win,lose
+26/04/2021,RCA ,Olympique club de safi ,2,0,2,3,0,win,lose
+26/04/2021,RSB Berkane,D.H. Eljadida,2,0,2,3,0,win,lose
+30/04/2021,WAC Casablanca,SC Chabab Mohammedia,1,1,0,1,1,draw,draw
+01/05/2021,Hassania Agadir,MCO Oujda,1,0,1,3,0,win,lose
+02/05/2021,Olympique club de safi,FAR Rabat,0,3,-3,0,3,lose,win
+02/05/2021,Maghreb Fès,Ittihad Tanger,2,1,1,3,0,win,lose
+02/05/2021,Youssoufia Berrechid,D.H. Eljadida,0,1,-1,0,3,lose,win
+03/05/2021,WAC Casablanca,RSB Berkane,4,0,4,3,0,win,lose
+03/05/2021,Renaissance Club Zemamra,RCA ,1,1,0,1,1,draw,draw
+03/05/2021,Moghreb Tétouan,Rapide club oued zem,1,1,0,1,1,draw,draw
+06/05/2021,FUS Rabat ,RSB Berkane,3,1,2,3,0,win,lose
+08/05/2021,Ittihad Tanger,Youssoufia Berrechid,2,0,2,3,0,win,lose
+09/05/2021,MCO Oujda,Olympique club de safi ,3,2,1,3,0,win,lose
+09/05/2021,SC Chabab Mohammedia,FUS Rabat,0,0,0,1,1,draw,draw
+09/05/2021,D.H. Eljadida,Hassania Agadir,1,0,1,3,0,win,lose
+09/05/2021,Rapide club oued zem,Renaissance Club Zemamra,3,2,1,3,0,win,lose
+10/05/2021,FAR Rabat,WAC Casablanca,0,0,0,1,1,draw,draw
+10/05/2021,RCA ,Maghreb Fès,1,0,1,3,0,win,lose
+10/05/2021,RSB Berkane,Moghreb Tétouan,1,1,0,1,1,draw,draw
+12/05/2021,D.H. Eljadida,Olympique club de safi ,0,1,-1,0,3,lose,win
+12/05/2021,Ittihad Tanger,Hassania Agadir,1,1,0,1,1,draw,draw
+12/05/2021,MCO Oujda,Rapide club oued zem,0,0,0,1,1,draw,draw
+13/05/2021,FAR Rabat,Maghreb Fès,3,2,1,3,0,win,lose
+13/05/2021,RCA ,FUS Rabat,1,1,0,1,1,draw,draw
+13/05/2021,RSB Berkane,Renaissance Club Zemamra,2,0,2,3,0,win,lose
+13/05/2021,SC Chabab Mohammedia,Moghreb Tétouan,0,0,0,1,1,draw,draw
+15/05/2021,Olympique club de safi,Ittihad Tanger,1,1,0,1,1,draw,draw
+15/05/2021,Moghreb Tétouan,FAR Rabat,0,0,0,1,1,draw,draw
+15/05/2021,Renaissance Club Zemamra,SC Chabab Mohammedia,1,1,0,1,1,draw,draw
+16/05/2021,Maghreb Fès,RSB Berkane,2,0,2,3,0,win,lose
+16/05/2021,FUS Rabat ,MCO Oujda,0,3,-3,0,3,lose,win
+16/05/2021,Hassania Agadir,Youssoufia Berrechid,2,1,1,3,0,win,lose
+18/05/2021,WAC Casablanca,Olympique club de safi ,3,1,2,3,0,win,lose
+18/05/2021,D.H. Eljadida,Moghreb Tétouan,2,2,0,1,1,draw,draw
+19/05/2021,Youssoufia Berrechid,Maghreb Fès,1,1,0,1,1,draw,draw
+19/05/2021,RSB Berkane,Rapide club oued zem,0,0,0,1,1,draw,draw
+19/05/2021,SC Chabab Mohammedia,Hassania Agadir,0,0,0,1,1,draw,draw
+20/05/2021,Ittihad Tanger,FUS Rabat,1,2,-1,0,3,lose,win
+20/05/2021,FAR Rabat,Renaissance Club Zemamra,2,1,1,3,0,win,lose
+20/05/2021,MCO Oujda,RCA ,0,2,-2,0,3,lose,win
+22/05/2021,Maghreb Fès,D.H. Eljadida,1,3,-2,0,3,lose,win
+22/05/2021,Olympique club de safi,Youssoufia Berrechid,1,1,0,1,1,draw,draw
+22/05/2021,Rapide club oued zem,SC Chabab Mohammedia,3,2,1,3,0,win,lose
+23/05/2021,FUS Rabat ,FAR Rabat,2,1,1,3,0,win,lose
+23/05/2021,Moghreb Tétouan,Ittihad Tanger,1,0,1,3,0,win,lose
+23/05/2021,Renaissance Club Zemamra,MCO Oujda,3,4,-1,0,3,lose,win
+25/05/2021,Olympique club de safi,Hassania Agadir,1,0,1,3,0,win,lose
+26/05/2021,WAC Casablanca,Maghreb Fès,2,0,2,3,0,win,lose
+26/05/2021,D.H. Eljadida,FUS Rabat,3,1,2,3,0,win,lose
+26/05/2021,Ittihad Tanger,Renaissance Club Zemamra,2,0,2,3,0,win,lose
+26/05/2021,FAR Rabat,Rapide club oued zem,1,1,0,1,1,draw,draw
+27/05/2021,Youssoufia Berrechid,Moghreb Tétouan,0,3,-3,0,3,lose,win
+27/05/2021,SC Chabab Mohammedia,RCA ,1,2,-1,0,3,lose,win
+29/05/2021,Maghreb Fès,Olympique club de safi ,1,2,-1,0,3,lose,win
+29/05/2021,Renaissance Club Zemamra,D.H. Eljadida,1,0,1,3,0,win,lose
+29/05/2021,Rapide club oued zem,Ittihad Tanger,1,2,-1,0,3,lose,win
+30/05/2021,FUS Rabat ,WAC Casablanca,0,0,0,1,1,draw,draw
+30/05/2021,RCA ,FAR Rabat,3,2,1,3,0,win,lose
+30/05/2021,MCO Oujda,SC Chabab Mohammedia,3,2,1,3,0,win,lose
+30/05/2021,Moghreb Tétouan,Hassania Agadir,2,1,1,3,0,win,lose
+03/06/2021,Youssoufia Berrechid,WAC Casablanca,0,1,-1,0,3,lose,win
+03/06/2021,Rapide club oued zem,RCA ,0,2,-2,0,3,lose,win
+03/06/2021,RSB Berkane,MCO Oujda,3,1,2,3,0,win,lose
+09/06/2021,WAC Casablanca,D.H. Eljadida,4,2,2,3,0,win,lose
+09/06/2021,RSB Berkane,Youssoufia Berrechid,1,1,0,1,1,draw,draw
+13/06/2021,Hassania Agadir,WAC Casablanca,3,5,-2,0,3,lose,win
+13/06/2021,RCA ,RSB Berkane,0,1,-1,0,3,lose,win
+16/06/2021,WAC Casablanca,Renaissance Club Zemamra,0,0,0,1,1,draw,draw
+16/06/2021,Ittihad Tanger,RCA ,0,3,-3,0,3,lose,win
+19/06/2021,Olympique club de safi,Moghreb Tétouan,0,0,0,1,1,draw,draw
+19/06/2021,FAR Rabat,MCO Oujda,1,0,1,3,0,win,lose
+19/06/2021,SC Chabab Mohammedia,RSB Berkane,2,0,2,3,0,win,lose
+20/06/2021,Youssoufia Berrechid,FUS Rabat,2,1,1,3,0,win,lose
+20/06/2021,Hassania Agadir,Maghreb Fès,1,1,0,1,1,draw,draw
+20/06/2021,D.H. Eljadida,Rapide club oued zem,1,1,0,1,1,draw,draw
+22/06/2021,RSB Berkane,WAC Casablanca,0,2,-2,0,3,lose,win
+24/06/2021,RCA ,D.H. Eljadida,2,0,2,3,0,win,lose
+26/06/2021,MCO Oujda,Ittihad Tanger,0,0,0,1,1,draw,draw
+26/06/2021,Moghreb Tétouan,Maghreb Fès,0,0,0,1,1,draw,draw
+26/06/2021,Rapide club oued zem,Youssoufia Berrechid,2,0,2,3,0,win,lose
+27/06/2021,FUS Rabat ,Olympique club de safi ,2,1,1,3,0,win,lose
+27/06/2021,SC Chabab Mohammedia,FAR Rabat,0,2,-2,0,3,lose,win
+27/06/2021,Renaissance Club Zemamra,Hassania Agadir,1,0,1,3,0,win,lose
+29/06/2021,Maghreb Fès,Rapide club oued zem,2,1,1,3,0,win,lose
+29/06/2021,D.H. Eljadida,MCO Oujda,2,2,0,1,1,draw,draw
+30/06/2021,Hassania Agadir,FUS Rabat,0,0,0,1,1,draw,draw
+30/06/2021,WAC Casablanca,Moghreb Tétouan,4,2,2,3,0,win,lose
+30/06/2021,Youssoufia Berrechid,RCA ,1,0,1,3,0,win,lose
+01/07/2021,Olympique club de safi,Renaissance Club Zemamra,2,2,0,1,1,draw,draw
+01/07/2021,Ittihad Tanger,SC Chabab Mohammedia,0,1,-1,0,3,lose,win
+01/07/2021,FAR Rabat,RSB Berkane,3,1,2,3,0,win,lose
+03/07/2021,FUS Rabat ,Maghreb Fès,0,1,-1,0,3,lose,win
+03/07/2021,RCA ,WAC Casablanca,1,2,-1,0,3,lose,win
+03/07/2021,Rapide club oued zem,Hassania Agadir,0,1,-1,0,3,lose,win
+03/07/2021,MCO Oujda,Youssoufia Berrechid,3,1,2,3,0,win,lose
+04/07/2021,FAR Rabat,Ittihad Tanger,2,1,1,3,0,win,lose
+04/07/2021,RSB Berkane,Olympique club de safi ,3,0,3,3,0,win,lose
+04/07/2021,SC Chabab Mohammedia,D.H. Eljadida,2,0,2,3,0,win,lose
+04/07/2021,Renaissance Club Zemamra,Moghreb Tétouan,3,0,3,3,0,win,lose
+06/07/2021,Maghreb Fès,MCO Oujda,2,1,1,3,0,win,lose
+06/07/2021,Hassania Agadir,RCA ,0,0,0,1,1,draw,draw
+07/07/2021,WAC Casablanca,Rapide club oued zem,2,0,2,3,0,win,lose
+07/07/2021,Olympique club de safi,SC Chabab Mohammedia,1,1,0,1,1,draw,draw
+07/07/2021,Youssoufia Berrechid,Renaissance Club Zemamra,1,1,0,1,1,draw,draw
+08/07/2021,Moghreb Tétouan,FUS Rabat,2,2,0,1,1,draw,draw
+08/07/2021,D.H. Eljadida,FAR Rabat,1,0,1,3,0,win,lose
+08/07/2021,Ittihad Tanger,RSB Berkane,0,2,-2,0,3,lose,win
+13/07/2021,Renaissance Club Zemamra,FUS Rabat,1,0,1,3,0,win,lose
+13/07/2021,Rapide club oued zem,Olympique club de safi ,2,1,1,3,0,win,lose
+13/07/2021,FAR Rabat,Youssoufia Berrechid,3,2,1,3,0,win,lose
+13/07/2021,RSB Berkane,Hassania Agadir,1,0,1,3,0,win,lose
+14/07/2021,Ittihad Tanger,D.H. Eljadida,0,1,-1,0,3,lose,win
+14/07/2021,MCO Oujda,WAC Casablanca,0,2,-2,0,3,lose,win
+14/07/2021,SC Chabab Mohammedia,Maghreb Fès,1,1,0,1,1,draw,draw
+14/07/2021,RCA ,Moghreb Tétouan,4,1,3,3,0,win,lose
+17/07/2021,Hassania Agadir,FAR Rabat,0,1,-1,0,3,lose,win
+17/07/2021,Olympique club de safi,RCA ,2,2,0,1,1,draw,draw
+17/07/2021,Moghreb Tétouan,MCO Oujda,0,1,-1,0,3,lose,win
+18/07/2021,WAC Casablanca,Ittihad Tanger,2,4,-2,0,3,lose,win
+18/07/2021,Maghreb Fès,Renaissance Club Zemamra,2,2,0,1,1,draw,draw
+18/07/2021,FUS Rabat ,Rapide club oued zem,0,0,0,1,1,draw,draw
+18/07/2021,D.H. Eljadida,RSB Berkane,3,1,2,3,0,win,lose
+18/07/2021,Youssoufia Berrechid,SC Chabab Mohammedia,0,1,-1,0,3,lose,win
+23/07/2021,RSB Berkane,FUS Rabat,3,2,1,3,0,win,lose
+23/07/2021,D.H. Eljadida,Youssoufia Berrechid,2,3,-1,0,3,lose,win
+23/07/2021,Rapide club oued zem,Moghreb Tétouan,2,1,1,3,0,win,lose
+23/07/2021,RCA ,Renaissance Club Zemamra,1,0,1,3,0,win,lose
+24/07/2021,Ittihad Tanger,Maghreb Fès,0,0,0,1,1,draw,draw
+24/07/2021,FAR Rabat,Olympique club de safi ,0,0,0,1,1,draw,draw
+24/07/2021,SC Chabab Mohammedia,WAC Casablanca,1,1,0,1,1,draw,draw
+24/07/2021,MCO Oujda,Hassania Agadir,1,0,1,3,0,win,lose
+27/07/2021,Youssoufia Berrechid,Ittihad Tanger,1,0,1,3,0,win,lose
+27/07/2021,FUS Rabat ,SC Chabab Mohammedia,2,0,2,3,0,win,lose
+27/07/2021,Renaissance Club Zemamra,Rapide club oued zem,1,1,0,1,1,draw,draw
+27/07/2021,Moghreb Tétouan,RSB Berkane,2,3,-1,0,3,lose,win
+28/07/2021,WAC Casablanca,FAR Rabat,2,0,2,3,0,win,lose
+28/07/2021,Hassania Agadir,D.H. Eljadida,2,0,2,3,0,win,lose
+28/07/2021,Olympique club de safi,MCO Oujda,0,0,0,1,1,draw,draw
+28/07/2021,Maghreb Fès,RCA ,2,3,-1,0,3,lose,win
