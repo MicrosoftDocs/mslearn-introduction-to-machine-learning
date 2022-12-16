@@ -14,3 +14,4 @@ missingno	    0.4.2	https://pypi.org/project/missingno/
 ipywidgets	    7.6.3	Required for plotly notebook integration
 plotly	        4.14.3	
 python-kaleido  0.2.1   Only required for generating figures for content, not for exercises in notebooks. If in Anaconda, see https://anaconda.org/conda-forge/python-kaleido
+xarray         2022.3.0
